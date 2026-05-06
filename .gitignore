@@ -6,8 +6,10 @@
 # Strava MCP (vendored klon zewnętrznego repo z własnym git, plus zawiera .env z tokenami)
 strava-mcp/
 
-# Strava API dumps — dane osobiste, nie do publikacji
-data/
+# Data files — w prywatnym repo zachowane
+# Wykluczamy tylko temp / scratch
+data/*.tmp
+data/scratch/
 
 # Claude local settings (per-machine, nie per-project)
 .claude/settings.local.json
