@@ -26,3 +26,6 @@ __pycache__/
 *.pyc
 dist/
 build/
+
+# Netlify deploy credentials
+.netlify-deploy.env
