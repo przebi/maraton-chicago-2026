@@ -325,6 +325,355 @@ Jeśli test 5K = 18:30 (3:42/km), final REP signature można w T13-T19 podciągn
 
 Jeśli test = 19:30+, paces zostają jak w tabeli (final REP 3:55).
 
+## Trening siłowy — w ogródku, 2× / tydz
+
+**Wąskie gardło Twojego marathonu = strength endurance mięśni nóg.** Aerobic engine masz na sub-2:55 (Hannover avg HR 167 = LTHR-2), ale mięśnie nie nadążały. **Strength training 2×/tydz przez 8-12 tyg = +3-5% running economy = 6-12 sek/km szybciej przy tym samym HR.**
+
+### Sprzęt który masz
+
+- Hantle 2× **7.5 kg** + 1× **5 kg**
+- Mata do ćwiczeń
+- Schody (ogród / dom)
+- Trawa (plyometrics safe na trawie, NIE na asfalcie)
+- Lina z pętlą na nogę (mobility)
+
+### Progresja w sezonie
+
+| Faza | Częstotliwość | Sesje |
+|---|---|---|
+| T1–T2 (recovery) | **0** | nic, tylko mobility/sauna |
+| T3–T6 (intro) | **1×/tydz** (Wt) | sesja A, lighter (5 kg, naucz formy) |
+| T7–T15 (peak) | **2×/tydz** (Wt + Sb) | sesja A + B, full weight (7.5 kg) |
+| T16–T20 | **1×/tydz** (Wt) | sesja A maintenance |
+| T21–T22 (taper) | **0** | ZERO siłowni od 2 tyg przed Chicago |
+
+### Reguły
+
+- **NIGDY** dzień przed quality bieganiem (signature, VO₂max, mile reps)
+- **NIGDY** dzień przed LR (>20 km)
+- **48h** od siłowni → quality bieganie
+- **Forma > ciężar.** Pierwsze 4 tyg z 5 kg żeby ułożyć technikę. Potem 7.5 kg.
+- Plyometrics **na trawie**, nie asfalcie
+- Po sesji: 5-10 min stretching + ewentualnie sauna
+
+---
+
+### SESJA A (wtorek) — Strength + power, ~40 min
+
+#### 1. Goblet squat — 4 serie × 10 powtórzeń
+
+**Co robi:** kwadry, pośladki, core (cała przednia łańcuch).
+
+**Sprzęt:** hantel **7.5 kg** trzymany pionowo na piersi, łokcie pod hantlem, jak puchar.
+
+**Jak wykonać:**
+1. Stań w rozkroku na szerokość bioder, palce stóp lekko na zewnątrz (~15°)
+2. Trzymaj hantel pionowo na środku piersi, łokcie pod hantlem
+3. Schodź w dół zginając kolana **i** biodra (jak siadanie na krzesło z tyłu)
+4. Plecy proste, klatka otwarta, kolana w linii ze stopami (nie do środka!)
+5. Dno: udo równolegle do podłoża (lub niżej jeśli daje rada)
+6. **Wstań** napierając pięty w ziemię, biodra do przodu
+
+**Częste błędy:**
+- Kolana zwijają się do środka (myśli „push knees out")
+- Pięty odrywają się od ziemi (cofnij ciężar na pięty)
+- Plecy zaokrąglają się (klatka otwarta, wzrok przed siebie)
+
+**Tempo:** 2 sek dół, 1 sek wstanie. Oddech: wdech w dół, wydech wstając.
+
+#### 2. Bułgarskie przysiady (Bulgarian split squat) — 3 × 8/noga
+
+**Co robi:** **TOP ćwiczenie dla biegacza** — single-leg strength = race-specific (każdy krok biegu to single-leg push).
+
+**Sprzęt:** 2× **7.5 kg** w rękach (po jednym w każdej), tylna noga oparta na schodku/krześle/ławce wysokości ~40 cm.
+
+**Jak wykonać:**
+1. Stań przodem do schodka/ławki (1.5 m przed nią)
+2. Połóż top tylnej stopy na schodku (palce opierają się o powierzchnię)
+3. Hantle w obu rękach, ramiona luźno wzdłuż tułowia
+4. Schodź w dół **przedniej** nogi — kolano przedniej nogi nad piętą (NIE do przodu nad palce)
+5. Tylna noga wspierana ale 80% obciążenia na przedniej
+6. Dno: udo przedniej nogi równolegle do podłoża, kolano tylnej nogi prawie dotyka ziemi
+7. **Wstań** napierając piętą przedniej nogi
+8. Po 8 powtórzeniach zmieniasz nogi
+
+**Częste błędy:**
+- Przednie kolano nad palcami (przesuń ciało lekko do tyłu)
+- Pochylenie tułowia do przodu (klatka otwarta!)
+- Tylna noga „pomaga" w wstaniu (powinna być wsparciem balansowym)
+
+**Tempo:** 2 sek dół, 1 sek wstanie. To jest **najtrudniejsze ćwiczenie sesji** — dlatego wcześnie.
+
+#### 3. Single-leg RDL (martwy ciąg na jednej nodze) — 3 × 10/noga
+
+**Co robi:** hamstringi, pośladki, balance, hip stability.
+
+**Sprzęt:** **5 kg** w przeciwnej ręce (nie w tej samej co stojąca noga). Np. stoję na lewej nodze → hantel w prawej ręce.
+
+**Jak wykonać:**
+1. Stań na lewej nodze, prawa luźno z tyłu
+2. Hantel 5 kg w prawej ręce (lekko opuszczona)
+3. Pochyl tułów **do przodu** zginając w biodrach (nie w dół plecami)
+4. Jednocześnie unieś prawą nogę **prosto za sobą** — tworzysz „T" z ciałem (tułów + tylna noga w jednej linii)
+5. Hantel zjeżdża wzdłuż lewej nogi (NIE w przód)
+6. Dno: tułów równolegle do ziemi, hamstring lewej nogi rozciągnięty
+7. Wróć do pozycji wyjściowej **napierając piętę** lewej nogi i ściskając pośladek
+8. 10 powtórzeń, potem zmieniasz nogi
+
+**Częste błędy:**
+- Plecy zaokrąglają się (proste, wzrok przed siebie na podłogę 2m przed)
+- Kolano stojącej nogi się prostuje (lekkie zgięcie ~10° cały czas)
+- Tylna noga zwija się do dołu (musi być prosta, jako przedłużenie tułowia)
+
+**Tempo:** 3 sek pochylenie, 1 sek wróć. Wolno = balance.
+
+#### 4. Box jumps (skoki na podwyższenie) — 4 × 5
+
+**Co robi:** **plyometric power** = neuromuscular activation, Achilles stiffness, ground reaction force. Krytyczne dla biegacza.
+
+**Sprzęt:** krawężnik / drewniana skrzynia / pieniec / stabilna ławka **wysokości 30-50 cm**.
+
+**Jak wykonać:**
+1. Stań ~50 cm przed skrzynią
+2. Zegnij kolana lekko, przygotuj się do skoku
+3. **Wybicie** — odchyl ramiona w tył i potem szybko w przód (jak machnięcie)
+4. **Skok** — wybij obu nogami, wyląduj na skrzyni **lekko, miękko, na dwóch nogach**
+5. **Wstań** w pełnej pozycji na skrzyni (nie kucaj na niej)
+6. **Zejdź** po skrzyni (NIE skacz w dół — kolana, ścięgna)
+7. Reset, powtórz
+
+**Częste błędy:**
+- Lądowanie ciężkie (musi być **miękkie**, jak kot)
+- Plecy zaokrąglone w skoku (klatka otwarta)
+- Skakanie w dół ze skrzyni (zejdź zwykłymi krokami)
+
+**Tempo:** 1 skok co ~3 sek. **Pełna przerwa** 30 sek między seriami. To jest power (ATP-PCr), nie wytrzymałość.
+
+#### 5. Sprinty po schodach — 6 × 8 sekund
+
+**Co robi:** neuromuscular power, fast-twitch fibres, biomechanika kroku.
+
+**Sprzęt:** schody — co najmniej 15-20 stopni. Dom, blok, tarasy.
+
+**Jak wykonać:**
+1. Stań u dołu schodów
+2. **Sprint W GÓRĘ all-out** przez 8 sekund (zegarek)
+3. Pokonujesz 1 stopień / krok (NIE przeskakuj 2 stopni — niebezpieczne, plus inny mięśniowy wzorzec)
+4. Wysokie kolano, ramiona pracują, klatka otwarta
+5. Po 8 sek zatrzymaj się tam gdzie jesteś
+6. **Spokojnie zejdź** w dół (2-3 min marszu, oddech wraca)
+7. Powtórz 6×
+
+**Częste błędy:**
+- Sprint po 2 stopnie naraz (NIE — kontuzje, inna mechanika)
+- Garbienie w sprincie (klatka otwarta, oddech wolny)
+- Przerwa za krótka (HR <120 między = OK przerwa)
+
+**Tempo:** 8 sek sprint, 2-3 min marsz. **Total time:** ~20 min.
+
+#### 6. Plank (deska) — 3 × 45 sekund
+
+**Co robi:** core stability — utrzymanie postawy w marathonie, late race form.
+
+**Sprzęt:** mata.
+
+**Jak wykonać:**
+1. Połóż się przodem do podłogi
+2. Oprzyj się na **przedramionach** (łokcie pod ramionami, dłonie złączone lub razem)
+3. Unieś biodra — ciało w **prostej linii** od głowy do pięt
+4. Pośladki napięte, brzuch wciągnięty, plecy proste
+5. Wzrok skierowany na podłogę 30 cm przed twarzą (szyja neutralna)
+6. **Oddech naturalny**, nie wstrzymuj
+7. Wytrzymaj 45 sek, odpocznij 30 sek między seriami
+
+**Częste błędy:**
+- Biodra opadają (push pośladki w górę i wciągnij brzuch)
+- Biodra za wysoko (pozycja „A" — biodra w dół do linii ramion)
+- Wstrzymanie oddechu (oddychaj naturalnie cały czas)
+
+#### 7. Side plank (boczna deska) — 2 × 30 sek/strona
+
+**Co robi:** lateral core (skośne, quadratus lumborum) — stabilizacja boczna kroku biegowego.
+
+**Jak wykonać:**
+1. Połóż się na boku
+2. Oprzyj się na **przedramieniu dolnym** (łokieć pod ramieniem)
+3. Stopy na sobie (lub dolna stopa za górną)
+4. Unieś biodra — ciało w **prostej linii** od głowy do stóp (z boku)
+5. Wolna ręka uniesiona w górę lub na biodrze
+6. 30 sek na jednej stronie, potem druga
+
+**Częste błędy:**
+- Biodra opadają (push w górę)
+- Skręcanie ciała (utrzymaj jeden plan boczny)
+
+---
+
+### SESJA B (sobota przed niedzielnym LR) — Plyometric + endurance, ~30 min
+
+#### 1. Walking lunges (wykroki chodzące) — 3 × 12 kroków/noga
+
+**Co robi:** kwadry + pośladki + balance, dynamiczna siła single-leg.
+
+**Sprzęt:** 2× **7.5 kg** w rękach. Wolna przestrzeń (ogród, korytarz).
+
+**Jak wykonać:**
+1. Stań prosto, hantle po bokach
+2. **Krok DUŻY** w przód lewą nogą (ok 1 m)
+3. Schodź w dół zginając obie kolana — przednie nad piętą, tylne dotyka prawie ziemi
+4. **Wstań** napierając piętę przedniej nogi
+5. **Krok DUŻY** w przód prawą nogą (kontynuujesz „chodząc")
+6. 12 kroków każdą nogą (24 total)
+7. Trzy serie z 60 sek przerwy
+
+**Częste błędy:**
+- Kroki za małe (musi być dystans, żeby przednie kolano było nad piętą)
+- Tułów pochyla się do przodu (klatka otwarta)
+
+#### 2. Single-leg hops (skoki na jednej nodze) — 4 × 8/noga
+
+**Co robi:** plyometric single-leg = **najbardziej race-specific power** (każdy krok biegu = single-leg push).
+
+**Sprzęt:** trawa.
+
+**Jak wykonać:**
+1. Stań na lewej nodze
+2. **Skok w przód** używając tylko lewej nogi
+3. Wyląduj **na lewej nodze** (single-leg landing)
+4. Stabilizuj się przez 1 sek
+5. **Następny skok** w przód
+6. 8 skoków, potem zmiana na prawą nogę
+7. Dystans skoku: ~50-100 cm (focus na kontrolę, nie maksymalność)
+
+**Częste błędy:**
+- Lądowanie chwiejne (kontroluj, nie wyśkacz max distance)
+- Druga noga „pomaga" przy lądowaniu (utrzymaj single-leg)
+
+#### 3. Step-ups na schodach (wchodzenie na podwyższenie) — 3 × 12/noga
+
+**Sprzęt:** 2× **7.5 kg** + schodek/skrzynia ~40 cm.
+
+**Jak wykonać:**
+1. Stań przed schodkiem z hantlami
+2. Wstaw **całą stopę** lewej nogi na schodek
+3. Wstań na schodek **napierając piętę lewej nogi** (NIE odbijaj prawą nogą — to ma być praca lewej)
+4. Prawa noga ledwo dotyka schodka u góry
+5. **Zejdź** prawą nogą jako pierwszą (kontroluj zejście)
+6. 12 powtórzeń, zmiana nogi
+
+**Częste błędy:**
+- Odbijanie się prawą nogą (lewa ma robić 100% pracy)
+- Przed-pochylenie tułowia (klatka otwarta)
+
+#### 4. Calf raises na schodach (na półpalcach single-leg) — 3 × 15/noga
+
+**Co robi:** łydki + Achilles stiffness — kluczowe dla biegacza.
+
+**Sprzęt:** schodek (krawędź).
+
+**Jak wykonać:**
+1. Stań **półpalcami** lewej nogi na krawędzi schodka, pięta zwisa w dół
+2. Trzymaj się czegoś dla balansu (poręcz, ściana)
+3. Prawa noga uniesiona z tyłu
+4. **Opuść** piętę lewej nogi pod krawędź (rozciągnięcie łydki)
+5. **Wstań** na półpalcach lewej nogi (jak najwyżej)
+6. 15 powtórzeń, zmiana nogi
+
+**Częste błędy:**
+- Za szybkie tempo (3 sek dół, 1 sek up)
+- Brak rozciągnięcia w dolnej pozycji (musisz opuścić piętę poniżej krawędzi)
+
+#### 5. Squat jumps (przysiady ze skokiem) — 3 × 10
+
+**Co robi:** explosive power kwadry, plyometric.
+
+**Sprzęt:** trawa.
+
+**Jak wykonać:**
+1. Stań w lekkim rozkroku, ramiona z tyłu
+2. Schodź w przysiad (jak goblet squat ale bez ciężaru)
+3. **Wybij** mocno z dolnej pozycji + ramiona w przód → skok w górę
+4. Wyląduj **miękko** w pozycji półprzysiadu
+5. Bez przerwy → następny skok
+6. 10 powtórzeń, 60 sek przerwy między seriami
+
+**Częste błędy:**
+- Lądowanie sztywne (zegnij kolana w lądowaniu)
+- Pochylenie tułowia w skoku (klatka otwarta)
+
+#### 6. Dead bug (martwy chrząszcz) — 3 × 10/strona
+
+**Co robi:** core anti-extension — stabilizacja przy ruchu kończyn (jak w bieganiu).
+
+**Sprzęt:** mata.
+
+**Jak wykonać:**
+1. Połóż się na plecach
+2. Unieś ramiona prosto w górę (nad klatką), kolana zgięte 90° (jak siedzenie na krześle przewrócone)
+3. **Wciśnij dolne plecy w matę** (małe odchylenie biodra)
+4. **Powoli** opuść lewą rękę za głowę I prawą nogę w dół (prosto, prawie do podłogi)
+5. Wróć do pozycji wyjściowej
+6. **Drugi raz** prawa ręka + lewa noga
+7. 10 powtórzeń każdej kombinacji = 20 total
+
+**Częste błędy:**
+- Dolne plecy odrywają się od maty (przyciskaj cały czas — to jest cel)
+- Za szybkie tempo (każda powtórka 4 sek, kontrola)
+
+#### 7. Bird dog (ptak-pies) — 3 × 10/strona
+
+**Co robi:** core + glute + back stabilization. Szczególnie dla long-distance runners (low back pain prevention).
+
+**Sprzęt:** mata.
+
+**Jak wykonać:**
+1. Czworaki — dłonie pod ramionami, kolana pod biodrami
+2. Plecy płaskie (jak stół)
+3. **Wyciągnij** prawą rękę w przód I lewą nogę w tył **jednocześnie**
+4. Cała ręka i noga w **prostej linii** (jak przedłużenie pleców)
+5. Trzymaj 2 sek, wróć
+6. **Druga strona** — lewa ręka + prawa noga
+7. 10 powtórzeń każdej strony = 20 total
+
+**Częste błędy:**
+- Bok ciała opada (utrzymaj poziom)
+- Noga / ręka za wysoko (max do poziomu pleców, nie wyżej)
+- Skręcanie biodra
+
+---
+
+### Co jeśli nie masz czasu na całą sesję
+
+**Min. wersja (15 min):**
+- Goblet squat 3×10
+- Bulgarian split squat 2×8/noga
+- Single-leg hops 3×8/noga
+- Plank 2×45 s
+
+To **70% benefitu** w 1/3 czasu.
+
+### Sygnały „przesadziłeś"
+
+- Boli kolano / Achilles / dolny krzyż 24+h po sesji = **redukcja ciężaru o 25%** lub mniej powtórzeń
+- DOMS (zakwasy) silne 48h+ = OK pierwsze 2-4 tyg, potem powinno minąć
+- Zmęczenie w **bieganiu** dnia po sesji siłowej = OK na początku, jeśli trwa >6 tyg → przesadzasz, mniej często
+
+### Jak to wygląda w tygodniu
+
+**Przykład tygodnia w T7+ (peak phase):**
+
+```
+Pn: easy 8 km
+Wt: easy 12 km + strides + SIŁOWNIA SESJA A
+Śr: SIGNATURE WORKOUT (4×4K progresywne)
+Cz: easy 10 km
+Pt: rest
+Sb: easy 8 km + SIŁOWNIA SESJA B
+Nd: LR 28-32 km
+```
+
+Razem: 5-6 sesji biegowych + 2 sesje siłowe = **7-8 sesji / tydzień**, ~80-100 km.
+
 ## Hill sprints protocol (T3-T7 only)
 
 **Hill sprints 6-10 s** = neuromuscular primer, ATP-PCr, no lactate. Zostawione w T3-T7 jako uzupełnienie speed-work przed signature workouts. **Wycofane w T8+** (signature + VO₂max pokrywa speed reserve).
