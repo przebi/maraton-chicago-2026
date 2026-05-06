@@ -94,47 +94,57 @@ Po quality session 06.05 (5×1600 progresywne, sufit 3:46/km na 4. repie). Cel: 
 
 Strides + drills wracają, **bez** wysiłków >100 m. HR strides: krótkie 100 m, więc tętno nie zdąży wzrosnąć poza Z2 w średniej.
 
-## T3 — REENTRY (65 km, 25–31.05) — pierwsza jakość
+## T3 — REENTRY (75 km, 25–31.05) — pierwsza jakość
 
-| # | Typ | Trening | Tempo / Effort | km |
-|---|---|---|---|---|
-| 1 | HILL SPRINT | Easy 12 km + 6× hill sprint **6 s** (pełna przerwa) | all-out neuromuscular | 12 |
-| 2 | EASY | Easy 13 km + 6×strides + drills | 5:45–6:30 | 13 |
-| 3 | **SIGNATURE primer** | **2 WU → 3×3K progresywne (1K trucht między) → 1 CD** | **4:30 → 4:25 → 4:20** | 13 |
-| 4 | EASY | Easy 10 km | 5:45–6:30 | 10 |
-| 5 | LONG | Long 22 km easy | 5:45–6:00 | 22 |
+| # | Dzień | Typ | Trening | Tempo / Effort | km |
+|---|---|---|---|---|---|
+| 1 | Pn | EASY | Easy 8 km | 5:45–6:30 | 8 |
+| 2 | Wt | HILL SPRINT | Easy 12 km + 6× hill sprint **6 s** (zbieg MARSZEM) | all-out | 12 |
+| 3 | Śr | EASY | Easy 10 km + drills | 5:45–6:30 | 10 |
+| 4 | Cz | **HILL REPEATS** | **2 WU → 6× 140 m (zbieg MARSZEM, recovery 90-120s) → 2 CD** | **5K-effort, ~4:30/km** | 9 |
+| 5 | Pt | REST/EASY | Rest lub easy 6 km | – | 0–6 |
+| 6 | Sb | EASY | Easy 8 km + 4× strides | 5:45–6:30 | 8 |
+| 7 | Nd | LONG | Long 22 km easy | 5:45–6:00 | 22 |
 
-**Pierwsza signature primer:** krótsze REPS (3K nie 5K) + wolniejsze paces (4:30→4:20) — to wstęp do tego co Tomasz robił w 2024-Q1. Recovery floating (1 km trucht 6:00 + ewentualnie krótki kawałek 4:40). HR target: Z3 → Z4 dolne (140-155).
+**3 quality / tydz** (hill sprint Wt + hill repeats Cz + LR Nd). Pierwsze hill workouts po T1-T2 recovery — **monitoring Achilles obowiązkowy** (poranna sztywność po sesji?). Min. 48h między hill sprint a hill repeat.
 
-**Hill sprint 6s** = neuromuscular primer (włókna II, „spring", ekonomia). Pełna przerwa 2–3 min marszu, nie kwasować.
+**🔴 Achilles protection:** zarówno hill sprint jak i hill repeat — **zbieg MARSZEM, NIE truchtem**. Eccentric stress = ryzyko nawrotu.
 
-## T4 — BASE INTRO (75 km, 1–7.06) — pierwsza VO₂max
+## T4 — BASE INTRO (90 km, 1–7.06) — pierwsza VO₂max + hill repeats build
 
-| # | Typ | Trening | Tempo / Effort | km |
-|---|---|---|---|---|
-| 1 | VO₂max | 3 WU → 5×800 m (**2 min** jog) → 2 CD | 4:00–4:10 | 11 |
-| 2 | EASY | Easy 14 km + 6×strides | 5:45–6:30 | 14 |
-| 3 | **SIGNATURE** | **2 WU → 3×4K progresywne (1K trucht + 1K floating) → 1 CD** | **4:25 → 4:18 → 4:12** | 18 |
-| 4 | HILL SPRINT | Easy 12 km + 6× hill sprint 8 s | all-out neuromuscular | 12 |
-| 5 | LONG | Long 28 km easy | 5:45–6:00 | 28 |
+| # | Dzień | Typ | Trening | Tempo / Effort | km |
+|---|---|---|---|---|---|
+| 1 | Pn | EASY | Easy 8 km | 5:45–6:30 | 8 |
+| 2 | Wt | VO₂max | 3 WU → 5×800 m (**2 min** jog) → 2 CD | 4:00–4:10 | 11 |
+| 3 | Śr | EASY | Easy 12 km + drills | 5:45–6:30 | 12 |
+| 4 | Cz | **HILL REPEATS** | **2 WU → 8× 140 m (zbieg MARSZEM, recovery 90-120s) → 2 CD** | **5K-effort, ~4:30/km** | 11 |
+| 5 | Pt | EASY | Easy 8 km + 4× strides | 5:45–6:30 | 8 |
+| 6 | Sb | SIGNATURE | 2 WU + 3×4K progresywne (1K trucht + 1K floating) + 1 CD | **4:25 → 4:18 → 4:12** | 18 |
+| 7 | Nd | LONG | Long 28 km easy | 5:45–6:00 | 28 |
 
-**2 min przerwa** między 800-tkami — celowo dłuższa niż „normalna" 90 s. Cel: dokończyć każde powtórzenie kontrolując tempo, nie kwasując się. HR cel na 800-tkach: szczyt Z4 / dolna Z5 (~160–168).
+**3 quality / tydz** (VO₂max Wt + hill repeats Cz + signature Sb). Hill sprints **wycofane** w T4 (zastępowane przez hill repeats + VO₂max).
 
-**Pierwszy pełen signature workout** (z 1K trucht + 1K floating recovery — Twój 2024 styl). Final REP @ 4:12 = bezpiecznie poniżej 5K obecnej formy. HR cel: REP 1 ~145, REP 3 ~160.
+**Reguły:**
+- VO₂max 5×800 z 2 min przerwą — celowo dłuższa, nie kwasować
+- Hill repeats 8× 140m **zbieg MARSZEM** (Achilles protection)
+- Min. 48h między quality sessions (Wt VO2 → Cz hill = 1 dzień, OK ale ostrożnie)
+- Final REP signature @ 4:12 = bezpiecznie poniżej 5K obecnej formy
 
 ## T5–T22 — szkic ramowy
 
 Doprecyzowanie po T4 (po pierwszej VO₂max — kalibracja) i po **TEST 5K w T8**.
 
-### T5 — BASE BUILD (80 km, 8–14.06)
+### T5 — BASE BUILD (90 km, 8–14.06)
 - **SIGNATURE: 3×4K progresywne** z 1K trucht + 1K floating (paces **4:20 → 4:15 → 4:08**) ~18 km
+- **HILL REPEATS: 10× 140 m** (zbieg MARSZEM) ~13 km
 - VO₂max: 6×800 m @ 3:55–4:00 (90 s jog) — **co 2 tyg**
 - Hill sprints: 8× 8 s + easy 12 km
 - LR: 30 km easy (bez MP-fragmentu jeszcze)
 - Easy / strides
 
-### T6 — MINI-DELOAD (70 km, 15–21.06)
+### T6 — MINI-DELOAD (75 km, 15–21.06)
 - **SIGNATURE: 2×4K progresywne** (deload) (paces **4:20 → 4:10**) ~14 km
+- **HILL REPEATS: 5-6× 140 m** (deload) ~9 km
 - Hill sprints: 6× 8 s + easy 10 km
 - LR: 24 km easy
 - 2× easy
