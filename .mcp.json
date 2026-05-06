@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "strava": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "/Users/tomaszprzebieracz/projects/maraton-chicago-2026/strava-mcp/dist/server.js"
+      ],
+      "env": {}
+    }
+  }
+}

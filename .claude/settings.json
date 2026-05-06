@@ -1,0 +1,16 @@
+{
+  "_comment": "Skonfiguruj Strava MCP wg SETUP.md, potem odkomentuj sekcję mcpServers poniżej i podaj ścieżkę do dist/server.js po `npm run build` w katalogu strava-mcp.",
+  "_mcpServers_template": {
+    "strava": {
+      "command": "node",
+      "args": [
+        "/Users/tomaszprzebieracz/projects/maraton-chicago-2026/strava-mcp/dist/server.js"
+      ],
+      "env": {
+        "STRAVA_CLIENT_ID": "<your_client_id>",
+        "STRAVA_CLIENT_SECRET": "<your_client_secret>",
+        "STRAVA_REFRESH_TOKEN": "<your_refresh_token>"
+      }
+    }
+  }
+}

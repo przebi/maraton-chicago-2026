@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Maraton Chicago 2026 — Plan</title>
+<style>
+  :root {
+    --bg: #0b0f17;
+    --bg-card: #131823;
+    --bg-card-2: #1a2030;
+    --border: #232a3a;
+    --text: #e6e9ef;
+    --text-dim: #8a93a6;
+    --text-muted: #5a6378;
+    --accent: #f59e0b;
+    --rest: #4b5563;
+    --easy: #10b981;
+    --long: #3b82f6;
+    --tempo: #f59e0b;
+    --vo2: #ef4444;
+    --hill: #8b5cf6;
+    --race: #fbbf24;
+    --test: #ec4899;
+  }
+
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.5;
+    font-size: 14px;
+  }
+  .container { max-width: 1280px; margin: 0 auto; padding: 24px; }
+
+  header.hero {
+    background: linear-gradient(135deg, #1a2030 0%, #0b0f17 100%);
+    border-bottom: 1px solid var(--border);
+    padding: 32px 24px;
+  }
+  header.hero h1 {
+    margin: 0 0 8px;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+  header.hero .subtitle {
+    color: var(--text-dim);
+    font-size: 16px;
+    margin-bottom: 24px;
+  }
+  .countdown-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 16px;
+    margin-top: 16px;
+  }
+  .countdown-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 16px;
+  }
+  .countdown-card .label { font-size: 11px; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px; }
+  .countdown-card .value { font-size: 24px; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .countdown-card .sub { font-size: 12px; color: var(--text-muted); margin-top: 2px; }
+
+  h2 {
+    font-size: 20px;
+    margin: 32px 0 16px;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+  }
+  h3 { font-size: 16px; margin: 24px 0 12px; font-weight: 600; }
+  .section-meta { font-size: 12px; color: var(--text-dim); margin-bottom: 12px; }
+
+  /* Macro timeline */
+  .timeline {
+    display: flex;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 56px;
+    margin-bottom: 8px;
+    border: 1px solid var(--border);
+  }
+  .phase-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+    padding: 0 8px;
+    cursor: default;
+    transition: filter 0.15s;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.4);
+  }
+  .phase-block:hover { filter: brightness(1.1); }
+  .phase-block.recovery { background: var(--rest); }
+  .phase-block.intro { background: var(--easy); }
+  .phase-block.base { background: #0891b2; }
+  .phase-block.speed { background: var(--vo2); }
+  .phase-block.specific { background: var(--tempo); }
+  .phase-block.peak { background: var(--hill); }
+  .phase-block.taper { background: var(--race); color: #1a1a1a; text-shadow: none; }
+  .timeline-labels {
+    display: flex;
+    font-size: 10px;
+    color: var(--text-muted);
+    margin-bottom: 24px;
+  }
+  .timeline-labels span:first-child { margin-right: auto; }
+
+  /* Day cards */
+  .week {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .week.current {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 1px rgba(245, 158, 11, 0.2);
+  }
+  .week-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .week-title {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .week-title .badge {
+    display: inline-block;
+    background: var(--accent);
+    color: #1a1a1a;
+    font-size: 10px;
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin-left: 8px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    vertical-align: middle;
+    text-transform: uppercase;
+  }
+  .week-title .dates {
+    color: var(--text-dim);
+    font-weight: 400;
+    font-size: 13px;
+    margin-left: 4px;
+  }
+  .week-meta {
+    display: flex;
+    gap: 16px;
+    font-size: 12px;
+    color: var(--text-dim);
+    flex-wrap: wrap;
+  }
+  .week-meta strong { color: var(--text); font-weight: 600; }
+
+  .days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 8px;
+  }
+  @media (max-width: 900px) {
+    .days { grid-template-columns: repeat(2, 1fr); }
+  }
+  .day {
+    background: var(--bg-card-2);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 12px;
+    min-height: 130px;
+    display: flex;
+    flex-direction: column;
+    border-left-width: 4px;
+  }
+  .day.rest { border-left-color: var(--rest); }
+  .day.easy { border-left-color: var(--easy); }
+  .day.long { border-left-color: var(--long); }
+  .day.tempo { border-left-color: var(--tempo); }
+  .day.vo2 { border-left-color: var(--vo2); }
+  .day.hill { border-left-color: var(--hill); }
+  .day.race { border-left-color: var(--race); background: linear-gradient(135deg, var(--bg-card-2) 0%, rgba(251, 191, 36, 0.08) 100%); }
+  .day.test { border-left-color: var(--test); }
+  .day.today { box-shadow: 0 0 0 2px var(--accent); }
+
+  .day-header { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 8px; }
+  .day-name { font-size: 11px; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.05em; }
+  .day-date { font-size: 11px; color: var(--text-muted); font-variant-numeric: tabular-nums; }
+
+  .day-type {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 2px 6px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 6px;
+    width: fit-content;
+  }
+  .day-type.rest { background: var(--rest); color: white; }
+  .day-type.easy { background: var(--easy); color: white; }
+  .day-type.long { background: var(--long); color: white; }
+  .day-type.tempo { background: var(--tempo); color: #1a1a1a; }
+  .day-type.vo2 { background: var(--vo2); color: white; }
+  .day-type.hill { background: var(--hill); color: white; }
+  .day-type.race { background: var(--race); color: #1a1a1a; }
+  .day-type.test { background: var(--test); color: white; }
+
+  .day-content {
+    font-size: 12px;
+    color: var(--text);
+    flex: 1;
+  }
+  .day-content .km {
+    font-size: 18px;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+    margin-bottom: 4px;
+  }
+  .day-content .km .unit { font-size: 11px; color: var(--text-dim); font-weight: 400; }
+  .day-content .desc { color: var(--text-dim); font-size: 11px; line-height: 1.4; }
+  .day-content .pace { color: var(--accent); font-size: 11px; font-variant-numeric: tabular-nums; margin-top: 4px; }
+
+  /* Tables */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+    margin: 12px 0;
+  }
+  th, td {
+    text-align: left;
+    padding: 8px 10px;
+    border-bottom: 1px solid var(--border);
+  }
+  th {
+    background: var(--bg-card);
+    color: var(--text-dim);
+    font-weight: 600;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  td.num { font-variant-numeric: tabular-nums; text-align: right; }
+  th.num { text-align: right; }
+  tr.peak td { background: rgba(245, 158, 11, 0.08); }
+  tr.race td { background: rgba(251, 191, 36, 0.08); font-weight: 600; }
+
+  /* Legend */
+  .legend {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    font-size: 11px;
+    color: var(--text-dim);
+    margin: 8px 0 16px;
+  }
+  .legend-item { display: flex; align-items: center; gap: 4px; }
+  .legend-dot { width: 10px; height: 10px; border-radius: 2px; display: inline-block; }
+  .legend-dot.rest { background: var(--rest); }
+  .legend-dot.easy { background: var(--easy); }
+  .legend-dot.long { background: var(--long); }
+  .legend-dot.tempo { background: var(--tempo); }
+  .legend-dot.vo2 { background: var(--vo2); }
+  .legend-dot.hill { background: var(--hill); }
+  .legend-dot.race { background: var(--race); }
+  .legend-dot.test { background: var(--test); }
+
+  /* Phase section */
+  .phase-section {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 24px;
+  }
+  .phase-section.collapsed .phase-content { display: none; }
+  .phase-section h3 {
+    margin: 0 0 4px;
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .phase-section h3::before {
+    content: '▾';
+    font-size: 10px;
+    color: var(--text-dim);
+    transition: transform 0.15s;
+  }
+  .phase-section.collapsed h3::before { transform: rotate(-90deg); }
+  .phase-section .phase-meta { font-size: 12px; color: var(--text-dim); margin-bottom: 16px; }
+
+  /* Two-column layout for cards */
+  .cards-2col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+  @media (max-width: 900px) { .cards-2col { grid-template-columns: 1fr; } }
+
+  .info-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 16px;
+  }
+  .info-card h4 { margin: 0 0 8px; font-size: 13px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-dim); font-weight: 600; }
+
+  .stat-row { display: flex; justify-content: space-between; padding: 4px 0; border-bottom: 1px dashed var(--border); font-size: 13px; }
+  .stat-row:last-child { border-bottom: none; }
+  .stat-row .key { color: var(--text-dim); }
+  .stat-row .val { font-variant-numeric: tabular-nums; }
+
+  /* Footer */
+  footer { text-align: center; color: var(--text-muted); font-size: 11px; padding: 32px 24px; }
+  footer code { background: var(--bg-card); padding: 2px 6px; border-radius: 3px; }
+
+  /* Phase timeline labels by week */
+  .week-labels {
+    display: flex;
+    justify-content: space-between;
+    font-size: 9px;
+    color: var(--text-muted);
+    font-variant-numeric: tabular-nums;
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="container" style="padding: 0;">
+    <h1>Maraton Chicago 2026</h1>
+    <div class="subtitle">Cel: <strong style="color:var(--accent)">Sub-3</strong> (4:15/km) · 22-tygodniowy plan · start T1: 11.05.2026</div>
+
+    <div class="countdown-grid">
+      <div class="countdown-card">
+        <div class="label">A-Race</div>
+        <div class="value">11.10.2026</div>
+        <div class="sub" id="cd-chicago">Chicago Marathon</div>
+      </div>
+      <div class="countdown-card">
+        <div class="label">B-Race</div>
+        <div class="value">5.09.2026</div>
+        <div class="sub" id="cd-praga">Półmaraton Praski (cel ~1:23)</div>
+      </div>
+      <div class="countdown-card">
+        <div class="label">Test 5K</div>
+        <div class="value">~02.07.2026</div>
+        <div class="sub">T8 — pierwszy benchmark</div>
+      </div>
+      <div class="countdown-card">
+        <div class="label">Dziś</div>
+        <div class="value">06.05.2026</div>
+        <div class="sub">Week 0 — transition</div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+
+<h2>Makro fazy (22 tygodnie)</h2>
+<div class="section-meta">Każdy blok = liczba tygodni. Kolor odpowiada charakterowi pracy.</div>
+<div class="timeline">
+  <div class="phase-block recovery" style="flex: 2">T1–T2<br>Recovery</div>
+  <div class="phase-block intro" style="flex: 2">T3–T4<br>Reentry</div>
+  <div class="phase-block base" style="flex: 2">T5–T6<br>Base</div>
+  <div class="phase-block speed" style="flex: 5">T7–T11<br>Speed / VO₂max</div>
+  <div class="phase-block specific" style="flex: 6">T12–T17<br>Specific + HM</div>
+  <div class="phase-block peak" style="flex: 3">T18–T20<br>Peak</div>
+  <div class="phase-block taper" style="flex: 2">T21–T22<br>Taper + Race</div>
+</div>
+<div class="timeline-labels"><span>11.05</span><span>11.10</span></div>
+
+<div class="legend">
+  <div class="legend-item"><span class="legend-dot rest"></span>Rest</div>
+  <div class="legend-item"><span class="legend-dot easy"></span>Easy</div>
+  <div class="legend-item"><span class="legend-dot long"></span>Long</div>
+  <div class="legend-item"><span class="legend-dot tempo"></span>Tempo / Próg</div>
+  <div class="legend-item"><span class="legend-dot vo2"></span>VO₂max</div>
+  <div class="legend-item"><span class="legend-dot hill"></span>Hill / Drills</div>
+  <div class="legend-item"><span class="legend-dot test"></span>Test</div>
+  <div class="legend-item"><span class="legend-dot race"></span>Race</div>
+</div>
+
+<h2>Bieżąca rozpiska</h2>
+<div class="section-meta">Najbliższe 3 tygodnie — szczegółowo. Reszta: ramowo niżej.</div>
+
+<!-- WEEK 0 -->
+<div class="week current">
+  <div class="week-header">
+    <div class="week-title">Week 0 — Transition <span class="badge">teraz</span> <span class="dates">07–10.05.2026</span></div>
+    <div class="week-meta">
+      <span><strong>~20 km</strong> / 2 sesje</span>
+      <span>Cel: schodzenie z post-quality fatigue</span>
+    </div>
+  </div>
+  <div class="days">
+    <div class="day rest today">
+      <div class="day-header"><span class="day-name">śr</span><span class="day-date">06.05</span></div>
+      <span class="day-type vo2">DONE</span>
+      <div class="day-content">
+        <div class="km">12.8 <span class="unit">km</span></div>
+        <div class="desc">5×1600 progresywne 4:04→3:46. Sufit dziś. Plan 6×1600 niewykonany w pełni.</div>
+      </div>
+    </div>
+    <div class="day rest">
+      <div class="day-header"><span class="day-name">cz</span><span class="day-date">07.05</span></div>
+      <span class="day-type rest">REST</span>
+      <div class="day-content">
+        <div class="km">0 <span class="unit">km</span></div>
+        <div class="desc">Spacer 30–45 min, sauna, pistolet do masażu, woda.</div>
+      </div>
+    </div>
+    <div class="day rest">
+      <div class="day-header"><span class="day-name">pt</span><span class="day-date">08.05</span></div>
+      <span class="day-type rest">REST</span>
+      <div class="day-content">
+        <div class="km">0 <span class="unit">km</span></div>
+        <div class="desc">Paczka Nike po południu. Sauna, mobilizacja. Bez biegu.</div>
+      </div>
+    </div>
+    <div class="day easy">
+      <div class="day-header"><span class="day-name">sb</span><span class="day-date">09.05</span></div>
+      <span class="day-type easy">DEBUT</span>
+      <div class="day-content">
+        <div class="km">10–12 <span class="unit">km</span></div>
+        <div class="desc"><strong>Debiut Pegasus 41.</strong> Test fitu w pierwszych 2 km. Bez przyspieszeń.</div>
+        <div class="pace">&gt;5:45/km · HR&lt;135</div>
+      </div>
+    </div>
+    <div class="day easy">
+      <div class="day-header"><span class="day-name">nd</span><span class="day-date">10.05</span></div>
+      <span class="day-type easy">EASY</span>
+      <div class="day-content">
+        <div class="km">8 <span class="unit">km</span></div>
+        <div class="desc">Pegasus 41 lub Plus (test drugiej). + drills (A/B-skip, fast feet).</div>
+        <div class="pace">&gt;5:50/km · HR&lt;130</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- WEEK T1 -->
+<div class="week">
+  <div class="week-header">
+    <div class="week-title">T1 — Recovery <span class="dates">11–17.05.2026</span></div>
+    <div class="week-meta">
+      <span><strong>50 km</strong> / 5 sesji</span>
+      <span>Tydzień 4 po Wiedniu</span>
+      <span>Zakaz: progi, interwały, hill sprints</span>
+    </div>
+  </div>
+  <div class="days">
+    <div class="day easy">
+      <div class="day-header"><span class="day-name">pn</span><span class="day-date">11.05</span></div>
+      <span class="day-type easy">EASY</span>
+      <div class="day-content">
+        <div class="km">10 <span class="unit">km</span></div>
+        <div class="desc">Pierwszy bieg T1. Nogi muszą iść lekko.</div>
+        <div class="pace">5:45–6:30/km · HR&lt;127</div>
+      </div>
+    </div>
+    <div class="day easy">
+      <div class="day-header"><span class="day-name">wt</span><span class="day-date">12.05</span></div>
+      <span class="day-type easy">EASY</span>
+      <div class="day-content">
+        <div class="km">8 <span class="unit">km</span></div>
+        <div class="desc">+ 4×100 m strides na końcu (pełna przerwa).</div>
+        <div class="pace">5:45–6:30/km</div>
+      </div>
+    </div>
+    <div class="day easy">
+      <div class="day-header"><span class="day-name">śr</span><span class="day-date">13.05</span></div>
+      <span class="day-type easy">EASY</span>
+      <div class="day-content">
+        <div class="km">10 <span class="unit">km</span></div>
+        <div class="desc">Klasyczny easy. Bez akcentów.</div>
+        <div class="pace">5:45–6:30/km · HR&lt;127</div>
+      </div>
+    </div>
+    <div class="day rest">
+      <div class="day-header"><span class="day-name">cz</span><span class="day-date">14.05</span></div>
+      <span class="day-type rest">REST</span>
+      <div class="day-content">
+        <div class="km">0 <span class="unit">km</span></div>
+        <div class="desc">Lub recovery 6 km @ 6:00–6:30 jeśli nogi bardzo świeże.</div>
+      </div>
+    </div>
+    <div class="day rest">
+      <div class="day-header"><span class="day-name">pt</span><span class="day-date">15.05</span></div>
+      <span class="day-type rest">REST</span>
+      <div class="day-content">
+        <div class="km">0 <span class="unit">km</span></div>
+        <div class="desc">Mobilizacja, sauna.</div>
+      </div>
+    </div>
+    <div class="day easy">
+      <div class="day-header"><span class="day-name">sb</span><span class="day-date">16.05</span></div>
+      <span class="day-type easy">EASY</span>
+      <div class="day-content">
+        <div class="km">6 <span class="unit">km</span></div>
+        <div class="desc">Recovery przed niedzielnym long.</div>
+        <div class="pace">6:00–6:30/km</div>
+      </div>
+    </div>
+    <div class="day long">
+      <div class="day-header"><span class="day-name">nd</span><span class="day-date">17.05</span></div>
+      <span class="day-type long">LONG</span>
+      <div class="day-content">
+        <div class="km">16 <span class="unit">km</span></div>
+        <div class="desc">Pierwszy long T1. HR drift &lt;5 bpm = OK.</div>
+        <div class="pace">5:45–6:00/km · HR&lt;135</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- WEEK T2 -->
+<div class="week">
+  <div class="week-header">
+    <div class="week-title">T2 — Recovery+ <span class="dates">18–24.05.2026</span></div>
+    <div class="week-meta">
+      <span><strong>60 km</strong> / 5 sesji</span>
+      <span>Strides + drills wracają</span>
+      <span>Wciąż brak progów / interwałów</span>
+    </div>
+  </div>
+  <div class="days">
+    <div class="day easy">
+      <div class="day-header"><span class="day-name">pn</span><span class="day-date">18.05</span></div>
+      <span class="day-type easy">EASY+S</span>
+      <div class="day-content">
+        <div class="km">12 <span class="unit">km</span></div>
+        <div class="desc">+ 6×100 m strides (pełna przerwa, ostro ale krótko).</div>
+        <div class="pace">5:45–6:30/km</div>
+      </div>
+    </div>
+    <div class="day easy">
+      <div class="day-header"><span class="day-name">wt</span><span class="day-date">19.05</span></div>
+      <span class="day-type easy">EASY+D</span>
+      <div class="day-content">
+        <div class="km">10 <span class="unit">km</span></div>
+        <div class="desc">+ drills (A-skip, B-skip, fast feet, high knees).</div>
+        <div class="pace">5:45–6:30/km · HR&lt;127</div>
+      </div>
+    </div>
+    <div class="day easy">
+      <div class="day-header"><span class="day-name">śr</span><span class="day-date">20.05</span></div>
+      <span class="day-type easy">EASY+S</span>
+      <div class="day-content">
+        <div class="km">10 <span class="unit">km</span></div>
+        <div class="desc">+ 6×100 m strides.</div>
+        <div class="pace">5:45–6:30/km</div>
+      </div>
+    </div>
+    <div class="day rest">
+      <div class="day-header"><span class="day-name">cz</span><span class="day-date">21.05</span></div>
+      <span class="day-type rest">REST</span>
+      <div class="day-content">
+        <div class="km">0 <span class="unit">km</span></div>
+        <div class="desc">Lub spacer.</div>
+      </div>
+    </div>
+    <div class="day easy">
+      <div class="day-header"><span class="day-name">pt</span><span class="day-date">22.05</span></div>
+      <span class="day-type easy">RECOVERY</span>
+      <div class="day-content">
+        <div class="km">8 <span class="unit">km</span></div>
+        <div class="desc">Recovery przed weekendem.</div>
+        <div class="pace">6:00–6:30/km</div>
+      </div>
+    </div>
+    <div class="day rest">
+      <div class="day-header"><span class="day-name">sb</span><span class="day-date">23.05</span></div>
+      <span class="day-type rest">REST</span>
+      <div class="day-content">
+        <div class="km">0 <span class="unit">km</span></div>
+        <div class="desc">Lub spacer / mobilizacja.</div>
+      </div>
+    </div>
+    <div class="day long">
+      <div class="day-header"><span class="day-name">nd</span><span class="day-date">24.05</span></div>
+      <span class="day-type long">LONG</span>
+      <div class="day-content">
+        <div class="km">20 <span class="unit">km</span></div>
+        <div class="desc">Drugi long. Cierpliwość — pace nie ma znaczenia, HR ma.</div>
+        <div class="pace">5:45–6:00/km · HR&lt;135</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<h2>Strefy HR (HRmax 182)</h2>
+<div class="section-meta">Strefy z CLAUDE.md. LTHR estymata ~160–165 — kalibracja po pierwszej tempówce w T3/T4.</div>
+<table>
+  <thead>
+    <tr><th>Strefa</th><th>BPM</th><th>%HRmax</th><th>Charakter</th><th>Stosowanie</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><strong style="color:#9ca3af">Z1</strong></td><td class="num">91–109</td><td class="num">50–60%</td><td>Recovery</td><td>shake-out, dni regen.</td></tr>
+    <tr><td><strong style="color:var(--easy)">Z2</strong></td><td class="num">109–127</td><td class="num">60–70%</td><td>Easy / aerobic base</td><td>większość objętości</td></tr>
+    <tr><td><strong style="color:var(--long)">Z3</strong></td><td class="num">127–146</td><td class="num">70–80%</td><td>Steady / marathon</td><td>LR z MP, MP work</td></tr>
+    <tr><td><strong style="color:var(--tempo)">Z4</strong></td><td class="num">146–164</td><td class="num">80–90%</td><td>Threshold</td><td>tempo, próg</td></tr>
+    <tr><td><strong style="color:var(--vo2)">Z5</strong></td><td class="num">164–182</td><td class="num">90–100%</td><td>VO₂max</td><td>interwały 800–1500</td></tr>
+  </tbody>
+</table>
+
+<h2>Tempa</h2>
+<div class="cards-2col">
+  <div class="info-card">
+    <h4>Konserwatywne (T1–T4)</h4>
+    <div class="stat-row"><span class="key">Easy / Recovery</span><span class="val">5:45–6:30</span></div>
+    <div class="stat-row"><span class="key">Long</span><span class="val">5:45–6:00</span></div>
+    <div class="stat-row"><span class="key">Strides 100 m</span><span class="val">3:30–3:50</span></div>
+    <div class="stat-row"><span class="key">Primer 4×400</span><span class="val">4:00–4:05</span></div>
+    <div class="stat-row"><span class="key">VO₂max intro 5×800</span><span class="val">4:00–4:10</span></div>
+    <div class="stat-row"><span class="key">Tempo lekki</span><span class="val">4:20–4:30</span></div>
+  </div>
+  <div class="info-card">
+    <h4>Docelowe (po T8/T11) — Sub-3</h4>
+    <div class="stat-row"><span class="key">Easy</span><span class="val">5:30–6:00</span></div>
+    <div class="stat-row"><span class="key">Long</span><span class="val">5:15–5:45</span></div>
+    <div class="stat-row"><span class="key">MP (Chicago)</span><span class="val" style="color:var(--accent)">4:15</span></div>
+    <div class="stat-row"><span class="key">HM (Praga)</span><span class="val" style="color:var(--accent)">3:55</span></div>
+    <div class="stat-row"><span class="key">Próg / 10K</span><span class="val">3:55–4:05 / 3:40–3:45</span></div>
+    <div class="stat-row"><span class="key">5K / VO₂max</span><span class="val">3:30–3:40</span></div>
+  </div>
+</div>
+
+<h2>Plan ramowy — pozostałe fazy</h2>
+
+<div class="phase-section">
+  <h3>T3–T4 — Reentry + Intro <span style="color:var(--text-muted);font-weight:400;font-size:13px">· 25.05–07.06 · 65 → 75 km</span></h3>
+  <div class="phase-content">
+    <div class="phase-meta">Pierwsze hill sprints, primer 4×400, intro VO₂max.</div>
+    <table>
+      <thead><tr><th>Tydz.</th><th>Daty</th><th class="num">km</th><th>Kluczowe sesje</th></tr></thead>
+      <tbody>
+        <tr><td><strong>T3</strong></td><td>25–31.05</td><td class="num">67</td><td>6× hill sprint 6 s · <strong>6× 140 m hill repeat</strong> · LR 22 km</td></tr>
+        <tr><td><strong>T4</strong></td><td>01–07.06</td><td class="num">75</td><td>5×800 @ 4:00 · <strong>8× 140 m hill repeat</strong> · 6× hill sprint 8 s · LR 28 km</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div class="phase-section">
+  <h3>T5–T6 — Base Build <span style="color:var(--text-muted);font-weight:400;font-size:13px">· 08–21.06 · 80 → 70 km (mini-deload)</span></h3>
+  <div class="phase-content">
+    <table>
+      <thead><tr><th>Tydz.</th><th>Daty</th><th class="num">km</th><th>Kluczowe sesje</th></tr></thead>
+      <tbody>
+        <tr><td><strong>T5</strong></td><td>08–14.06</td><td class="num">80</td><td>6×800 @ 3:55 · <strong>10× 140 m hill repeat</strong> · 8× hill sprint 8 s · LR 30 km z 5 km @ 4:30</td></tr>
+        <tr><td><strong>T6</strong></td><td>15–21.06</td><td class="num">70</td><td>4×1000 @ 3:55 · <strong>6× 140 m hill repeat</strong> · 6× hill sprint 8 s · LR 24 km easy</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div class="phase-section">
+  <h3>T7–T11 — Speed / VO₂max focus <span style="color:var(--text-muted);font-weight:400;font-size:13px">· 22.06–26.07 · 85 → 90 → 75 km</span></h3>
+  <div class="phase-content">
+    <div class="phase-meta">Atak na słabość prędkościową. <strong style="color:var(--test)">TEST 5K w T8.</strong></div>
+    <table>
+      <thead><tr><th>Tydz.</th><th>Daty</th><th class="num">km</th><th>Kluczowe sesje</th></tr></thead>
+      <tbody>
+        <tr><td><strong>T7</strong></td><td>22–28.06</td><td class="num">85</td><td>5×1000 @ 3:50 · <strong>12× 140 m hill repeat</strong> · 10× hill sprint 8 s · LR 30 km z 6 km @ 4:25</td></tr>
+        <tr class="peak"><td><strong>T8</strong></td><td>29.06–05.07</td><td class="num">75</td><td>Deload + <strong style="color:var(--test)">TEST 5K</strong> (oczekiwane 19:30–20:30)</td></tr>
+        <tr><td><strong>T9</strong></td><td>06–12.07</td><td class="num">85</td><td>3×2000 @ próg · <strong>10× 200 m hill repeat</strong> · 8× hill sprint 10 s · LR 28 km</td></tr>
+        <tr class="peak"><td><strong>T10</strong></td><td>13–19.07</td><td class="num">90</td><td>12×400 @ 5K · <strong>8× 300 m hill repeat (peak)</strong> · LR 32 km z 8 km @ MP</td></tr>
+        <tr><td><strong>T11</strong></td><td>20–26.07</td><td class="num">75</td><td>Deload · 6×600 @ 5K · <strong>6× 200 m hill repeat</strong> · LR 26 km</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div class="phase-section">
+  <h3>T12–T17 — Specific + HM build <span style="color:var(--text-muted);font-weight:400;font-size:13px">· 27.07–06.09 · 85 → 90 → 60 km</span></h3>
+  <div class="phase-content">
+    <div class="phase-meta">Mile reps, LR z MP. <strong style="color:var(--race)">Półmaraton Praski 5.09</strong> jako tune-up.</div>
+    <table>
+      <thead><tr><th>Tydz.</th><th>Daty</th><th class="num">km</th><th>Kluczowe sesje</th></tr></thead>
+      <tbody>
+        <tr><td><strong>T12</strong></td><td>27.07–02.08</td><td class="num">85</td><td>5×1600 @ próg · LR 28 km z 8 km @ MP · Tempo 8 km</td></tr>
+        <tr class="peak"><td><strong>T13</strong></td><td>03–09.08</td><td class="num">90</td><td>4×1600 + 4×400 · LR 30 km z 12 km @ MP · Tempo progr. 10 km</td></tr>
+        <tr><td><strong>T14</strong></td><td>10–16.08</td><td class="num">75</td><td>Deload · 3×1600 lekkie · LR 22 km easy</td></tr>
+        <tr class="peak"><td><strong>T15</strong></td><td>17–23.08</td><td class="num">90</td><td>6×1600 @ próg · LR 32 km z 16 km @ MP · 12 km @ MP</td></tr>
+        <tr><td><strong>T16</strong></td><td>24–30.08</td><td class="num">80</td><td>HM simulation 8 km @ 3:55 · LR 26 km z 10 km @ MP · 5×1600 HM</td></tr>
+        <tr class="race"><td><strong>T17</strong></td><td>31.08–06.09</td><td class="num">60</td><td>Race week. <strong>Sb 5.09: HM Praski 21 km @ 3:55 (cel ~1:23)</strong></td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div class="phase-section">
+  <h3>T18–T20 — Post-HM + Peak <span style="color:var(--text-muted);font-weight:400;font-size:13px">· 07–27.09 · 75 → 90 → 85 km</span></h3>
+  <div class="phase-content">
+    <table>
+      <thead><tr><th>Tydz.</th><th>Daty</th><th class="num">km</th><th>Kluczowe sesje</th></tr></thead>
+      <tbody>
+        <tr><td><strong>T18</strong></td><td>07–13.09</td><td class="num">75</td><td>Post-race regen · Easy + 4 km @ MP · LR 24 km</td></tr>
+        <tr class="peak"><td><strong>T19</strong></td><td>14–20.09</td><td class="num">90</td><td>5×1600 @ próg · <strong>LR 32 km z 20 km @ MP (kluczowy LR)</strong> · Tempo 10 km</td></tr>
+        <tr><td><strong>T20</strong></td><td>21–27.09</td><td class="num">85</td><td>LR 26 km z 16 km @ MP · 8 km @ MP · 4×1600 HM-pace</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div class="phase-section">
+  <h3>T21–T22 — Taper + Race <span style="color:var(--text-muted);font-weight:400;font-size:13px">· 28.09–11.10 · 65 → 35 km + race</span></h3>
+  <div class="phase-content">
+    <table>
+      <thead><tr><th>Tydz.</th><th>Daty</th><th class="num">km</th><th>Kluczowe sesje</th></tr></thead>
+      <tbody>
+        <tr><td><strong>T21</strong></td><td>28.09–04.10</td><td class="num">65</td><td>LR 18 km z 6 km @ MP · Tempo 6 km @ MP · strides + drills</td></tr>
+        <tr class="race"><td><strong>T22</strong></td><td>05–11.10</td><td class="num">35</td><td>Race week. Śr 4 km @ MP (ostatni hard, 5 dni). <strong>Nd 11.10: Chicago Marathon — 42.2 km @ 4:15 (cel sub-3)</strong></td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<h2>Hill workout protocol</h2>
+<div class="section-meta">Twój odcinek: ~140 m, „trochę górki" (~4–7%). Dwie różne klasy hill worków, dwa różne cele.</div>
+<div class="cards-2col">
+  <div class="info-card">
+    <h4>Hill sprint 6–10 s</h4>
+    <div class="stat-row"><span class="key">Dystans</span><span class="val">~30–50 m</span></div>
+    <div class="stat-row"><span class="key">Effort</span><span class="val">All-out / 100%</span></div>
+    <div class="stat-row"><span class="key">Energy system</span><span class="val">ATP-PCr (no lactate)</span></div>
+    <div class="stat-row"><span class="key">Cel</span><span class="val">Power, neuromuscular</span></div>
+    <div class="stat-row"><span class="key">Przerwa</span><span class="val">2–3 min marsz (pełna)</span></div>
+    <div class="stat-row"><span class="key">W planie</span><span class="val">T3–T11 (1× / tyg)</span></div>
+  </div>
+  <div class="info-card">
+    <h4>Hill repeat 140–300 m</h4>
+    <div class="stat-row"><span class="key">Dystans</span><span class="val">140 m → 300 m progresywnie</span></div>
+    <div class="stat-row"><span class="key">Effort</span><span class="val">5K-effort / ~90%</span></div>
+    <div class="stat-row"><span class="key">Energy system</span><span class="val">ATP-PCr → glycolytic</span></div>
+    <div class="stat-row"><span class="key">Cel</span><span class="val">Strength endurance, lactate buffer</span></div>
+    <div class="stat-row"><span class="key">Przerwa</span><span class="val">60–90 s trucht zbiegu</span></div>
+    <div class="stat-row"><span class="key">W planie</span><span class="val">T3–T11 (1× / tyg)</span></div>
+  </div>
+</div>
+<table>
+  <thead><tr><th>Tydz.</th><th>Hill sprint krótki</th><th>Hill repeat</th></tr></thead>
+  <tbody>
+    <tr><td>T3</td><td>6× 6 s</td><td>6× 140 m</td></tr>
+    <tr><td>T4</td><td>6× 8 s</td><td>8× 140 m</td></tr>
+    <tr><td>T5</td><td>8× 8 s</td><td>10× 140 m</td></tr>
+    <tr><td>T6 deload</td><td>6× 8 s</td><td>6× 140 m</td></tr>
+    <tr><td>T7</td><td>10× 8 s</td><td>12× 140 m lub 8× 200 m</td></tr>
+    <tr><td>T8 (test 5K)</td><td>—</td><td>4× 140 m primer</td></tr>
+    <tr><td>T9</td><td>8× 10 s</td><td>10× 200 m</td></tr>
+    <tr class="peak"><td><strong>T10 peak</strong></td><td>10× 10 s</td><td><strong>8× 300 m lub 12× 200 m</strong></td></tr>
+    <tr><td>T11 deload</td><td>6× 10 s</td><td>6× 200 m</td></tr>
+    <tr><td>T12+</td><td colspan="2" style="color:var(--text-dim)"><em>wycofane (specific phase, race-pace na flat)</em></td></tr>
+  </tbody>
+</table>
+<div class="info-card" style="margin-top:16px;">
+  <h4>Wykonanie hill repeat 140 m</h4>
+  <ol style="margin:0;padding-left:18px;font-size:13px;line-height:1.7;">
+    <li><strong>WU:</strong> 2 km easy + 4× strides 100 m</li>
+    <li><strong>Reps:</strong> pace target <strong>4:18–4:45/km</strong> (~36–40 s na 140 m, idealnie 4:30). HR Z4 wysokie / Z5 dolne (155–170). NIE all-out. Ostatni rep prawie tak samo szybki jak pierwszy.</li>
+    <li><strong>Forma:</strong> wysokie kolano, krótki kontakt, ramiona pracują. Kiedy zaczynasz się garbić — zwolnij.</li>
+    <li><strong>Zbieg = trucht spokojny.</strong> NIGDY nie sprint w dół (eccentric stress „je" mięśnie).</li>
+    <li><strong>HR między reps</strong> spada do &lt;140 = recovery wystarczający.</li>
+    <li><strong>CD:</strong> 2 km easy + drills lekkie (A-skip, fast feet)</li>
+  </ol>
+</div>
+<div class="info-card" style="margin-top:12px;">
+  <h4>Czerwone flagi</h4>
+  <ul style="margin:0;padding-left:18px;font-size:12px;line-height:1.7;color:var(--text-dim);">
+    <li>Łydka / Achilles ból dnia po → za stromienie albo za mocno. Mniej reps lub płaski pagórek.</li>
+    <li>HR nie spada między reps (utrzymuje się Z4+) → przerwa za krótka, wydłuż zbieg.</li>
+    <li>Forma się rozjeżdża w 60% workoutu → za mocno, skróć sesję.</li>
+    <li>Pace ostatniego repu &gt;10% wolniejszy niż pierwszy → przesadziłeś, następnym razem mniej reps.</li>
+  </ul>
+</div>
+
+<h2>Reguły zarządzania planem</h2>
+<div class="cards-2col">
+  <div class="info-card">
+    <h4>HR i easy</h4>
+    <ol style="margin: 0; padding-left: 18px; font-size: 13px; line-height: 1.7;">
+      <li><strong>HR cap na easy:</strong> jeśli HR &gt; 127 (Z2) → zwolnić, niezależnie od pace.</li>
+      <li><strong>HR drift na long:</strong> rośnie &gt;5 bpm na ostatnich 5 km bez zmiany tempa = fatigue.</li>
+      <li><strong>Tempo w T1–T2:</strong> brak. Bezwzględnie.</li>
+      <li><strong>Strides:</strong> krótkie 100 m, pełna przerwa, all-out — HR średnia w Z2.</li>
+    </ol>
+  </div>
+  <div class="info-card">
+    <h4>Akcenty i recovery</h4>
+    <ol style="margin: 0; padding-left: 18px; font-size: 13px; line-height: 1.7;">
+      <li><strong>Min. 6 dni</strong> między dwoma jakościami.</li>
+      <li><strong>Long min. 36 h</strong> od ostatniej jakości.</li>
+      <li><strong>Hill sprints:</strong> pełna przerwa (2–3 min), nigdy nie kwasować.</li>
+      <li><strong>Test 5K:</strong> 4 dni easy przed, primer 2 dni przed, 1 dzień rest po.</li>
+      <li><strong>Ostatni hard przed race:</strong> <strong style="color:var(--accent)">14 dni</strong> (lekcja z Wiednia).</li>
+    </ol>
+  </div>
+</div>
+
+<h2>Baseline 5 tygodni (01.04–06.05.2026)</h2>
+<table>
+  <thead>
+    <tr><th>Tydz.</th><th>Daty</th><th class="num">km bieg.</th><th class="num">Sesji</th><th>Komentarz</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>W14 cz.</td><td>01–05.04</td><td class="num">44.1</td><td class="num">2</td><td>2× długi przed taperem</td></tr>
+    <tr class="peak"><td><strong>W15</strong></td><td>06–12.04</td><td class="num">91.4</td><td class="num">5</td><td>Peak. <strong>3×5K hard 11.04</strong> (8 dni przed Wiedniem). Sufit ~3:53</td></tr>
+    <tr class="race"><td><strong>W16</strong></td><td>13–19.04</td><td class="num">66.5</td><td class="num">3</td><td><strong>Maraton Wiedeń 19.04 — 3:11</strong> (odpuszczony od 15 km, ciepło 20+°C)</td></tr>
+    <tr><td>W17</td><td>20–26.04</td><td class="num">63.3</td><td class="num">4</td><td>Wariant C — 4 dni po marathonie 17 km @ 5:21. Recovery niedopełniony.</td></tr>
+    <tr><td>W18</td><td>27.04–03.05</td><td class="num">78.7</td><td class="num">5</td><td>2 hard days. 03.05: 20 km @ 4:50 + hike 16.7 km. Heavy.</td></tr>
+    <tr><td>W19 cz.</td><td>04–06.05</td><td class="num">26.7</td><td class="num">2</td><td><strong>Quality 06.05: 5×1600 progresywne, sufit 3:46.</strong> Ryga skreślona.</td></tr>
+  </tbody>
+</table>
+
+<h2>Statusy / kalibracje</h2>
+<div class="cards-2col">
+  <div class="info-card">
+    <h4>Czeka na kalibrację</h4>
+    <div class="stat-row"><span class="key">LTHR (po pierwszej tempówce T3/T4)</span><span class="val">est. 160–165</span></div>
+    <div class="stat-row"><span class="key">Test 5K (T8 ~02.07)</span><span class="val">cel 19:30–20:30</span></div>
+    <div class="stat-row"><span class="key">HM Praski (5.09)</span><span class="val">cel ~1:23</span></div>
+    <div class="stat-row"><span class="key">HRmax (re-check po T4)</span><span class="val" style="color:var(--accent)">182 (na razie)</span></div>
+  </div>
+  <div class="info-card">
+    <h4>Lekcje zapisane</h4>
+    <div style="font-size: 12px; color: var(--text-dim); line-height: 1.6;">
+      • Ryga HM odrzucona 06.05 (sufit 3:46, brak rezerwy + kolizja z T1)<br>
+      • Sufit prędkościowy 06.05: 3:46/km na 5. repie 1600 m progresywnego<br>
+      • Pasek HR ma okresowo electrode disconnect — zwilżać przed startem, sprawdzać styk<br>
+      • Czyste HR streamy: 04-11, 04-22, 05-06. Brudne: 04-08, 04-12, 04-16, 04-29
+    </div>
+  </div>
+</div>
+
+</div>
+
+<footer>
+  Generowane z <code>plan.md</code> + <code>training_log.md</code> · Maraton Chicago 11.10.2026 ·
+  Workflow: <code>/coach-update</code> przed sesją z trenerem-Claude
+</footer>
+
+<script>
+  // Phase section toggle
+  document.querySelectorAll('.phase-section h3').forEach(h => {
+    h.addEventListener('click', () => h.parentElement.classList.toggle('collapsed'));
+  });
+
+  // Countdown calculation (relative to today set in header)
+  const today = new Date('2026-05-06');
+  const chicago = new Date('2026-10-11');
+  const praga = new Date('2026-09-05');
+  const days = (d) => Math.round((d - today) / 86400000);
+  document.getElementById('cd-chicago').textContent = `Chicago Marathon · za ${days(chicago)} dni`;
+  document.getElementById('cd-praga').textContent = `Półmaraton Praski (cel ~1:23) · za ${days(praga)} dni`;
+</script>
+
+</body>
+</html>

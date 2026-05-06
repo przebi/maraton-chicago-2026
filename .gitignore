@@ -1,0 +1,26 @@
+# SECRETS — krytyczne, NIGDY nie commitować
+.env
+.env.*
+*.env
+
+# Strava MCP (vendored klon zewnętrznego repo z własnym git, plus zawiera .env z tokenami)
+strava-mcp/
+
+# Strava API dumps — dane osobiste, nie do publikacji
+data/
+
+# Claude local settings (per-machine, nie per-project)
+.claude/settings.local.json
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Node / Python
+node_modules/
+__pycache__/
+*.pyc
+dist/
+build/
