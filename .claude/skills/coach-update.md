@@ -23,23 +23,50 @@ Pobierz aktywności od ostatniego raportu do dziś:
 - Filtruj: tylko Run + Walk (cross-training jako notatka)
 - Wyciągnij dla każdej: data, dystans, czas, pace avg, HR avg/max, suffer, splits/laps
 
-### Krok 2: Pytanie Tomasza o Garmin + subiektywne
+### Krok 2: Garmin data — auto-pull przez scripts/garmin-pull.mjs
 
-Zapytaj 6 pytań w jednej wiadomości:
+**Primary: skrypt automated**
 
-```
-Daj liczby z Garmina za ostatnie 7 dni:
-1. Średni sen (h)?
-2. Najsłabsza noc (h)?
-3. Średnie HRV (jeśli pokazuje)?
-4. Średnie HR rest poranne?
-5. Body Battery min / avg (jeśli mierzysz)?
-
-I subiektywne (1-10):
-6. Motivation / energia? Apetyt? RPE easy biegów? Coś bolało?
+```bash
+node scripts/garmin-pull.mjs --week
 ```
 
-Czekaj na odpowiedź zanim analizujesz.
+Wymaga że Tomasz ma Chrome z `--remote-debugging-port=9222` + zalogowany Garmin Connect. Skrypt:
+- Connectuje via CDP do jego Chrome
+- Pulluje 7 dni × 11 endpointów (sleep, sleep_stats, heart_rate, stress, body_battery, daily_summary, daily_events, hrv, training_readiness, vo2max, spo2)
+- Zapisuje do `data/garmin_year/{YYYY-MM-DD}.json`
+- Idempotent (skip already-fetched)
+
+**Po pull'u parsuj** z `data/garmin_year/`:
+- HRV: `.hrv.hrvSummary.lastNightAvg`, `.weeklyAvg`
+- RHR: `.daily_summary.restingHeartRate`
+- Sleep h: `.sleep.dailySleepDTO.sleepTimeSeconds / 3600`
+- Sleep score: `.sleep.dailySleepDTO.sleepScores.overall.value`
+- Body Battery: `.body_battery_events[]` (events z impact)
+- Training Readiness: `.training_readiness[0].score`, `.level`
+- VO2max: `.vo2max.generic.vo2MaxPreciseValue`
+
+**Fallback (jeśli script nie działa):**
+- CSV manual export z Garmin Connect Reports
+- Lub: pytanie Tomasza o liczby
+
+**Zawsze pytaj subiektywne (1-10):**
+- Motivation / energia
+- Apetyt
+- RPE easy biegów
+- Coś bolało / kontuzje
+
+### Baseline z 365 dni (z 2025-05-06)
+
+| Marker | Baseline | Czerwona flaga | Auto-reset |
+|---|---|---|---|
+| HRV (lastNightAvg) | 55-58 ms | <50 ms | <45 ms 5+ dni |
+| RHR | 45-48 bpm | >50 bpm 3+ dni | >52 bpm 3+ dni |
+| Sleep avg | 6.2h | <6h tydzień | <5.5h 3 noce |
+| Training Readiness | 60-80 | <50 | <30 (skip quality) |
+| VO2max | 57.6 | spadek >3 punkty | sygnał chronic fatigue |
+
+**Przykład crash 2025-Q4 (post-Chicago):** HRV 40, RHR 54, trwało 2 mies. Tego unikamy w 2026.
 
 ### Krok 3: Analiza (Claude)
 

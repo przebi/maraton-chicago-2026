@@ -5,13 +5,17 @@
 - **Imię:** Tomasz Przebieracz
 - **Wiek:** 51
 - **Wzrost / waga:** 173 cm / 61 kg (BMI ~20.4)
-- **HRmax:** 182 (potwierdzony, 2026-05-06)
+- **HRmax:** **183** (Garmin biometric, 2026-05-06)
+- **LTHR:** **169** (Garmin biometric)
+- **RHR baseline:** 47 (Garmin)
+- **VO₂max:** 57.6 (Garmin estimate, top 5% w wieku 51 lat)
 - **Strava:** https://www.strava.com/athletes/24659157
+- **Garmin device:** fenix 7 Pro Sapphire Solar
 
 ## Cel sezonu
 
-- **A-race: Chicago Marathon — 11.10.2026**, cel **Sub-3** (4:15/km)
-- **B-race: Półmaraton Praski — 5.09.2026** (sobota wieczór 20:30, nocny, PGE Narodowy), cel **~1:23–1:24** (3:55/km) jako tune-up
+- **A-race: Chicago Marathon — 11.10.2026**, cel **2:55-2:57** (4:08-4:12/km)
+- **HM Praski 5.09.2026: ODPUSZCZONY** — single-focus Chicago
 - **Start bloku:** 11.05.2026 (T1)
 - **Tygodni do A:** 22
 
@@ -19,8 +23,9 @@
 
 | Dystans | Czas | Tempo /km | Rok |
 |---|---|---|---|
-| Maraton | 2:59:32 | 4:15 | wiosna 2025 |
-| Półmaraton | 1:24:11 | 3:59 | 2024 |
+| Maraton | 2:59:32 (Hannover) | 4:15 | wiosna 2025 |
+| Półmaraton | 1:24:11 (Warszawa) | 3:59 | 2024 |
+| 5K (track, controlled) | 19:08 (target był 18:45) | 3:50 | 2023 |
 
 ## Ostatni start
 
@@ -31,26 +36,36 @@
 
 ## Słabość zidentyfikowana (priorytet treningu)
 
-**Prędkość i wytrzymałość prędkościowa.** Nawet w formie sub-3 marathon nie schodził poniżej 19:30 na 5K. Zatyka go już przy 4:00/km. Speed reserve za płytki dla sub-3 (które wymaga 5K w 17:30–18:00).
+**Wytrzymałość prędkościowa**. Speed cap historyczny ~19:00-19:08 na 5K (track, controlled). Po 7 tyg specific block T8 cel: 18:30-18:45. Plan signature workouts (3-4×4-5K progresywne) buduje to.
 
 ## Założenia treningowe
 
-- **Wolumen:** 70–90 km/tydz (T1–T2 niżej, recovery extension)
-- **Sesje:** 4–5 / tydz
+- **Wolumen:** 70–100 km/tydz (T1–T2 niżej recovery, peak T10/T15/T19 = 95-100)
+- **Sesje:** 5–6 / tydz
 - **Polaryzacja:** 80/20, wolne biegi naprawdę wolno (>6:00/km dopuszczalne)
-- **Regeneracja:** sauna, pistolet do masażu
+- **Regeneracja:** sauna, pistolet do masażu (10-15 min/dzień, focus łydki)
 
-## Strefy HR (na bazie HRmax 182)
+## Strefy HR (HRmax 183, LTHR 169 — z Garmin biometric)
 
 | Strefa | % HRmax | BPM | Charakter |
 |---|---|---|---|
-| Z1 | 50–60% | 91–109 | Recovery |
+| Z1 | 52–59% | 95–108 | Recovery |
 | Z2 | 60–70% | 109–127 | Easy / aerobic base |
-| Z3 | 70–80% | 127–146 | Steady / marathon |
-| Z4 | 80–90% | 146–164 | Threshold |
-| Z5 | 90–100% | 164–182 | VO₂max |
+| Z3 | 70–80% | 128–146 | Steady / marathon |
+| Z4 | 80–90% | 147–164 | Threshold |
+| Z5 | 90–100% | 165–183 | VO₂max |
 
-**LTHR (estymata):** ~160–165 (88–90% HRmax). Skalibrować po pierwszej tempówce progowej (T2/T3) — będzie HR przy końcu 20-min progu.
+**LTHR z Garmin: 169** (~92% HRmax). Próg → HR ~165–170. Wcześniejsza estymata 160–165 była **za nisko**.
+
+## Fatigue markers baseline (z 365 dni Garmin)
+
+| Marker | Baseline | Czerwona flaga | Auto-reset |
+|---|---|---|---|
+| HRV | 55-58 ms | <50 ms | <45 ms 5+ dni |
+| RHR | 45-48 bpm | >50 bpm 3+ dni | >52 bpm 3+ dni |
+| Sleep avg | 6.2h | <6h tydzień | <5.5h 3 noce |
+
+**Lekcja z 2025 Q4:** post-Chicago crash (HRV 40, RHR 54) trwał **2 miesiące**. Tego unikamy w 2026.
 
 ## Faza obecna
 

@@ -16,17 +16,16 @@
 
 ## Tempa
 
-### Konserwatywne (T1–T4) — bazujące na obecnej formie ~10K 41–42 min
+### Konserwatywne (T1–T4) — recovery + base build, paces dla obecnej formy
 
-| Strefa | Tempo /km |
-|---|---|
-| Easy / Recovery | 5:45–6:30 |
-| Long | 5:45–6:00 |
-| Strides (100 m) | 3:30–3:50 |
-| Primer (4×400 m) | 4:00–4:05 |
-| VO₂max intro (5×800) | 4:00–4:10 |
-| Tempo lekki | 4:20–4:30 |
-| Hill sprints 8 s | all-out |
+| Strefa | Tempo /km | HR target |
+|---|---|---|
+| Easy / Recovery | 5:45–6:30 | <127 (Z2) |
+| Long | 5:45–6:00 | <135 |
+| Strides (100 m) | 3:30–3:50 | n/a (krótkie) |
+| Primer (4×400 m) | 3:50–4:00 | Z4-Z5 |
+| VO₂max intro (5×800) | 4:00–4:10 | 165-170 (Z5 dolne) |
+| Hill sprints 8 s | all-out | n/a |
 
 ### Docelowe (po T8/T11) — bazujące na celu 2:55-2:57
 
@@ -42,17 +41,17 @@
 | Reps 200–400 m | 3:10–3:25 |
 | Signature final REP | 3:50 (T13-T19) |
 
-## Strefy HR (HRmax 182)
+## Strefy HR (HRmax 183, LTHR 169 — Garmin biometric)
 
 | Strefa | BPM | Charakter | Stosować w |
 |---|---|---|---|
-| Z1 | 91–109 | Recovery | shake-out, dni regeneracyjne |
+| Z1 | 95–108 | Recovery | shake-out, dni regeneracyjne |
 | Z2 | 109–127 | Easy/aerobic | większość objętości |
-| Z3 | 127–146 | Steady/marathon | LR z MP, MP work |
-| Z4 | 146–164 | Threshold | tempo, próg |
-| Z5 | 164–182 | VO₂max | interwały 800–1500 |
+| Z3 | 128–146 | Steady/marathon | LR z MP, MP work |
+| Z4 | 147–164 | Threshold | tempo, próg |
+| Z5 | 165–183 | VO₂max | interwały 800–1500 |
 
-LTHR estymata ~160–165, skalibrować po T3/T4.
+**LTHR z Garmin: 169** (~92% HRmax). Próg = HR ~165–170 (wcześniej zakładana 160–165 była zbyt nisko).
 
 ## Week 0 — TRANSITION (07–10.05.2026) — 4 dni przed T1
 

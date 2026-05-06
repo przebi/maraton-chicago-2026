@@ -1,4 +1,10 @@
 {
+  "permissions": {
+    "allow": [
+      "mcp__garmin__get_devices",
+      "mcp__strava__get-activity-details"
+    ]
+  },
   "_comment": "Skonfiguruj Strava MCP wg SETUP.md, potem odkomentuj sekcję mcpServers poniżej i podaj ścieżkę do dist/server.js po `npm run build` w katalogu strava-mcp.",
   "_mcpServers_template": {
     "strava": {
