@@ -678,16 +678,39 @@ Razem: 5-6 sesji biegowych + 2 sesje siłowe = **7-8 sesji / tydzień**, ~80-100
 
 **Historia:** Po Chicago Marathon 2025 Tomasz miał **9 tyg przerwy Achilles tendinopathy**. Współprzyczyny prawdopodobne: Pegasus 39 z 3000 km (zerowy cushion), brak eccentric calf training, sleep 6h chroniczny. **Achillesy są historically vulnerable — chronimy je codziennie.**
 
-### Eccentric calf raises (2 min/dzień, must)
+### Eccentric calf raises — INSERTIONAL protocol (zmodyfikowany Alfredson)
 
-1. Stań **półpalcami** obu nóg na krawędzi schodka, pięty zwisają w powietrzu
+**Tomasz ma insertional Achilles tendinopathy** (lewa pięta, łagodne, stable). Standard Alfredson (pięta pod krawędź schodka) = full ROM = **kompresja insertion = pogorszenie**. Wymaga modyfikacji.
+
+**WERSJA INSERTIONAL (Twoja):**
+1. Stań **półpalcami** obu nóg na schodku (pięty na poziomie schodka, NIE zwisają)
 2. **Wstań** na półpalcach (1 sek concentric)
 3. **Przenieś ciężar** na lewą nogę (prawa luźno)
-4. **POWOLI opuść** lewą piętę pod krawędź schodka — **4-5 sekund eccentric** (krytyczne!)
-5. Wróć do pozycji wyjściowej, **zmiana nogi**
-6. **15 powtórzeń każda noga** = ~2 min, codziennie po biegu lub przed snem
+4. **POWOLI opuść** lewą piętę **DO POZYCJI NEUTRALNEJ** — pięta na poziomie schodka, **NIE pod krawędź!** 4-5 sek eccentric.
+5. **STOP** w pozycji neutralnej, NIE niżej
+6. Wróć na palce, zmiana nogi
+7. **15 reps × 3 sety, każda noga = ~6 min**
+8. **2× dziennie** (rano + wieczór)
 
-**Dlaczego ważne:** wolny eccentric (4-5 sek) buduje **stiffness ścięgna Achilles** = healing + ochrona przed nawrotem tendinopathy.
+```
+WRONG (standard mid-portion):    CORRECT (insertional Twoje):
+
+  ╱─────                          ─────
+ ╱                                
+schodek                          schodek
+              ↓ pięta              ─ pięta NA poziomie
+              pod krawędzią          schodka (neutralne)
+```
+
+**Dlaczego krytyczne:** wolny eccentric (4-5 sek) buduje stiffness, ALE pełne dorsiflexion (pod krawędź) = kompresja insertion = pogorszenie. **Tylko do neutralnej.**
+
+### Inne zalecenia dla insertional
+
+- **Heel drop ≥6 mm** w bucie (Pegasus 42 = 10mm ✓)
+- **Ice 10 min** po quality / hill workouts
+- **NIE deep stretching** gastro/soleus (lekki OK)
+- **Brak chodzenia boso po twardym podłożu**
+- **Race shoes z low drop (Pro 4 ~6mm):** ostrożnie w treningu
 
 ### Daily mobility łydek (5 min)
 
