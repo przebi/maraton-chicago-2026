@@ -591,7 +591,7 @@ Jeśli test = 19:30+, paces zostają jak w tabeli (final REP 3:55).
 
 **Jak wykonać:**
 1. Stań w lekkim rozkroku, ramiona z tyłu
-2. Schodź w przysiad (jak goblet squat ale bez ciężaru)
+2. Schodź w przysiad (jak  ale bez ciężaru)
 3. **Wybij** mocno z dolnej pozycji + ramiona w przód → skok w górę
 4. Wyląduj **miękko** w pozycji półprzysiadu
 5. Bez przerwy → następny skok
@@ -674,6 +674,66 @@ Nd: LR 28-32 km
 
 Razem: 5-6 sesji biegowych + 2 sesje siłowe = **7-8 sesji / tydzień**, ~80-100 km.
 
+## ⚠️ Achilles protection protocol — CODZIENNIE
+
+**Historia:** Po Chicago Marathon 2025 Tomasz miał **9 tyg przerwy Achilles tendinopathy**. Współprzyczyny prawdopodobne: Pegasus 39 z 3000 km (zerowy cushion), brak eccentric calf training, sleep 6h chroniczny. **Achillesy są historically vulnerable — chronimy je codziennie.**
+
+### Eccentric calf raises (2 min/dzień, must)
+
+1. Stań **półpalcami** obu nóg na krawędzi schodka, pięty zwisają w powietrzu
+2. **Wstań** na półpalcach (1 sek concentric)
+3. **Przenieś ciężar** na lewą nogę (prawa luźno)
+4. **POWOLI opuść** lewą piętę pod krawędź schodka — **4-5 sekund eccentric** (krytyczne!)
+5. Wróć do pozycji wyjściowej, **zmiana nogi**
+6. **15 powtórzeń każda noga** = ~2 min, codziennie po biegu lub przed snem
+
+**Dlaczego ważne:** wolny eccentric (4-5 sek) buduje **stiffness ścięgna Achilles** = healing + ochrona przed nawrotem tendinopathy.
+
+### Daily mobility łydek (5 min)
+
+| Stretch | Czas |
+|---|---|
+| Gastrocnemius stretch (na schodku, kolano proste) | 30 s × 2/noga |
+| Soleus stretch (na schodku, kolano zgięte) | 30 s × 2/noga |
+| Foam rolling / pistolet do masażu na łydki | 1 min/łydka |
+
+Po każdym biegu + przed snem.
+
+### Modyfikacje workoutów które obciążają Achilles
+
+| Workout | Modyfikacja |
+|---|---|
+| **Hill sprints 6-10s** | Zbieg **MARSZEM**, NIE truchtem. Pełna przerwa 2-3 min. |
+| **Hill repeats 140m** (T3-T6) | Zbieg **MARSZEM** (nie trucht). Recovery 90-120s. |
+| **Single-leg hops** (sesja B siłowa) | **Dopiero T5+** po 4 tyg eccentric calf buildup. W T3-T4: skip. |
+| **Box jumps** (sesja A siłowa) | OK od T3 (concentric, mniej Achilles risk) |
+| **Squat jumps** | OK od T3 (bilateral) |
+
+### Sygnały red flag — STOP biegu, fizjo
+
+| Sygnał | Reakcja |
+|---|---|
+| **Poranna sztywność >5 min** rozchodzenia | 2-3 dni rest + eccentric 2× dziennie |
+| **Ból podczas push-off** w biegu | Stop biegu, ice, eccentric, jeśli nie ustępuje 5 dni → fizjoterapeuta |
+| **Klikanie / trzeszczenie** w Achillesie | **STOP. Fizjoterapeuta natychmiast.** |
+| **Zgrubienie / guzek** na Achillesie | Fizjoterapeuta + USG |
+| **Ból po długim siedzeniu**, lepiej na rozruchu | Subclinical tendinopathy → zwiększ eccentric, mniej hill |
+
+### Pegasus mileage tracking
+
+**Lekcja z 2025:** Pegasus 39 z 3000 km = zerowy cushion = współprzyczyna kontuzji.
+
+**Reguła:** Daily trainer wymiana przy **800 km**. Pegasus 42 + Plus → rotacja, każda ~600-700 km zanim emerytura.
+
+### Pre-quality session check
+
+Każdy quality day (signature, VO₂max, hill repeats, mile reps):
+- **Sprawdź Achillesy rano:** poranna sztywność? Ból przy pierwszych krokach?
+- **Jeśli >5 min sztywności LUB ból:** DOWNGRADE quality do easy
+- **Jeśli klikanie/trzeszczenie:** REST + fizjoterapeuta
+
+---
+
 ## Hill sprints protocol (T3-T7 only)
 
 **Hill sprints 6-10 s** = neuromuscular primer, ATP-PCr, no lactate. Zostawione w T3-T7 jako uzupełnienie speed-work przed signature workouts. **Wycofane w T8+** (signature + VO₂max pokrywa speed reserve).
@@ -683,7 +743,7 @@ Razem: 5-6 sesji biegowych + 2 sesje siłowe = **7-8 sesji / tydzień**, ~80-100
 - **Dystans:** ~30-50 m (6-10 sek all-out)
 - **Effort:** 100% sprint, krótki, springy nogi
 - **Pace mentalny:** wybuchowo, nie kontroluję
-- **Przerwa:** 2-3 min marszu (HR <120 między reps)
+- **Przerwa:** **2-3 min MARSZU w dół** (NIE trucht — Achilles protection). HR <120 między reps.
 - **WU:** 2 km easy + 4× strides
 - **CD:** 2 km easy
 
@@ -698,7 +758,45 @@ Razem: 5-6 sesji biegowych + 2 sesje siłowe = **7-8 sesji / tydzień**, ~80-100
 | T7 | 10× 8 s |
 | T8+ | **wycofane** |
 
-**Hill repeats 140m wycinam z planu.** Funkcję strength-endurance + lactate buffer pokrywa signature workout, ze znacznie większą race-specificity. Hill sprints krótkie zostają jako primer neuromuskularny.
+---
+
+## Hill repeats 140m — Twój odcinek (T3-T6 only)
+
+**Dorzucone do planu** jako uzupełnienie signature workouts (sygnatura pokrywa 70-80% celu, hill repeats dorzucają unique 20-30%: **eccentric strength, tendon stiffness, hill kinematic** — to KLUCZOWE dla 51-letniego biegacza po Achilles tendinopathy).
+
+**W T7+ wycofane** (signature peak + LR z MP przejmuje, nie ma sensu pokrywać 100%).
+
+### Wykonanie
+
+1. **WU:** 2 km easy + 4× strides 100 m
+2. **Reps:** pace target **4:18-4:45/km** (~36-40 s na 140 m, idealnie 4:30). 5K-effort, NIE all-out
+3. **Forma:** wysokie kolano, krótki kontakt, ramiona pracują, klatka otwarta
+4. **🔴 KRYTYCZNE — Achilles protection: ZBIEG MARSZEM** (NIE truchtem). Recovery 90-120s.
+5. **CD:** 2 km easy + drills lekkie
+
+### Progresja w T3-T6
+
+| Tydz. | Hill repeats |
+|---|---|
+| T3 | 6× 140 m |
+| T4 | 8× 140 m |
+| T5 | 8-10× 140 m |
+| T6 deload | 5-6× 140 m |
+| **T7+** | **wycofane** (signature peak) |
+
+### Schemat tygodnia w T3-T6 z hill repeats
+
+```
+Pn: Easy 8-10 km
+Wt: Hill sprints 6-10s + easy 12 km
+Śr: Easy 10 km
+Cz: HILL REPEATS 140m × 6-10 (zbieg MARSZEM)
+Pt: Rest lub easy 8 km
+Sb: Easy 8 km lub siłownia A (po T4)
+Nd: LONG
+```
+
+3 quality / tydz (hill sprint + hill rep + LR). Monitoring HRV / Achilles obowiązkowy.
 
 ## Pomiary progresu i zmęczenia
 
