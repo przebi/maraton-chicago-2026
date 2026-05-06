@@ -1,92 +1,172 @@
 ---
 name: coach-update
-description: Pobiera ze Stravy ostatnie aktywności (od ostatniej aktualizacji w training_log.md), uzupełnia log, analizuje vs plan, sygnalizuje fatigue markers i proponuje korekty na bieżący tydzień. Używać na początku każdej rozmowy treningowej w projekcie maraton-chicago-2026.
+description: Cotygodniowy raport — pobiera ze Stravy aktywności, pyta Tomasza o dane Garmin/subiektywne, analizuje progres + zmęczenie, proponuje korekty planu na kolejny tydzień. Używać niedziela wieczór / poniedziałek rano.
 ---
 
-# /coach-update — bieżąca aktualizacja stanu treningu
+# /coach-update — cotygodniowy raport progresu i zmęczenia
 
-## Co robi ten skill
+## Cel
 
-1. **Pobiera ze Stravy** wszystkie aktywności od ostatniego wpisu w `training_log.md` do dziś (tylko biegowe; rowerowe/spacerowe pomija lub odnotowuje pod „cross-training").
-2. **Wyciąga dla każdej:** dystans, czas, pace, HR avg/max, % czasu w strefach Z1–Z5, splity (jeśli interwał), URL aktywności.
-3. **Dopisuje do `training_log.md`** w kolejności chronologicznej, w sekcji bieżącego tygodnia.
-4. **Aktualizuje tabelę „Statystyki tygodniowe"** — sumuje km, sesje, średni HR easy.
-5. **Porównuje z `plan.md`** dla danego tygodnia — co miało być vs co było.
-6. **Wykrywa fatigue markers:**
-   - HR drift na long: porównuje HR pierwszej i ostatniej ćwiartki — flag jeśli >10 bpm
-   - Easy zbyt szybko: jeśli > 10% czasu w Z3+ na biegu oznaczonym jako easy
-   - Easy zbyt wolno przy wysokim HR: jeśli pace 6:00+ ale HR > Z2 = fatigue/illness
-   - Sesja jakościowa nie domknęła zakresu tempa — flag, sugestia korekty na kolejny tydzień
-7. **Wnioskuje:** czy zostać przy planie, czy korygować (np. dodatkowy easy day, deload tydzień wcześniej, zmiana tempa next session)
-8. **Zwraca user-facing summary** z 3 sekcjami:
-   - **Co się działo** (1–3 bullety, krótko)
-   - **Sygnały** (fatigue / pozytywne — jeśli są; jeśli wszystko OK, „nic istotnego")
-   - **Następne 3 sesje** (z datami + co konkretnie + tempo + cel HR)
+Cotygodniowy punkt decyzji:
+- Czy plan działa (progres)
+- Czy organizm wytrzymuje (zmęczenie)
+- Co skorygować w nadchodzącym tygodniu
 
-## Jak wywołać Strava MCP
+**Monitoring zmęczenia jest priority #1** (Tomasz primary fear: chronic fatigue → regres). Plan jest dynamic, aktualizowany co tydzień.
 
-Zakładamy że MCP server jest podłączony jako `strava` (po SETUP.md).
+## Workflow
 
-Typowe wywołania:
-- `mcp__strava__get_recent_activities` z parametrem `before` (timestamp ostatniego wpisu) i `after` (now) — lista aktywności
-- `mcp__strava__get_activity` po ID — szczegóły
-- `mcp__strava__get_activity_streams` po ID z `keys=heartrate,velocity_smooth,altitude` — minutowe streamy do analizy stref i drift
+### Krok 1: Strava auto-pull (Claude)
 
-(Konkretne nazwy tools potwierdzić po pierwszym `/mcp` po podłączeniu — różne implementacje strava-mcp mogą używać innych prefixów.)
+Pobierz aktywności od ostatniego raportu do dziś:
+- `mcp__strava__get_recent_activities` lub bezpośrednio API curl z `.env`
+- Filtruj: tylko Run + Walk (cross-training jako notatka)
+- Wyciągnij dla każdej: data, dystans, czas, pace avg, HR avg/max, suffer, splits/laps
 
-## Obliczenia stref HR (HRmax 182)
+### Krok 2: Pytanie Tomasza o Garmin + subiektywne
 
-| Strefa | BPM |
-|---|---|
-| Z1 | 91–109 |
-| Z2 | 110–127 |
-| Z3 | 128–146 |
-| Z4 | 147–164 |
-| Z5 | 165–182 |
+Zapytaj 6 pytań w jednej wiadomości:
 
-Dla każdej aktywności z HR stream: zlicz % czasu w każdej strefie (sample-by-sample lub minutowy avg).
+```
+Daj liczby z Garmina za ostatnie 7 dni:
+1. Średni sen (h)?
+2. Najsłabsza noc (h)?
+3. Średnie HRV (jeśli pokazuje)?
+4. Średnie HR rest poranne?
+5. Body Battery min / avg (jeśli mierzysz)?
 
-## HR drift — algorytm
+I subiektywne (1-10):
+6. Motivation / energia? Apetyt? RPE easy biegów? Coś bolało?
+```
 
-Dla biegów ≥ 75 min:
-1. Podziel HR stream na 4 ćwiartki czasowe.
-2. Średnie HR w Q1 i Q4. Różnica = drift.
-3. < 5 bpm: dobra forma aerobowa (efficient).
-4. 5–10 bpm: norma dla long.
-5. > 10 bpm: fatigue, undertraining lub odwodnienie.
-6. > 15 bpm: red flag, sugeruj recovery day.
+Czekaj na odpowiedź zanim analizujesz.
 
-## Reguły wnioskowania
+### Krok 3: Analiza (Claude)
 
-- **Po 2 łatwych tygodniach (T1–T2):** sprawdź czy easy pace przy HR Z2 schodzi (np. z 6:00 do 5:50). Jeśli nie schodzi po 2 tyg = za duży tonaż lub niedopełniony recovery.
-- **Po pierwszej VO₂max (T4):** sprawdź czy szczytowe HR sięgnęły Z5 (>164). Jeśli nie — albo trening za lekki, albo masz pułap niższy niż 182 (re-test HRmax).
-- **W okresie speed (T7–T11):** pace na easy powinien się stabilizować ~5:30–5:45 przy HR Z2. Jeśli rośnie z tygodnia na tydzień przy tym samym HR = przemęczenie.
-- **Przed testem 5K (T8):** ostatnie 4 dni HR strict Z1–Z2, żadnych intencjonalnych „push".
-- **Po HM Praskim:** 7 dni czysto easy + recovery, niezależnie od samopoczucia. Wynik HM przeskaluje MP Chicago.
+#### Progres
+- **Easy pace @ HR 120-125** — porównaj do poprzednich tygodni
+- **HR drift na long >15 km** — Q1 vs Q4
+- **Quality session paces vs plan** — czy hit'owane targets
+- **Tygodniowy total km** — vs plan
+
+#### Zmęczenie
+| Marker | Norma | Czerwona flaga |
+|---|---|---|
+| HR rest poranne | ±3 bpm baseline | +5 bpm 3+ dni |
+| Sleep avg | 6h+ | <6h 3+ noce |
+| Sleep quality 1-10 | 6-8 | ≤4 trzy noce |
+| HRV trend | stable / rosnący | spadek 7+ dni |
+| RPE easy | 3-4/10 | 6+/10 |
+| Suffer score easy | <60/sesja | >100/sesja (grey zone) |
+| Body Battery | regen do 70+ rano | start dnia <30 |
+
+**Auto-reset:** jeśli **2+ markery w czerwonym przez 7 dni** → propozycja deload (50% volumen, 0 quality, 3-4 dni rest, plan przesunięty 1 tydzień).
+
+#### Strefy HR (HRmax 182)
+
+| Strefa | BPM | Charakter |
+|---|---|---|
+| Z1 | 91–109 | Recovery |
+| Z2 | 110–127 | Easy / aerobic base |
+| Z3 | 128–146 | Steady / marathon |
+| Z4 | 147–164 | Threshold |
+| Z5 | 165–182 | VO₂max |
+
+### Krok 4: Werdykt + korekty planu
+
+Trzy poziomy:
+- ✅ **Postęp na track** — plan utrzymany, ewentualnie minor tuning
+- ⚠️ **Ostrzeżenie** — 1-2 markery żółte → konserwatywniejsze paces / mniejszy volumen tego tyg
+- 🛑 **Auto-reset / deload** — 2+ markery czerwone → 50% volumen, 0 quality
+
+### Krok 5: Update plików + commit
+
+Po akceptacji korekty przez Tomasza:
+- `training_log.md` — dopisz wykonane sesje + summary tygodnia
+- `plan.md` — skoryguj sesje na bieżący tydzień (jeśli zmiany)
+- `viewer.html` — odśwież tabele jeśli istotne zmiany
+- `git add . && git commit -m "Weekly report TX..." && git push`
+
+## Output format dla Tomasza
+
+```markdown
+## Weekly Report — T<X> (<daty>)
+
+### Wykonanie vs plan
+- km plan: X / wykonane: Y (<delta>%)
+- Quality sessions: <N>/<plan> ✓/✗
+- Easy: <%> czasu w Z1-Z2 (cel ≥80%)
+
+### Progres
+- Easy pace @ HR 120-125: <pace> (vs <prev> tydz temu) <↑↓→>
+- Long HR drift: <bpm> (vs <prev>)
+- Najlepsza sesja: <opis>
+- VO2 / signature paces vs plan: <hit / lekko poniżej / przekroczone>
+
+### Zmęczenie
+- Sleep avg: <h>h <flag>
+- Resting HR: <bpm> (baseline <bpm>) <flag>
+- HRV trend: <↑↓→>
+- Suffer easy total: <suma> (norma ~<expected>)
+- RPE easy: <X>/10
+- Subiektywnie: <co Tomasz powiedział>
+
+### Werdykt
+<✅/⚠️/🛑> <jednoliniowo>
+
+### Korekty na T<X+1>
+1. <konkretna zmiana w sesji + powód>
+2. <...>
+3. <...>
+
+### Najbliższe 3 sesje
+1. <data>: <trening + tempo + HR cel>
+2. <data>: <...>
+3. <data>: <...>
+
+### Decyzje przyszłe
+- <event upcoming i co od niego zależy>
+```
+
+Krótko, liczbowo, czytelne w 60 sek.
+
+## Reguły wnioskowania (po fazach)
+
+- **Po T1-T2 (recovery extension):** sprawdź czy easy pace przy HR Z2 schodzi (np. z 6:00 do 5:50). Jeśli nie schodzi po 2 tyg = za duży tonaż.
+- **Po pierwszej VO₂max (T4):** sprawdź czy szczytowe HR sięgnęły Z5 (>164). Jeśli nie — albo trening za lekki, albo HRmax niższy niż 182 (re-test).
+- **W T7-T11:** pace na easy stabilizuje się ~5:30–5:45 przy HR Z2. Jeśli rośnie z tygodnia na tydzień przy tym samym HR = przemęczenie.
+- **Przed T8 test 5K:** ostatnie 4 dni HR strict Z1–Z2, żadnych intencjonalnych „push".
+- **Po T17 30K TT:** 7 dni czysto easy + recovery, niezależnie od samopoczucia. Wynik 30K przeskaluje cel Chicago.
+- **W T19 LR z 24 km @ MP:** w PrimeX 2 para B (race shoe). HR ostatnich 5 km MP <175 = OK. >180 = koryguj cel MP.
+
+## Benchmark schedule (key tests)
+
+| Tydz. | Test | Cel pomiarowy |
+|---|---|---|
+| T4 | VO₂max 5×800 intro | Pace przy 5K-effort |
+| **T8** | **TEST 5K (TT)** | **Czas → kalibracja paces** |
+| T11 | 3K TT mid-block | Pace vs T8 |
+| T14 | 8 km @ HM-effort | Pace + HR drift |
+| **T17** | **SOLO 30K @ MP** | **Czas → cel Chicago confirm** |
+| T19 | LR 32 z 24 @ MP | HR last 5 km MP |
+
+## Cadence
+
+- **Główny raport: niedziela wieczór** (lub poniedziałek rano przed treningiem)
+- **Mid-week check** opcjonalny (jeśli Tomasz pyta lub coś istotnego się dzieje — ból, infekcja, nieprzewidziana sesja)
+- **Po każdym key benchmark** (T8, T17): osobny analytical update z rekomendacjami planu
 
 ## Format zapisu w training_log.md
 
-Każda nowa aktywność jako blok markdown (zob. format w `training_log.md`). Zachowaj chronologię. Jeśli tydzień jeszcze nie ma sekcji — utwórz nagłówek `## TX — NAZWA (km, daty)` zgodnie z `plan.md`.
+Każda nowa aktywność jako blok markdown. Zachowaj chronologię. Jeśli tydzień jeszcze nie ma sekcji — utwórz nagłówek `## TX — NAZWA (km, daty)` zgodnie z `plan.md`.
 
-## Output format dla user'a (po wywołaniu)
-
+Tygodniowe podsumowanie po wszystkich sesjach tygodnia:
 ```
-## Status na <data>
-
-### Co się działo (od <ostatnia rozmowa>)
-- <bullet>
-- <bullet>
-
-### Sygnały
-- <fatigue marker / nic istotnego>
-
-### Plan na najbliższe sesje
-1. <data>: <trening> (<tempo>, HR cel <strefa>)
-2. <data>: <trening>
-3. <data>: <trening>
-
-### Korekty planu (jeśli)
-- <co zmieniam i dlaczego>
+### Tydzień TX — podsumowanie
+- km wykonane: X (plan Y)
+- Sesji wykonanych: N (plan M)
+- Średni HR easy: X
+- Highlights: <co poszło dobrze>
+- Lowlights: <co nie poszło>
+- Avg sleep: Xh, RPE: Y/10
 ```
-
-Krótko i konkretnie — ma być czytelne w 30 s.

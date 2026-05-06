@@ -1,17 +1,17 @@
 # Plan treningowy — Maraton Chicago 11.10.2026
 
-22 tygodnie, start T1: 11.05.2026
+22 tygodnie, start T1: 11.05.2026. **Cel: 2:55-2:57** (HM Praga odpuszczony, single-focus Chicago).
 
 ## Makro
 
 | Faza | Tygodnie | Daty | km | Cel |
 |---|---|---|---|---|
 | **Recovery extension** | T1–T2 | 11–24.05 | 50 → 60 | tylko easy + strides + drills, zero progów/interwałów/hill sprintów |
-| **Reentry + intro** | T3–T4 | 25.05–07.06 | 65 → 75 | pierwsze hill sprints, primer 4×400, VO₂max intro |
-| **Base build** | T5–T6 | 08–21.06 | 80 → 70 | pełny base z mini-deloadem |
-| **Specificity build** | T7–T11 | 22.06–26.07 | 85 → 90 → 75 | signature workouts + VO₂max co 2 tyg; **TEST 5K w T8** |
-| **Specific + HM build** | T12–T17 | 27.07–06.09 | 85 → 90 → 60 | LR z MP, mile reps; **HM Praski 5.09** |
-| **Post-HM + peak** | T18–T20 | 07–27.09 | 75 → 90 → 85 | regen po HM, ostatni LR 32 km z MP |
+| **Reentry + intro** | T3–T4 | 25.05–07.06 | 65 → 75 | pierwsze hill sprints, signature primer, VO₂max intro |
+| **Base build** | T5–T6 | 08–21.06 | 80 → 70 | signature buduje, VO₂max co 2 tyg, mini-deload |
+| **Specificity build** | T7–T11 | 22.06–26.07 | 90 → 95 → 80 | signature peak + VO₂max co tydzień; **TEST 5K w T8** |
+| **Specific build** | T12–T17 | 27.07–06.09 | 90 → 95 → 85 | mile reps + signature 3:50 + LR z MP; **30K solo TT w T17** |
+| **Peak Chicago** | T18–T20 | 07–27.09 | 85 → 100 → 90 | **kluczowy LR 32 z 24 @ MP w T19**, MP-specific T20 |
 | **Taper** | T21–T22 | 28.09–11.10 | 65 → 35 + race | race week |
 
 ## Tempa
@@ -28,19 +28,19 @@
 | Tempo lekki | 4:20–4:30 |
 | Hill sprints 8 s | all-out |
 
-### Docelowe (po T8/T11) — bazujące na celu Sub-3
+### Docelowe (po T8/T11) — bazujące na celu 2:55-2:57
 
 | Strefa | Tempo /km |
 |---|---|
 | Easy | 5:30–6:00 |
 | Long | 5:15–5:45 |
-| MP (cel Chicago) | 4:15 |
-| HM tempo (cel Praski) | 3:55 |
-| Threshold/cruise | 3:55–4:05 |
-| 10K pace | 3:40–3:45 |
-| 5K / VO₂max | 3:30–3:40 |
-| Mile reps | 3:48–3:55 |
-| Reps 200–400 m | 3:15–3:30 |
+| **MP (cel Chicago 2:55-2:57)** | **4:08–4:12** |
+| Threshold/cruise | 3:50–4:00 |
+| 10K pace | 3:35–3:42 |
+| 5K / VO₂max | 3:25–3:35 |
+| Mile reps | 3:45–3:50 |
+| Reps 200–400 m | 3:10–3:25 |
+| Signature final REP | 3:50 (T13-T19) |
 
 ## Strefy HR (HRmax 182)
 
@@ -140,100 +140,120 @@ Doprecyzowanie po T4 (po pierwszej VO₂max — kalibracja) i po **TEST 5K w T8*
 - LR: 24 km easy
 - 2× easy
 
-### T7 — SPEED PEAK 1 (85 km, 22–28.06)
+### T7 — SPECIFICITY START (90 km, 22–28.06)
 - **SIGNATURE: 3×5K progresywne** z 1K trucht + 1K floating (paces **4:15 → 4:08 → 4:00**) ~22 km
-- VO₂max: 5×1000 m @ 3:50–3:55 (90 s jog) — **co 2 tyg**
-- Hill sprints: 10× 8 s (ostatni raz w sezonie) + easy 12 km
-- LR: 30 km z 5 km @ 4:30 na końcu
+- VO₂max: 5×1000 m @ 3:48 (90 s jog) — **co tydzień od T7 dla 2:55-2:57**
+- Hill sprints: 10× 8 s (ostatni raz) + easy 12 km
+- LR: 30 km z 5 km @ 4:25 na końcu
+- **Benchmark:** VO₂max pace progresja vs T5 (5×1000 powinno iść 3:48-3:50 vs T5 6×800 @ 3:55)
 
 ### T8 — DELOAD + TEST 5K (75 km, 29.06–05.07)
-- **Primer:** 2 WU + 4×400 m @ 3:30 (90 s jog) + 2 CD = 6 km — 3 dni przed testem
+- **Primer:** 2 WU + 4×400 m @ 3:25 (90 s jog) + 2 CD = 6 km — 3 dni przed testem
 - Easy + 4×100 m strides
 - Easy recovery
 - **TEST 5K:** 3 WU + 5 km TT max + 3 CD = ~12 km
 - Easy regen po teście
 - LR krótki 18–20 km easy
 
-**Spodziewane okno testu:** 18:30–19:30 (3:42–3:54/km). Wynik kalibruje tempa T9–T17:
-- Próg = 5K + 12–15 s
-- HM tempo = 5K + 25–30 s
-- MP = 5K + 45–50 s
-- Final REP signature workout = HM tempo lub lekko poniżej
+**🎯 KLUCZOWY BENCHMARK — TEST 5K:**
 
-### T9 — SPEED CRUISE (85 km, 6–12.07)
-- **SIGNATURE: 4×4K progresywne** z floating recovery (paces **4:15 → 4:08 → 4:00 → 3:58**) ~22 km
-- VO₂max: 3×2000 m @ próg (2 min jog) — **co 2 tyg**, kalibracja po T8
-- LR: 28 km easy
-- 2× easy + strides
+| Wynik T8 | Plan dalej | Cel realny Chicago |
+|---|---|---|
+| ≤18:15 (3:39/km) | **Upgrade do 2:55** | 2:55-2:57 |
+| 18:15-18:45 | **2:57** | 2:57-2:58 |
+| 18:45-19:15 | Sub-3 + opcja 2:58 | 2:58-2:59 |
+| >19:15 | Sub-3 z marginesem | 2:59-3:00 |
 
-### T10 — SPEED PEAK 2 (90 km, 13–19.07)
-- **SIGNATURE peak: 4×4K progresywne** (paces **4:15 → 4:08 → 4:02 → 3:58**) ~22 km
-- VO₂max alt: 8×1000 m @ próg (60 s jog) — **co 2 tyg**
-- LR: 32 km z 8 km @ MP
+Po T8 paces signature/MP kalibrowane:
+- Próg = 5K + 10-12 s
+- HM tempo = 5K + 22-26 s
+- MP = 5K + 35-42 s (dla 2:55-2:57)
+- Final REP signature workout = HM tempo lub lekko poniżej (3:50-3:52)
+
+### T9 — SPECIFICITY BUILD (95 km, 6–12.07)
+- **SIGNATURE: 4×4K progresywne** z floating recovery (paces **4:10 → 4:02 → 3:55 → 3:50**) ~22 km
+- VO₂max: 3×2000 m @ 3:50-3:55 (2 min jog) — **co tydzień**
+- LR: 32 km z 6 km @ MP
 - Easy + strides
-
-### T11 — DELOAD (75 km, 20–26.07)
-- **SIGNATURE deload: 2×4K** (paces **4:15 → 4:08**) ~12 km
-- Easy + strides + drills
-- LR: 26 km easy
-
-**Po T11 hill workouts wycofane** — speed reserve zbudowany przez signature + VO₂max. Specific phase (T12+) skupia race-pace specificity.
-
-### T12 — SPECIFIC START (85 km, 27.07–02.08)
-- **SIGNATURE: 3×5K progresywne** (paces **4:10 → 4:02 → 3:58**) ~22 km
-- LR: 28 km z 8 km @ MP
-- VO₂max: 5×1000 m @ próg — **co 2 tyg**
-- Easy + strides
-
-### T13 — SPECIFIC BUILD (90 km, 03–09.08)
-- **SIGNATURE: 4×4K progresywne** (paces **4:10 → 4:05 → 4:00 → 3:55**) ~20 km
-- LR: 30 km z 12 km @ MP
-- Easy + drills
 - 2× easy
 
-### T14 — DELOAD (75 km, 10–16.08)
-- **SIGNATURE deload: 3×3K** (paces **4:10 → 4:05 → 4:00**) ~14 km
+### T10 — PEAK SPECIFICITY (95 km, 13–19.07)
+- **SIGNATURE peak: 4×4K progresywne** (paces **4:08 → 4:00 → 3:55 → 3:50**) ~22 km
+- VO₂max alt: 12×400 m @ 3:25 (60 s jog) lub 8×1000 m @ próg
+- LR: 32 km z 10 km @ MP
+- Easy + strides
+
+### T11 — DELOAD + MID-CHECK (80 km, 20–26.07)
+- **SIGNATURE deload: 2×4K** (paces **4:08 → 4:00**) ~12 km
+- **🎯 BENCHMARK:** Mid-block 3K Time-Trial (3 WU + 3K all-out + 2 CD) — porównanie do T8 5K (jeśli 3K @ 5K-pace - 8 s/km, plan działa)
+- Easy + strides
+- LR: 26 km easy
+
+**Po T11 hill workouts wycofane** — speed reserve zbudowany przez signature + VO₂max. Specific phase (T12+) skupia race-pace specificity + mile reps.
+
+### T12 — SPECIFIC START (90 km, 27.07–02.08)
+- **SIGNATURE: 3×5K progresywne** (paces **4:08 → 4:00 → 3:55**) ~22 km
+- **MILE REPS:** 5×1600 m @ 3:48-3:52 (400 m jog) — wraca w bloku specific
+- LR: 30 km z 8 km @ MP (4:08-4:12)
+- Easy + strides
+
+### T13 — SPECIFIC BUILD (95 km, 03–09.08)
+- **SIGNATURE: 4×4K progresywne** (paces **4:08 → 4:00 → 3:55 → 3:50**) ~20 km
+- **MILE REPS:** 4×1600 m @ 3:48 + 4×400 m @ 3:25 (combo)
+- LR: 32 km z 14 km @ MP (4:10)
+- Easy + drills
+
+### T14 — DELOAD + MID-CHECK (75 km, 10–16.08)
+- **SIGNATURE deload: 3×3K** (paces **4:05 → 3:58 → 3:55**) ~14 km
+- **🎯 BENCHMARK:** 8 km @ HM-effort (3:50-3:55) — primer dla T17 30K TT, sprawdza HM-pace fitness
 - LR: 22 km easy
 - 2× easy + strides
 
-### T15 — SPECIFIC PEAK (90 km, 17–23.08)
-- **SIGNATURE peak HM: 4×4K progresywne** (paces **4:05 → 4:00 → 3:58 → 3:55**) ~20 km
-- LR: 32 km z 16 km @ MP
-- Continuous tempo: 8 km @ MP (4:15) jako 2nd quality
+### T15 — SPECIFIC PEAK (95 km, 17–23.08)
+- **SIGNATURE peak: 4×4K progresywne** (paces **4:05 → 3:58 → 3:55 → 3:50**) ~20 km
+- **MILE REPS:** 6×1600 m @ próg (3:50)
+- LR: **32 km z 18 km @ MP** (4:08-4:12) ← duża dawka MP
 - Easy + strides
 
-### T16 — HM PREP (80 km, 24–30.08)
-- **SIGNATURE pre-HM: 3×4K** (paces **4:05 → 4:00 → 3:55**) ~16 km
-- HM simulation: 2 WU + 6 km @ 3:55 + 2 CD = 10 km
-- LR: 24 km z 6 km @ MP
+### T16 — SPECIFIC TAPER (85 km, 24–30.08)
+- **SIGNATURE: 3×4K** (paces **4:05 → 3:58 → 3:50**) ~16 km
+- **Continuous tempo:** 10 km @ HM (3:50-3:55) — primer dla T17 30K
+- LR: 26 km z 8 km @ MP
 - Easy + strides
 
-### T17 — HM RACE WEEK (60 km, 31.08–06.09)
-- Pn: rest
-- Wt: easy 8 km + 4×100 m strides
-- Śr: 2 WU + 3 km @ HM-pace + 2 CD
-- Cz: easy 6 km
-- Pt: rest lub 4 km shake-out
-- **Sb 5.09: HM Praski (race) — 21 km @ 3:55**
-- Nd: easy 6 km regen lub rest
+### T17 — KLUCZOWY BENCHMARK (90 km, 31.08–06.09) — bez HM Praga
+- **🎯 SOLO 30K TIME-TRIAL @ MP** (4:08-4:12) — KEY benchmark sezonu, zastępuje HM Praga
+  - Format: 2 WU + 30 km solo @ MP + 2 CD = ~34 km
+  - Cel: utrzymać MP przez 30 km bez deklejania
+  - W PrimeX 2 para A (oszczędzić parę B na Chicago)
+  - **3 dni recovery po**, potem easy 8-10 km
+- LR krótszy: 24 km easy (post-TT)
+- Pn rest, Wt easy 12 km, Śr 30K TT, Cz rest/easy 6 km, Pt easy 10 km, Sb easy 8 km + strides, Nd LR 24 km
 
-### T18 — POST-HM (75 km, 07–13.09)
-- Pn–Wt: easy / rest (regen po race HM Praga)
-- Śr: easy 10 km
-- Cz: **SIGNATURE light: 2×3K** (paces **4:15 → 4:05**) ~10 km — primer
-- Pt: easy 8 km + strides
-- Sb: easy 10 km
-- Nd: LR 24 km easy
+**Po T17 wynik:**
+- 30K w 2:04-2:06 (pace 4:08-4:12) → **2:55-2:57 realne**
+- 30K w 2:07-2:09 (pace 4:14-4:18) → **2:58-2:59 realne**
+- 30K w 2:10+ → **plan koryguje cel do 3:00-3:02**
 
-### T19 — LAST PEAK (90 km, 14–20.09)
-- **SIGNATURE final: 4×4K progresywne** (paces **4:10 → 4:05 → 4:00 → 3:55**) ~20 km
-- LR: **32 km z 20 km @ MP (4:15)** — kluczowy LR Chicago, race rehearsal w PrimeX 2 para B
+### T18 — POST-TT REGEN (85 km, 07–13.09)
+- Pn–Wt: easy / regen (recovery po 30K TT)
+- Śr: **SIGNATURE light: 2×3K** (paces **4:10 → 4:00**) ~10 km
+- Cz: easy 12 km + strides
+- Pt: easy 10 km
+- Sb: easy 8 km + drills
+- Nd: LR 26 km z 6 km @ MP
+
+### T19 — KLUCZOWY PEAK (100 km, 14–20.09) — race rehearsal Chicago
+- **SIGNATURE final: 4×4K progresywne** (paces **4:08 → 4:00 → 3:55 → 3:50**) ~20 km
+- **🎯 KLUCZOWY LR: 32 km z 24 km @ MP (4:08-4:10)** — race rehearsal **W PRIMEX 2 PARA B** (race shoe)
+  - Po tym LR para B ma ~75 km, idealnie świeża na Chicago
+  - HR check: ostatnie 5 km MP HR <175 = OK na Chicago. >180 = koryguj cel MP w górę o 3-5 s/km.
+- VO₂max light: 5×1000 m @ próg
 - Easy + strides
-- 2× easy
 
-### T20 — FINAL HARD (85 km, 21–27.09)
-- **SIGNATURE MP-specific: 3×5K @ MP** (paces **4:15 → 4:13 → 4:12**) ~20 km — race-pace specificity
-- LR: 26 km z 12 km @ MP
+### T20 — FINAL MP (90 km, 21–27.09)
+- **SIGNATURE MP-specific: 3×5K @ MP** (paces **4:12 → 4:10 → 4:08**) ~20 km — race-pace specificity
+- LR: 26 km z 16 km @ MP (4:10)
 - Easy + strides
 - 2× easy
 
@@ -331,6 +351,78 @@ Jeśli test = 19:30+, paces zostają jak w tabeli (final REP 3:55).
 | T8+ | **wycofane** |
 
 **Hill repeats 140m wycinam z planu.** Funkcję strength-endurance + lactate buffer pokrywa signature workout, ze znacznie większą race-specificity. Hill sprints krótkie zostają jako primer neuromuskularny.
+
+## Pomiary progresu i zmęczenia
+
+**Monitoring zmęczenia jest priority #1, intensywność jest second.** Twój primary risk = chronic fatigue → regres formy (wariant C 2026 to pokazał). Plan operuje na ostrym monitoringu.
+
+### Daily fatigue markers (codziennie)
+
+Zapisuj w głowie / notatce po każdym dniu:
+
+| Marker | Norma | Czerwona flaga |
+|---|---|---|
+| **HR rest poranne** (jeśli mierzysz) | baseline ±3 bpm | **+5 bpm 3+ dni** |
+| **Sleep h** | 6h+ | **<6h 3+ dni** |
+| **Sleep quality 1-10** | 6-8 | **≤4 trzy noce** |
+| **Drzemka 30 min** | tak | brak po quality day |
+| **Subiektywne RPE easy** (Rate of Perceived Effort) | 3-4/10 | **6+/10** ("ciężko") |
+| **Apetyt** | normalny | spadek 2+ dni |
+| **Nastrój / motywacja** | normalny | spadek 3+ dni |
+
+### Weekly fatigue markers (każdy tydzień w `/coach-update`)
+
+| Marker | Norma | Czerwona flaga |
+|---|---|---|
+| **Easy pace przy HR 120-125** | spada lub stagnacja | **rośnie 2 tyg z rzędu** |
+| **HR drift na long (>15 km)** | <5 bpm 1↔4 ćwiartka | **>10 bpm** |
+| **Suffer score easy biegów** | <60 | **>100** (= grey zone) |
+| **Tygodniowy total km** | progresywnie + deload | nagły wzrost +20% |
+
+### Auto-reset zasada
+
+**Jeśli 2+ markery w czerwonym przez 7 dni** → automatic deload:
+- 50% planowanego volumenu na bieżący tydzień
+- 0 quality sessions
+- 3-4 dni pełen rest
+- Plan przesunięty o 1 tydzień
+- Po reset: powrót do planu, ale z konserwatywniejszą paców (np. final REP signature 3:55 zamiast 3:50)
+
+### 🎯 Benchmarks progresu (key tests w sezonie)
+
+| Tydz. | Data | Test | Cel pomiarowy | Co kalibruje |
+|---|---|---|---|---|
+| **T4** | 1-7.06 | Pierwsza VO₂max 5×800 | Pace przy effort 5K-pace | Punkt wyjścia speed |
+| **T6** | 15-21.06 | Mini-test deload | Subiektywne RPE | Recovery z W14-Q1 |
+| **T8** | 29.06-5.07 | **TEST 5K** (race-pace TT) | **Czas** | **Wszystkie paces T9-T19** |
+| **T11** | 20-26.07 | Mid-block 3K TT | Pace vs T8 | Plan działa? |
+| **T14** | 10-16.08 | 8 km @ HM-effort | Pace + HR drift | Próg progresja |
+| **T17** | 31.08-6.09 | **🎯 SOLO 30K @ MP** | **Czas + HR avg** | **Cel Chicago confirm** |
+| **T19** | 14-20.09 | LR 32 z 24 @ MP w race shoe | HR ostatnich 5K MP | Race-pace specificity |
+
+### Benchmark interpretation
+
+**T8 TEST 5K:**
+| Wynik | Plan dalej | Cel realny |
+|---|---|---|
+| ≤18:15 (3:39/km) | Upgrade do 2:55 (final REP 3:48) | 2:55-2:57 |
+| 18:15-18:45 | 2:57 (final REP 3:50) | 2:57-2:58 |
+| 18:45-19:15 | Sub-3 + opcja 2:58 (final REP 3:55) | 2:58-2:59 |
+| >19:15 | Sub-3 z marginesem | 2:59-3:00 |
+
+**T17 30K TT @ MP:**
+| Wynik | Plan dalej |
+|---|---|
+| 2:04-2:06 (4:08-4:12) | **2:55-2:57 realne**, T19 LR z 24 km @ 4:08 |
+| 2:07-2:09 (4:14-4:18) | **2:58-2:59**, T19 LR z 20 km @ 4:13 |
+| 2:10+ | **Korekta celu do 3:00-3:02**, T19 LR z 16 km @ 4:15 |
+
+**T19 race rehearsal LR 32 z 24 @ MP:**
+| HR ostatnich 5 km MP | Interpretacja |
+|---|---|
+| <175 | OK na cel MP — race-day powinien być utrzymany |
+| 175-180 | Marginalne — w Chicago start ostrożnie, pierwsza połowa MP+5 s |
+| >180 | Cel MP za agresywny, koryguj +3-5 s/km |
 
 ## Reguły zarządzania planem
 
