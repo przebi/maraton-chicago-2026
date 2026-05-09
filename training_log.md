@@ -112,7 +112,27 @@ W sesjach z czystym streamem najwyższe odczyty:
 
 Cel: post-quality recovery 4 dni. ~25–30 km. Bez akcentów.
 
-<!-- /coach-update wciągnie ze Stravy automatycznie. -->
+### 2026-05-07 (czw) — REST + cross-training (rower)
+- Morning Ride: 28.78 km @ ~17.5 km/h, HR avg 104/129 — easy spinning
+- Afternoon Ride: 27.94 km @ ~16.6 km/h, HR avg 108/152 — drugi ride
+- **Total: 56.7 km roweru w jeden dzień, HR Z1-Z2** = active recovery, idealne post-quality
+- Zero biegu zgodnie z planem ✓
+
+### 2026-05-08 (pt) — REST
+- Morning Walk: 4.46 km
+- Afternoon Walk: 4.76 km
+- Zero biegu (plan) ✓
+- Pegasus 42 + Plus dostawa po południu
+
+### 2026-05-09 (sb) — Debiut **Pegasus PLUS** ⭐
+- Morning Run: **12.67 km @ 5:31/km**
+- HR avg/max: **129.9 / 163**, suffer 73
+- **HR drift po ćwiartkach: Q1=130, Q2=131, Q3=130, Q4=126** (NEGATYWNY -4 bpm)
+- Buty: **Pegasus Plus** (gear_id g30955507) — debiut. Pegasus 42 (g30955501) wciąż 0 km, czeka.
+- Plan: easy 10-12 km @ >5:45, HR<135 — wykonanie pace 5:31 lekko szybciej, ale HR średnia 130 = blisko Z2 cap (127), Q4 schodzi do 126 = OK
+- **Komentarz:** negative HR drift na 12+ km easy = świetny aerobic state. Ciało zregenerowane po Wiedniu + 06.05 quality. Pegasus Plus z ZoomX dał pop = nogi same chcą lekko szybciej. Max 163 = pewnie krótki odcinek szybszy w środku.
+- **Ciekawa decyzja:** Tomasz wybrał Plus (long-run shoe) na pierwszy bieg, nie 42 (daily). To może być dobry sygnał — ZoomX feel pewnie super.
+- URL: https://www.strava.com/activities/18433994386
 
 ---
 
