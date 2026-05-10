@@ -124,6 +124,18 @@ Cel: post-quality recovery 4 dni. ~25–30 km. Bez akcentów.
 - Zero biegu (plan) ✓
 - Pegasus 42 + Plus dostawa po południu
 
+### 2026-05-10 (nd) — Debiut **Pegasus 42** ⭐
+- Morning Run: **15.35 km @ 5:53/km** (plan był 8 km — pojechał 2×)
+- HR avg/max raw: 139.5 / 178 — **ALE pasek HR FAILED km 1-11** (electrode disconnect, spike'y)
+- Real HR (km 12-16, gdy strap zaczął działać): **119-125 bpm**
+- Drift na km 12-16: **0 bpm** (idealne aerobic state)
+- Suffer 153 (zawyżony przez fake HR spike'y)
+- Buty: **Pegasus 42** (g30955501) — debiut. Plus 1.5 dnia po debiucie Pegasus Plus (09.05 12.7 km).
+- **Real interpretation:** Real avg HR pewnie ~125 bpm (z drugiej połowy stable). Pace 5:53 + HR 125 = idealny easy w Z2 (66% HRmax 183).
+- **Komentarz:** ciało wciąż w base state, drift = 0 bpm w 5 km stable danych = aerobic engine genialny. ALE 15.35 km zamiast 8 km plan = **przekroczenie** (dzień przed T1 start). Pegasus 42 OK, achillesy do potwierdzenia.
+- HR pasek issue: zwilż elektrody przed startem, sprawdzić jakość paska (czasem wymiana po 1-2 latach)
+- URL: https://www.strava.com/activities/18447023903
+
 ### 2026-05-09 (sb) — Debiut **Pegasus PLUS** ⭐
 - Morning Run: **12.67 km @ 5:31/km**
 - HR avg/max: **129.9 / 163**, suffer 73
