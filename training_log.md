@@ -125,6 +125,8 @@ Cel: post-quality recovery 4 dni. ~25–30 km. Bez akcentów.
 - Pegasus 42 + Plus dostawa po południu
 
 ### 2026-05-10 (nd) — Debiut **Pegasus 42** ⭐
+- **Achillesy rano:** lekko czuł (insertional, lewa). Po 15.35 km w nowych butach = OK, nie acute. Eccentric calves zaczął ostro = aktywne treatment Alfredson MODIFIED.
+- **Status:** subclinical stable, kontynuujemy plan T1 z monitorowaniem
 - Morning Run: **15.35 km @ 5:53/km** (plan był 8 km — pojechał 2×)
 - HR avg/max raw: 139.5 / 178 — **ALE pasek HR FAILED km 1-11** (electrode disconnect, spike'y)
 - Real HR (km 12-16, gdy strap zaczął działać): **119-125 bpm**
