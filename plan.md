@@ -66,19 +66,23 @@ Po quality session 06.05 (5×1600 progresywne, sufit 3:46/km na 4. repie). Cel: 
 
 **Suma: ~30 km.** Zero akcentów, zero strides nawet. Jutro (07.05) najważniejsze — pasek HR jeśli kontynuuje słabnąć → może warto pominąć też 08.05.
 
-## T1 — RECOVERY (50 km, 11–17.05) — tydzień 4 po Wiedniu
+## T1 — RECOVERY (44 km, 11–17.05) — tydzień 4 po Wiedniu
+
+**Pn 11.05: REST** zamiast easy 10 km — DOMS po wczorajszym 15 km Run + 10 km spacer + pierwsza siłownia z hantlami. Mądry call, plan T1 zmodyfikowany.
 
 | Data | Dzień | Typ | Trening | Tempo / HR | km |
 |---|---|---|---|---|---|
-| 11.05 | pn | EASY | Easy 10 km | 5:45–6:30, HR<127 | 10 |
-| 12.05 | wt | EASY | Easy 8 km + 4×100 m strides | 5:45–6:30, strides all-out 100 m | 8 |
+| 11.05 | pn | **REST** | Spacer 30-45 min + foam roll + sauna + eccentric calves | – | 0 |
+| 12.05 | wt | EASY | Easy 8 km + 4×100 m strides (jeśli DOMS minione) | 5:45–6:30, HR<127 | 8 |
 | 13.05 | śr | EASY | Easy 10 km | 5:45–6:30, HR<127 | 10 |
-| 14.05 | cz | REST | 0 lub recovery 6 km | 6:00–6:30 | 0–6 |
-| 15.05 | pt | REST | 0 | – | 0 |
+| 14.05 | cz | REST | 0 lub spacer | – | 0 |
+| 15.05 | pt | EASY | Easy 6 km | 6:00–6:30 | 6 |
 | 16.05 | sb | EASY | Easy 6 km recovery | 6:00–6:30 | 6 |
-| 17.05 | nd | LONG | Long 16 km easy | 5:45–6:00, HR<135 | 16 |
+| 17.05 | nd | LONG | Long 14-16 km easy | 5:45–6:00, HR<135 | 14-16 |
 
 **Zakaz:** progów, interwałów, hill sprintów. HR cel: cały tydzień Z1–Z2 (max 127), żadnego wyjścia w Z3.
+
+**Lekcja z wczoraj (10.05):** 15 km bieg + 10 km spacer + pierwsza siłownia w jeden dzień = przesada. **Reguła:** NIE pierwsza siłownia 24h przed dłuższym biegiem (>12 km). Optimal: siłownia DZIEŃ PO quality / long, nie przed.
 
 ## T2 — RECOVERY+ (60 km, 18–24.05) — tydzień 5
 
