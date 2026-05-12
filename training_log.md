@@ -150,9 +150,20 @@ Cel: post-quality recovery 4 dni. ~25–30 km. Bez akcentów.
 
 ---
 
-## T1 — RECOVERY (50 km, 11–17.05.2026)
+## T1 — RECOVERY (~44 km, 11–17.05.2026)
 
-<!-- 5 sesji easy, zero akcentów. HR cel: Z1–Z2 (max 127). -->
+### 2026-05-11 (pn) — REST (DOMS uda+glutes po 10.05)
+- Spacer + foam roll + sauna
+- DOMS recovery active
+
+### 2026-05-12 (wt) — T1 sesja 1, easy run
+- Morning Run: **10.22 km @ 5:53/km**
+- HR avg/max: **128/158**, suffer 57
+- HR avg 1 bpm nad Z2 cap (127), max 158 = krótki spike, OK
+- Plan był 8 km, pojechał 10 km — DOMS odpadło, ciało chciało więcej
+- Pegasus 42 — kontynuacja (mileage tracker)
+- **Komentarz:** kreatyna 1100 zakupiona, dawka 5 kapsułek/dzień od dziś (post-run + śniadanie). Mięśnie bolą "bez przesady" = DOMS w fazie recovery (peak 48h post = dziś, jutro lepiej).
+- URL: https://www.strava.com/activities/18459?...
 
 ---
 
