@@ -157,13 +157,26 @@ Cel: post-quality recovery 4 dni. ~25–30 km. Bez akcentów.
 - DOMS recovery active
 
 ### 2026-05-12 (wt) — T1 sesja 1, easy run
-- Morning Run: **10.22 km @ 5:53/km**
-- HR avg/max: **128/158**, suffer 57
-- HR avg 1 bpm nad Z2 cap (127), max 158 = krótki spike, OK
-- Plan był 8 km, pojechał 10 km — DOMS odpadło, ciało chciało więcej
-- Pegasus 42 — kontynuacja (mileage tracker)
-- **Komentarz:** kreatyna 1100 zakupiona, dawka 5 kapsułek/dzień od dziś (post-run + śniadanie). Mięśnie bolą "bez przesady" = DOMS w fazie recovery (peak 48h post = dziś, jutro lepiej).
-- URL: https://www.strava.com/activities/18459?...
+- Morning Run: **10.22 km @ 5:53/km**, HR 128/158, suffer 57
+- Buty: Pegasus 42 ✓
+- HR avg 1 bpm nad cap, OK
+- Plan 8 km, +25%
+- Kreatyna 1100 start (5 caps/dzień)
+
+### 2026-05-13 (śr) — T1 sesja 2, easy run
+- Morning Run: **13.09 km @ 5:59/km**, HR 130/195 (strap spike), suffer 78
+- Buty: **PrimeX 2 Strung** ⚠️ (race shoe na easy — marnotrawstwo pianki)
+- Plan 10 km, +31%
+
+### 2026-05-14 (cz) — T1 sesja 3, easy run (zamiast REST!)
+- Morning Run: **10.00 km @ 6:04/km**, HR avg **125** (Z2 idealnie), max 140
+- **HR drift Q1→Q4: 122→127→125→123 = 0 bpm drift = idealne aerobic state**
+- Suffer 38 (low)
+- Buty: **PrimeX 2 Strung** ⚠️ (znowu race shoe)
+- Plan: REST (Tomasz zamiast tego pojechał 10K + siłownia)
+- **Komentarz:** ciało reaguje świetnie (HR <127, drift 0, mięśnie OK po DOMS). ALE: 33 km w 3 dni vs plan 18 km = **+83%**. Plus siłownia dziś w T1 (plan: brak siłowni w T1-T2). Pattern wariant C — Tomasz robi więcej niż plan zakłada gdy się czuje dobrze. Krytyczne dla long-term recovery & Achilles protection.
+- ⚠️ **PrimeX 2 para B (race shoe Chicago) zużyte 23.1 km z budget ~145 km = 16% już zjadłeś** na easy biegi
+- URL: https://www.strava.com/activities/18499513489
 
 ---
 
