@@ -258,6 +258,18 @@
   .day-content .km .unit { font-size: 11px; color: var(--text-dim); font-weight: 400; }
   .day-content .desc { color: var(--text-dim); font-size: 11px; line-height: 1.4; }
   .day-content .pace { color: var(--accent); font-size: 11px; font-variant-numeric: tabular-nums; margin-top: 4px; }
+  .day-content .actual {
+    margin-top: 6px; padding: 4px 7px;
+    border-left: 2px solid var(--easy);
+    background: rgba(16, 185, 129, 0.08);
+    border-radius: 2px;
+    font-size: 11px;
+    color: #b8e9d4;
+    line-height: 1.35;
+  }
+  .day-content .actual.over { border-left-color: var(--accent); background: rgba(245, 158, 11, 0.08); color: #ffd699; }
+  .day-content .actual.warn { border-left-color: var(--vo2); background: rgba(239, 68, 68, 0.08); color: #fca5a5; }
+  .day-content .actual b { color: inherit; font-weight: 600; }
 
   /* Tables */
   table {
@@ -371,6 +383,10 @@
   <div class="container" style="padding: 0;">
     <h1>Maraton Chicago 2026</h1>
     <div class="subtitle">Cel: <strong style="color:var(--accent)">2:55-2:57</strong> (4:08-4:12/km) · 22-tygodniowy plan · start T1: 11.05.2026 · HM Praga odpuszczony</div>
+
+    <div style="margin: 8px 0 16px;">
+      <a href="runs.html" style="display:inline-block; background:var(--bg-card); border:1px solid var(--border); padding:8px 14px; border-radius:6px; color:var(--accent); text-decoration:none; font-size:13px;">📊 Analiza ostatnich biegów →</a>
+    </div>
 
     <div class="countdown-grid">
       <div class="countdown-card">
@@ -498,6 +514,7 @@
       <div class="day-content">
         <div class="km">0 <span class="unit">km</span></div>
         <div class="desc"><strong>DOMS po 15 km + siłownia 10.05.</strong> Spacer 30-45 min + foam roll uda/glutes + sauna + eccentric calves.</div>
+        <div class="actual">✓ <b>REST</b> + DOMS recovery. Plan dostosowany.</div>
       </div>
     </div>
     <div class="day easy">
@@ -507,6 +524,7 @@
         <div class="km">8 <span class="unit">km</span></div>
         <div class="desc">+ 4×100 m strides (jeśli DOMS minione). Pierwszy bieg T1.</div>
         <div class="pace">5:45–6:30/km · HR&lt;127</div>
+        <div class="actual over">✓ <b>10.22 km @ 5:53/km</b>, HR 128/158 (Pegasus 42 debiut). +25% km vs plan. Drift +1 bpm.</div>
       </div>
     </div>
     <div class="day easy">
@@ -516,6 +534,7 @@
         <div class="km">10 <span class="unit">km</span></div>
         <div class="desc">Klasyczny easy. Bez akcentów.</div>
         <div class="pace">5:45–6:30/km · HR&lt;127</div>
+        <div class="actual over">✓ <b>13.10 km @ 5:59/km</b>, HR 130/195 (strap spike). Pegasus Plus. +31% km. Sekcja podbiegowa km 9-12.</div>
       </div>
     </div>
     <div class="day rest">
@@ -524,6 +543,7 @@
       <div class="day-content">
         <div class="km">0 <span class="unit">km</span></div>
         <div class="desc">Spacer + mobility.</div>
+        <div class="actual warn">⚠ Zamiast REST: <b>10.00 km easy @ 6:04/km</b>, HR 125/140 — Pegasus 42. Drift 0. Wariant C.</div>
       </div>
     </div>
     <div class="day easy">
@@ -533,6 +553,7 @@
         <div class="km">6 <span class="unit">km</span></div>
         <div class="desc">Easy recovery.</div>
         <div class="pace">6:00–6:30/km</div>
+        <div class="actual">✓ <b>4.73 km walk</b>, HR 82 — spacer regen.</div>
       </div>
     </div>
     <div class="day easy">
@@ -542,6 +563,7 @@
         <div class="km">6 <span class="unit">km</span></div>
         <div class="desc">Recovery przed niedzielnym long.</div>
         <div class="pace">6:00–6:30/km</div>
+        <div class="actual warn">❗ Zamiast 6km recovery: <b>21.10 km HM @ 5:43/km</b>, HR 128/178. Long w sobotę. <b>Drift +1 bpm</b> — elite tier ALE 271m gain.</div>
       </div>
     </div>
     <div class="day long">
@@ -551,8 +573,12 @@
         <div class="km">14-16 <span class="unit">km</span></div>
         <div class="desc">Pierwszy long T1. HR drift &lt;5 bpm = OK. Dystans zależny od reakcji ciała.</div>
         <div class="pace">5:45–6:00/km · HR&lt;135</div>
+        <div class="actual warn">⚠ Zamiast long: <b>siłownia 1h mocno</b> (hantle 7.5/5 + bodyweight) — DOMS dnia kolejnego.</div>
       </div>
     </div>
+  </div>
+  <div style="background: var(--bg-card-2); border-left: 3px solid var(--accent); padding: 8px 12px; margin: 8px 0; font-size: 12px;">
+    <b>Podsumowanie T1:</b> ~54 km run + ~5 km walk = <b>59 km</b> (plan 50 = <b>+18%</b>). 4 z 5 dni biegowych przekroczone. Long przeniesiony na sobotę (21 km zamiast 16). Siłownia 1h zamiast niedzielnego long. Drift +1 na 21km = baseline sub-3 forma odzyskana. <b>Wariant C (Tomasz robi więcej niż plan) powtarza się.</b>
   </div>
 </div>
 
@@ -574,32 +600,33 @@
         <div class="km">12 <span class="unit">km</span></div>
         <div class="desc">+ 6×100 m strides (pełna przerwa, ostro ale krótko).</div>
         <div class="pace">5:45–6:30/km</div>
+        <div class="actual warn">❗ <b>11.78 km @ 6:06/km</b> + <b>10×150m @ 3:02-3:20/km</b> (HR max 174 = 95% HRmax = Z5!). Avg HR 138 (+13 vs T1 baseline). Drift +10 bpm. Suffer 126. Po siłowni 1h dzień wcześniej + DOMS = sygnał: <b>za hard.</b></div>
       </div>
     </div>
     <div class="day easy">
       <div class="day-header"><span class="day-name">wt</span><span class="day-date">19.05</span></div>
-      <span class="day-type easy">EASY+D</span>
+      <span class="day-type easy">EASY</span>
       <div class="day-content">
-        <div class="km">10 <span class="unit">km</span></div>
-        <div class="desc">+ drills (A-skip, B-skip, fast feet, high knees).</div>
-        <div class="pace">5:45–6:30/km · HR&lt;127</div>
-      </div>
-    </div>
-    <div class="day easy">
-      <div class="day-header"><span class="day-name">śr</span><span class="day-date">20.05</span></div>
-      <span class="day-type easy">EASY+S</span>
-      <div class="day-content">
-        <div class="km">10 <span class="unit">km</span></div>
-        <div class="desc">+ 6×100 m strides.</div>
-        <div class="pace">5:45–6:30/km</div>
+        <div class="km">8-10 <span class="unit">km</span></div>
+        <div class="desc"><b>SKORYGOWANE (po 18.05):</b> bez drills, bez akcentów. Easy 6:00+/km, HR&lt;130. Cel: zejść z HR i pozwolić nogom odzyskać.</div>
+        <div class="pace">6:00–6:30/km · HR&lt;130</div>
       </div>
     </div>
     <div class="day rest">
-      <div class="day-header"><span class="day-name">cz</span><span class="day-date">21.05</span></div>
-      <span class="day-type rest">REST</span>
+      <div class="day-header"><span class="day-name">śr</span><span class="day-date">20.05</span></div>
+      <span class="day-type rest">REST/WALK</span>
       <div class="day-content">
         <div class="km">0 <span class="unit">km</span></div>
-        <div class="desc">Lub spacer.</div>
+        <div class="desc"><b>SKORYGOWANE:</b> REST lub spacer 30-45 min. Foam roll. Bez biegu/siły. Zero strides do końca tygodnia.</div>
+      </div>
+    </div>
+    <div class="day easy">
+      <div class="day-header"><span class="day-name">cz</span><span class="day-date">21.05</span></div>
+      <span class="day-type easy">EASY</span>
+      <div class="day-content">
+        <div class="km">10 <span class="unit">km</span></div>
+        <div class="desc">Easy. Cel: HR &lt;127 (jak T1 baseline). Jeśli HR avg ≥132 = za szybki pace, zwolnij.</div>
+        <div class="pace">6:00–6:30/km · HR&lt;127</div>
       </div>
     </div>
     <div class="day easy">
@@ -616,18 +643,100 @@
       <span class="day-type rest">REST</span>
       <div class="day-content">
         <div class="km">0 <span class="unit">km</span></div>
-        <div class="desc">Lub spacer / mobilizacja.</div>
+        <div class="desc">Lub spacer / mobilizacja. <b>Bez siłowni</b> (cumulative z 17.05).</div>
       </div>
     </div>
     <div class="day long">
       <div class="day-header"><span class="day-name">nd</span><span class="day-date">24.05</span></div>
       <span class="day-type long">LONG</span>
       <div class="day-content">
-        <div class="km">20 <span class="unit">km</span></div>
-        <div class="desc">Drugi long. Cierpliwość — pace nie ma znaczenia, HR ma.</div>
-        <div class="pace">5:45–6:00/km · HR&lt;135</div>
+        <div class="km">18-22 <span class="unit">km</span></div>
+        <div class="desc">Long. Pace nie ma znaczenia, HR ma. <b>HR avg &lt;130</b>, drift &lt;5 bpm. Jeśli HR w pierwszych 5km &gt;135 = skróć do 15 km.</div>
+        <div class="pace">5:45–6:00/km · HR&lt;130</div>
       </div>
     </div>
+  </div>
+  <div style="background: var(--bg-card-2); border-left: 3px solid var(--vo2); padding: 8px 12px; margin: 8px 0; font-size: 12px;">
+    <b>⚠️ Korekta T2 (po 18.05):</b> 10×150m @ 3:00 to NIE plan T2 (= easy + strides max). Siła 1h + DOMS + Z5 work = za dużo. Reszta tygodnia <b>twardszy reset</b>: zero strides, zero hard, HR&lt;130 strict. Pierwsza hard sesja: <b>T3 hill repeats</b> (25.05+).
+  </div>
+</div>
+
+<!-- WEEK T3 -->
+<div class="week">
+  <div class="week-header">
+    <div class="week-title">T3 — Reentry <span class="dates">25–31.05.2026</span></div>
+    <div class="week-meta">
+      <span><strong>70 km</strong> / 6 sesji</span>
+      <span>Pierwsze HILL REPEATS (Achilles-safe)</span>
+      <span>Pierwsze hill sprints 6×6s</span>
+      <span>Strides wracają (jeśli T2 OK)</span>
+    </div>
+  </div>
+  <div class="days">
+    <div class="day rest">
+      <div class="day-header"><span class="day-name">pn</span><span class="day-date">25.05</span></div>
+      <span class="day-type rest">REST</span>
+      <div class="day-content">
+        <div class="km">0 <span class="unit">km</span></div>
+        <div class="desc">Po niedzielnym long. Spacer 30 min + foam roll + sauna. Sprawdzić Achillesy rano (palcem w insertion).</div>
+      </div>
+    </div>
+    <div class="day easy">
+      <div class="day-header"><span class="day-name">wt</span><span class="day-date">26.05</span></div>
+      <span class="day-type easy">EASY+S</span>
+      <div class="day-content">
+        <div class="km">10 <span class="unit">km</span></div>
+        <div class="desc">Easy + <b>4×100m strides</b> w drugiej połowie (NIE 150m, NIE @3:00). Pace ~3:30/km na strides, pełna przerwa.</div>
+        <div class="pace">5:45–6:30/km · HR&lt;127</div>
+      </div>
+    </div>
+    <div class="day hill">
+      <div class="day-header"><span class="day-name">śr</span><span class="day-date">27.05</span></div>
+      <span class="day-type hill">HILL</span>
+      <div class="day-content">
+        <div class="km">10 <span class="unit">km</span></div>
+        <div class="desc"><b>HILL REPEATS 6×140m</b> @ 4-5% grade (forest hill). Wbieg energiczny ~85% effort, <b>zbieg MARSZEM</b> (Achilles protection!). 3 min easy między rep. Plus 3 km rozgrzewki + 3 km cool-down.</div>
+        <div class="pace">Repeats: ~85% effort · cool-down 6:00+/km</div>
+      </div>
+    </div>
+    <div class="day easy">
+      <div class="day-header"><span class="day-name">cz</span><span class="day-date">28.05</span></div>
+      <span class="day-type easy">EASY+D</span>
+      <div class="day-content">
+        <div class="km">10 <span class="unit">km</span></div>
+        <div class="desc">Easy + drills (A-skip, B-skip, fast feet, high knees) na koniec. Bez strides — recovery po hill day.</div>
+        <div class="pace">5:45–6:30/km · HR&lt;127</div>
+      </div>
+    </div>
+    <div class="day rest">
+      <div class="day-header"><span class="day-name">pt</span><span class="day-date">29.05</span></div>
+      <span class="day-type rest">REST</span>
+      <div class="day-content">
+        <div class="km">0 <span class="unit">km</span></div>
+        <div class="desc">Lub spacer. <b>Siłownia 30 min</b> (NIE 1h jak 17.05!) — focus core + glutes, bez nóg-heavy. Sprawdzić Achillesy.</div>
+      </div>
+    </div>
+    <div class="day easy">
+      <div class="day-header"><span class="day-name">sb</span><span class="day-date">30.05</span></div>
+      <span class="day-type easy">EASY+SPRINT</span>
+      <div class="day-content">
+        <div class="km">8 <span class="unit">km</span></div>
+        <div class="desc">Shake-out easy + <b>6×6s hill sprint</b> (krótka strome górka, all-out 6 sekund, pełna recovery 2 min marszem w dół). Neuromuscular bez fatigue.</div>
+        <div class="pace">Easy 6:00+/km · sprints ALL-OUT 6s</div>
+      </div>
+    </div>
+    <div class="day long">
+      <div class="day-header"><span class="day-name">nd</span><span class="day-date">31.05</span></div>
+      <span class="day-type long">LONG</span>
+      <div class="day-content">
+        <div class="km">22 <span class="unit">km</span></div>
+        <div class="desc">Drugi pełen long. <b>HR avg &lt;130</b>, drift &lt;5 bpm. Wszystko easy. Pegasus Plus lub Pegasus 42. Nie PrimeX 2.</div>
+        <div class="pace">5:45–6:00/km · HR&lt;130</div>
+      </div>
+    </div>
+  </div>
+  <div style="background: var(--bg-card-2); border-left: 3px solid var(--hill); padding: 8px 12px; margin: 8px 0; font-size: 12px;">
+    <b>T3 założenia:</b> wprowadzenie pierwszych elementów intensywnościowych — hill repeats 140m (śr) + hill sprints 6×6s (sb). Brak progów/interwałów na płaskim (te dopiero T4). Achilles protection: <b>zbieg MARSZEM</b> na hill repeats, sprawdzanie palcem rano. Cel km: 70 (vs T2 60).
   </div>
 </div>
 

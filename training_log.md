@@ -172,15 +172,49 @@ Cel: post-quality recovery 4 dni. ~25–30 km. Bez akcentów.
 - Morning Run: **10.00 km @ 6:04/km**, HR avg **125** (Z2 idealnie), max 140
 - **HR drift Q1→Q4: 122→127→125→123 = 0 bpm drift = idealne aerobic state**
 - Suffer 38 (low)
-- Buty: **PrimeX 2 Strung** ⚠️ (znowu race shoe)
+- Buty: **Pegasus 42** (Tomasz poprawił tagging w Stravie — pierwotnie Strava tagowała PrimeX 2 jako default)
 - Plan: REST (Tomasz zamiast tego pojechał 10K + siłownia)
-- **Komentarz:** ciało reaguje świetnie (HR <127, drift 0, mięśnie OK po DOMS). ALE: 33 km w 3 dni vs plan 18 km = **+83%**. Plus siłownia dziś w T1 (plan: brak siłowni w T1-T2). Pattern wariant C — Tomasz robi więcej niż plan zakłada gdy się czuje dobrze. Krytyczne dla long-term recovery & Achilles protection.
-- ⚠️ **PrimeX 2 para B (race shoe Chicago) zużyte 23.1 km z budget ~145 km = 16% już zjadłeś** na easy biegi
+- **Komentarz:** ciało reaguje świetnie (HR <127, drift 0, mięśnie OK po DOMS). ALE: 33 km w 3 dni vs plan 18 km = **+83%**. Pattern wariant C — Tomasz robi więcej niż plan zakłada gdy się czuje dobrze. Krytyczne dla long-term recovery & Achilles protection.
 - URL: https://www.strava.com/activities/18499513489
+
+### 2026-05-15 (pt) — REST (active walk)
+- Morning Walk: **4.73 km**, HR 82, 52 min
+- Spacer regeneracyjny
+
+### 2026-05-16 (sb) — T1 sesja 4 — **PIERWSZY LONG T1 (21.10 km HM dystans!)** ⭐
+- Morning Run: **21.10 km @ 5:43/km**, HR **128**/178, suffer 111, czas 2:00:51
+- Buty: Pegasus Plus (g30955507) ✓
+- Elev gain **271m** (najwięcej z T1, falisty teren)
+- **Quartile HR drift: Q1=129 / Q2=128 / Q3=127 / Q4=130 → +1 bpm po 21 km = elite tier**
+- HR vs grade: zbiegi 129 @ 5:13, płasko 127 @ 5:48, hill ≥3% 128 @ 6:19 (stałe HR, pace adaptive — mądry "by feel" pattern)
+- Spike HR 170-176 w pierwszych 90 sec (strap glitch, NIE real)
+- Km 20 pace 5:02 @ HR 138 (finisz zbiegowy), km 21 cooldown 6:16
+- **Komentarz:** baseline po Wiedniu zakończony — drift +1 bpm na HM dystansie = aerobic engine sub-3 forma. Tygodniowo: 44 km T1 plan vs ~54 km wykonane + walk 4.7 = **+25%** ale Achilles tolerował 271m gain. T2 startujemy z mocnej bazy.
+- URL: https://www.strava.com/activities/18524428624
+
+### 2026-05-17 (nd) — siła w ogródku **1h mocno**
+- **Siłownia 1h** (potwierdzone przez Tomasza 18.05): hantle 7.5/5 kg + bodyweight
+- Następnego dnia: DOMS w nogach
+- T1 zakończony — łączny km tygodnia: **~54 km run + ~5 km walk = 59 km** (plan 50 km, **+18%**)
 
 ---
 
 ## T2 — RECOVERY+ (60 km, 18–24.05.2026)
+
+### 2026-05-18 (pn) — T2 sesja 1, **"easy + 10×150m"** ⚠️
+- Morning Run: **11.78 km @ 6:06/km avg**, HR **138**/174 (Z3/Z5 spikes), suffer **126**
+- Buty: Pegasus Plus (g30955507)
+- Elev gain 144m
+- **10 × 150m repeats** (pace 3:02-3:20/km, średnio 3:13/km):
+  - Rep 1-3: HR 147→154, pace 3:13-3:20 (rozgrzewka)
+  - Rep 4-7: HR 145-158, pace 3:08-3:15 (stabilnie)
+  - Rep 8-9: HR 160-162, pace 3:02-3:15 (peak speed, 93% HRmax!)
+  - Rep 10: cool down
+- **Quartile HR**: 133/133/144/144 → drift **+10 bpm** (vs +1 z 21km T1)
+- Tomasz: "czuję nogi po wczoraj" (DOMS po siłowni 1h)
+- **Komentarz:** plan T2 = easy + strides max. To NIE strides, to **VO2max session** (HR max 174 = 95% HRmax = Z5). Pattern wariant C powtarza się — siłownia 1h → DOMS → "rozruszanie" zamieniło się w hard speed work. HR easy 138 vs T1 baseline 125 = +13 bpm = znak fatigue. Cumulative load (Wiedeń 19.04 → T1 +25% volume → siła 1h → speed work) zaczyna kosztować.
+- **Wniosek dla T2:** twardszy reset. Reszta tygodnia = TYLKO easy ≤6:00/km, HR ≤130. Bez strides do końca tygodnia.
+- URL: https://www.strava.com/activities/18551034592
 
 <!-- 5 sesji easy + strides + drills. -->
 

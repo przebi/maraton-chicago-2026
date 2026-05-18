@@ -16,9 +16,10 @@ set -a
 source ./.netlify-deploy.env
 set +a
 
-# Sync viewer.html → deploy/index.html
+# Sync files → deploy/
 cp viewer.html deploy/index.html
-echo "[1/2] Copied viewer.html → deploy/index.html"
+cp runs.html deploy/runs.html
+echo "[1/2] Synced viewer.html + runs.html → deploy/"
 
 # Deploy
 echo "[2/2] Deploying to https://przebi.netlify.app..."
