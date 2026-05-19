@@ -2,7 +2,16 @@ import CDP from '/tmp/node_modules/chrome-remote-interface/index.js';
 import fs from 'fs';
 
 const friends = JSON.parse(fs.readFileSync('/tmp/strava_friends.json', 'utf8'));
-const START_IDX = 17; // continue from Pepe Nicola
+
+// State file for resume across days
+const STATE_FILE = '/tmp/strava_kudos_state.json';
+let stateStartIdx = 58; // fallback: continue from #59 Magdalena Kopeć (after 18.05 session blocked at #58)
+try {
+  const state = JSON.parse(fs.readFileSync(STATE_FILE, 'utf8'));
+  if (typeof state.last_processed_idx === 'number') stateStartIdx = state.last_processed_idx + 1;
+  console.log(`Loaded state: resume from idx ${stateStartIdx} (${friends[stateStartIdx]?.[1]||'?'})`);
+} catch { console.log(`No state file, starting from idx ${stateStartIdx}`); }
+const START_IDX = stateStartIdx;
 
 const tabs = await CDP.List({ port: 9223 });
 const tab = tabs.find(t => t.type === 'page' && t.url.includes('strava'));
@@ -104,7 +113,10 @@ for (let i = START_IDX; i < friends.length; i++) {
     
     const elapsed = ((Date.now()-startTime)/1000).toFixed(0);
     console.log(`[${elapsed}s] ${i+1}/${friends.length} ${name.substr(0,28).padEnd(28)} → clicks ${athClicks} | ok=${totalOk} block=${totalBlock} | unique ${kudoIds.size}`);
-    
+
+    // Save state per athlete (so we can resume tomorrow if killed mid-flight)
+    fs.writeFileSync(STATE_FILE, JSON.stringify({ last_processed_idx: i, name, totalOk, totalBlock, ts: new Date().toISOString() }, null, 2));
+
     await new Promise(r => setTimeout(r, 1500));
   } catch (e) {
     console.log(`  ERR ${name}: ${e.message?.substr(0,80)}`);
@@ -115,5 +127,6 @@ console.log('\n=== DONE v7d ===');
 console.log(`Time: ${((Date.now()-startTime)/1000/60).toFixed(1)} min`);
 console.log(`Total: ${totalOk} OK / ${totalBlock} blocked | unique ${kudoIds.size}`);
 console.log(`Pauses triggered: ${pauseCount}`);
+console.log(`State saved to ${STATE_FILE} (resume tomorrow from idx after last_processed_idx)`);
 fs.writeFileSync('/tmp/strava_v7d_log.json', JSON.stringify({ ok: totalOk, block: totalBlock, kudoIds: [...kudoIds] }, null, 2));
 await client.close();
