@@ -226,3 +226,40 @@ node scripts/strava-kudos.mjs --mode=friends-weeks --weeks=4
 - State file: `/tmp/strava_kudos_state.json` (last_processed_idx, total_ok_today)
 - Tomasz athlete ID: 24659157
 - Today's bug session: dashboard limits ~100 entries → friends/weeks tryb obowiązkowy dla pełnego pokrycia
+
+## Empirical limits (18.05.2026 session)
+
+W jednym dniu (~3.5h sesji):
+- **253 confirmed kudos** w 3 fazach (dashboard 70 + profile interval 100 + 83 = 253)
+- **236 blocked** (status **429** silent)
+- 58/122 athletes processed do auto-stop
+
+**Strava limit empirycznie ~250-300 kudosów / 24h** dla cudzych aktywności przez ten endpoint.
+
+### Rate limit response anatomy
+
+```
+HTTP/1.1 429 Too Many Requests
+content-type: application/json; charset=utf-8
+server: istio-envoy
+status: 429 Too Many Requests
+{"success":"false"}
+```
+
+**Kluczowe:**
+- Status: **429** (Too Many Requests, NIE 403 Forbidden — wcześniej mi się myliło)
+- Body: zawsze `{"success":"false"}`
+- **BRAK `Retry-After` header** — Strava nie ujawnia kiedy odblokuje (anti-bot)
+- Server: `istio-envoy` — rate limit jest na Envoy proxy layer, NIE w aplikacji Stravy
+- 3 min pauza nie wystarcza — limit trzyma się ≥24h od ostatniego successu
+
+**Conclusion**: pełna runda 122 friends × 4 tygodnie wymaga **3 dni** żeby zrobić bez 429. Plan:
+- Dzień 1: athletes #1-58 (~250 kudosów)
+- Dzień 2: athletes #59-100
+- Dzień 3: athletes #101-122
+
+Po 3 pauzach z rzędu (każda 3 min, każda kończąca się 429 streak) — stop, jutro resume z `START_IDX=<last_done>`.
+
+### Future improvement: exponential backoff zamiast fixed 3 min
+
+Zamiast 3-3-3 min, można spróbować: 1min → 5min → 15min → stop. Jeśli po 15 min nadal 429, to faktycznie limit dzienny. Test jutro empirycznie ile musi czekać po pierwszym 429 żeby się odblokować.

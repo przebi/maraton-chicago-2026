@@ -201,6 +201,15 @@ Cel: post-quality recovery 4 dni. ~25–30 km. Bez akcentów.
 
 ## T2 — RECOVERY+ (60 km, 18–24.05.2026)
 
+### 2026-05-19 (wt) — T2 sesja 2, easy clean ✅
+- Morning Run: **10.76 km @ 5:50/km avg**, HR **125**/152, suffer 54
+- Buty: Pegasus Plus
+- Elev gain 118m
+- **Quartile HR: 116 / 130 / 129 / 126** — slow start, settled, cool down (NIE drift cumulative)
+- **Zero fast spikes** (0% pace <4:00/km) = czysty easy
+- **Komentarz:** ✅ korekta T2 wykonana. HR avg 125 (vs wczoraj 138 = −13 bpm), suffer 54 (vs 126 = −57%), żadnych intervalów. Plan: cd. tygodnia jak w viewerze (śr REST/walk, cz easy 10, pt 8 recovery, sb REST, nd long 18-22).
+- URL: https://www.strava.com/activities/18563580777
+
 ### 2026-05-18 (pn) — T2 sesja 1, **"easy + 10×150m"** ⚠️
 - Morning Run: **11.78 km @ 6:06/km avg**, HR **138**/174 (Z3/Z5 spikes), suffer **126**
 - Buty: Pegasus Plus (g30955507)
