@@ -201,6 +201,29 @@ Cel: post-quality recovery 4 dni. ~25–30 km. Bez akcentów.
 
 ## T2 — RECOVERY+ (60 km, 18–24.05.2026)
 
+### 2026-05-21 (cz) — T2 sesja 4, **HILL REPS** 🏔️ (T3 wykonany 4 dni za wcześnie!)
+- Morning Run: **13.70 km @ 6:14/km**, HR **140**/174, suffer **156** (najwyższy w T2)
+- Buty: g30955581 (nowe? sprawdzić)
+- Elev gain **240m** (po Wiedniu rekord T2)
+- **~20 hill repeats w sekcji km 7-12 (forest hills, continuous loop):**
+  - Średnia długość: **110m** (range 95-137m)
+  - Średni czas: **32s** (range 28-39s)
+  - Najszybszy pace (chwilowy): **3:44/km**
+  - Najszybszy avg w rep: 4:08/km
+  - Najwolniejszy avg w rep: 5:09/km
+  - **Średnie nachylenie: 7.5%** (max chwilowo 15.2%)
+  - HR avg/rep: **152** (Z4 threshold), HR max: 171 (94% HRmax = Z5)
+  - Total elev w samych reps: 193m
+- **Komentarz:** T3 plan zakładał **6×140m hill repeats** w środę 27.05. Tomasz zrobił **3.3× więcej (20 reps)** już dziś — ale każda krótsza (32s vs ~50s planowanych). HR 152 = Z4 próg = stymulus wytrzymałości progowej + power. ⚠️ **Achilles risk**: 20 podbiegów + 193m elev w reps = duża objętość ekscentryczna jeśli zbieg biegiem. Sprawdzić palcem rano w insertion! T3 hill workout zalicza, ale T3 środa wymaga korekty (nie powtarzać hill repeats za 6 dni — Achilles potrzebuje regeneracji).
+- URL: https://www.strava.com/activities/18591006066
+
+### 2026-05-20 (śr) — CROSS-TRAINING: rower x2 🚴 ✅
+- **Morning Ride**: 27.29 km / 82:32, HR avg 104, elev +195m, suffer 20
+- **Afternoon Ride**: 29.35 km / 116:00, HR avg 94, elev +257m, suffer 20
+- Total: **56.64 km na rowerze**, ~720 kJ
+- Tomasz: "relaksik"
+- **Komentarz:** ✅ idealny T2.3 po wczorajszym easy clean. Cross-training aerobic bez impact, HR avg 99 (Z1 recovery) = pure aerobic base. Plan zakładał REST/walk — rower lepszy (większy stimulus przy zero leg impact).
+
 ### 2026-05-19 (wt) — T2 sesja 2, easy clean ✅
 - Morning Run: **10.76 km @ 5:50/km avg**, HR **125**/152, suffer 54
 - Buty: Pegasus Plus
