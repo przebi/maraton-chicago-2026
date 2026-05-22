@@ -201,10 +201,19 @@ Cel: post-quality recovery 4 dni. ~25–30 km. Bez akcentów.
 
 ## T2 — RECOVERY+ (60 km, 18–24.05.2026)
 
-### 2026-05-22 (pt) — siła w ogródku 1h 💪
-- **Siła w ogródku 1h**: hantle 7.5/5 kg + bodyweight (Tomasz: "z maszyn mam tylko kosiarkę")
-- Plan T2.pt = recovery 8km easy. Wykonano: siła zamiast biegu.
-- **Komentarz:** druga sesja siłowa w T2 (po 17.05 też 1h ogródek). **Niższy CNS load** niż klasyczne gym (hantle 7.5 ≠ heavy), bardziej ekscentryczny niż concentric — bardziej Achilles-friendly. Plus słońce. ALE: po wczorajszych hill repeats (+240m, suffer 156) nogi nadal akumulują. **Sobota 23.05 REST** (lub max spacer/foam roll). Nd long max 18 km z HR strict <130.
+### 2026-05-22 (pt) — siła w ogródku 1h 💪 (single-leg + glute + core)
+- **Siła w ogródku 1h** (hantle 5 kg każda + bodyweight + schodek + huśtawka):
+  1. **Przysiady jednonóż na schodku z hantlami**: 4×10/nogę = **80 reps single-leg**
+  2. **Bułgarskie split squats na huśtawce z hantlami**: 3×10/nogę = **60 reps single-leg**
+  3. **Przysiady z hantlami (dwunóż)**: 3×20 = **60 reps**
+  4. **Lunge walk z hantlami w wykroku** (kolana prawie do ziemi = pełny ROM): 4×30 kroków = **120 kroków**
+  5. **Jaskółki z hantlami** (single-leg deadlift): 4×10/nogę = **80 reps single-leg**
+  6. **Plank frontal**: 1:30
+  7. **Plank boczny prawo**: 1:30
+  8. **Plank boczny lewo**: 1:30
+  9. Rozciąganie
+- **Total**: 220 reps single-leg + 60 dwunożnych + 120 kroków lunge + 4:30 plank
+- **Komentarz:** ✅ **idealne workout dla biegacza 51L post-Achilles**: glute medius/maximus dominance + single-leg stability (korekcja asymetrii post-9 tyg przerwy) + posterior chain + core anti-rotation. To NIE jest "lekka siła" — 220 reps unilateralnych z hantlami = poważny stimulus. Wszystko ekscentryczne dominant = Achilles-friendly. Druga siła w T2 (po 17.05 też 1h). Sobota REST obowiązkowe.
 
 ### 2026-05-21 (cz) — T2 sesja 4, **HILL REPS** 🏔️ (T3 wykonany 4 dni za wcześnie!)
 - Morning Run: **13.70 km @ 6:14/km**, HR **140**/174, suffer **156** (najwyższy w T2)
