@@ -201,6 +201,11 @@ Cel: post-quality recovery 4 dni. ~25–30 km. Bez akcentów.
 
 ## T2 — RECOVERY+ (60 km, 18–24.05.2026)
 
+### 2026-05-22 (pt) — siła w ogródku 1h 💪
+- **Siła w ogródku 1h**: hantle 7.5/5 kg + bodyweight (Tomasz: "z maszyn mam tylko kosiarkę")
+- Plan T2.pt = recovery 8km easy. Wykonano: siła zamiast biegu.
+- **Komentarz:** druga sesja siłowa w T2 (po 17.05 też 1h ogródek). **Niższy CNS load** niż klasyczne gym (hantle 7.5 ≠ heavy), bardziej ekscentryczny niż concentric — bardziej Achilles-friendly. Plus słońce. ALE: po wczorajszych hill repeats (+240m, suffer 156) nogi nadal akumulują. **Sobota 23.05 REST** (lub max spacer/foam roll). Nd long max 18 km z HR strict <130.
+
 ### 2026-05-21 (cz) — T2 sesja 4, **HILL REPS** 🏔️ (T3 wykonany 4 dni za wcześnie!)
 - Morning Run: **13.70 km @ 6:14/km**, HR **140**/174, suffer **156** (najwyższy w T2)
 - Buty: g30955581 (nowe? sprawdzić)
