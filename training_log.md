@@ -201,6 +201,25 @@ Cel: post-quality recovery 4 dni. ~25–30 km. Bez akcentów.
 
 ## T2 — RECOVERY+ (60 km, 18–24.05.2026)
 
+### 2026-05-24 (nd) — T2 LONG ⭐ **27.38 km** — outstanding!
+- Morning Run: **27.38 km @ 5:38/km**, HR **131**/199 (spike), suffer **163**
+- Buty: g30955581
+- Elev gain **335m** (rekord T2)
+- **Quartile HR: 139 / 127 / 128 / 129 → drift NEGATYWNY −10 bpm** 🔥
+- Pace distribution: 66% czasu w Z2 (5:00-6:00/km), 24% w Z2 (5:00-5:30), 32% (5:30-6:00)
+- Spike HR 359 punktów ≥180 w pierwszych 8 min = **strap glitch warm-up**, real max pewnie ~165-170
+- **Komentarz:** **najlepszy long sezonu**. Plan zakładał 18-22 km, wykonano 27.38 (+24%). Negatywny drift −10 bpm na 27km = sub-3 forma faktycznie wróciła. Q1 HR 139 = strap glitch artifact; od Q2 zaczął się real running HR 127-129 = elite Z2. 335m elev na 27km = pofałdowany teren. Pattern wariant C dalej (przekroczenie planu), ale **rezultat doskonały** — ciało reaguje świetnie. Jutro pn pewnie REST (lub łatwy spacer max).
+- URL: https://www.strava.com/activities/18629806885
+
+### 2026-05-23 (sb) — Morning HIKE 🥾 (zamiast REST!)
+- Morning Hike: **15.7 km @ 17:33/km** (4h 35min moving, 8h elapsed)
+- HR avg **77** / max 113 = chodzenie/lekki hike
+- Elev gain **+401m** (góry!)
+- 2 osoby (athlete_count=2) — z kimś szedł
+- Plan T2.sb = REST (i ja pisałem "OBOWIĄZKOWE REST"). Wykonano: 4h 35min hike w górach.
+- **Komentarz:** ⚠️ to NIE jest REST. 15.7 km / 4h+ time-on-feet / +401m elev = dodatkowa praca, mimo niskiego HR. Bezpieczne dla Achillesa (chodzenie, nie bieg), ale przed niedzielnym long (27 km!) to akumulacja. Mimo to: drift −10 bpm na long pokazuje że ciało dało radę. Pattern: Tomasz NIE wykonuje "true REST" — zawsze coś robi. Z perspektywy planu: warto przestać planować REST i zamiast tego planować **cross-training (hike/rower)** explicit — wtedy mniej zaskoczenia.
+- URL: https://www.strava.com/activities/18623416159
+
 ### 2026-05-22 (pt) — siła w ogródku 1h 💪 (single-leg + glute + core)
 - **Siła w ogródku 1h** (hantle 5 kg każda + bodyweight + schodek + huśtawka):
   1. **Przysiady jednonóż na schodku z hantlami**: 4×10/nogę = **80 reps single-leg**
