@@ -201,6 +201,20 @@ Cel: post-quality recovery 4 dni. ~25–30 km. Bez akcentów.
 
 ## T2 — RECOVERY+ (60 km, 18–24.05.2026)
 
+## T3 — REENTRY (75 km, 25–31.05.2026)
+
+### 2026-05-25 (pn) — siła w ogródku 1h+ 💪 (NIE rest!)
+- **Siła w ogródku 1h+**: ten sam układ jak 22.05 (single-leg focus, hantle 5kg)
+  - Przysiady jednonóż na schodku 4×10/nogę
+  - Bułgarskie 3×10/nogę
+  - Przysiady dwunóż 3×20
+  - Lunge walk 4×30 kroków
+  - Jaskółki 4×10/nogę
+  - Deska front/P/L 3×1:30
+  - Stretching
+- Plan T3.pn = REST (po 27km long). Wykonano: siła zamiast.
+- **Komentarz:** trzecia siła w cyklu (17.05 → 22.05 → 25.05) = **2×/tydzień teraz**. Pattern wariant C trwa, ale konsekwentny i strukturalny (single-leg focus). Po 27km long z drift −10 bpm + 6h sen post-long = body ready. ⚠️ Sprawdzić Achillesy palcem rano — po 240m elev na hill reps + 335m na long + teraz siła ekscentryczna = obciążenie tendonów. Jutro wt easy 10km z 4×100m strides plan.
+
 ### 2026-05-24 (nd) — T2 LONG ⭐ **27.38 km** — outstanding!
 - Morning Run: **27.38 km @ 5:38/km**, HR **131**/199 (spike), suffer **163**
 - Buty: g30955581
