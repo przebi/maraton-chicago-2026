@@ -203,6 +203,33 @@ Cel: post-quality recovery 4 dni. ~25–30 km. Bez akcentów.
 
 ## T3 — REENTRY (75 km, 25–31.05.2026)
 
+### 2026-05-27 (śr) — T3.śr **21.09 km LONG-EASY** ⭐ (zamiast hill repeats)
+- Morning Run: **21.09 km @ 5:46/km**, HR **129**/167, suffer **125**
+- Buty: g30955520
+- Elev gain **300m**
+- **Quartile HR: 129/128/129/130 → drift Q4-Q1 +1 bpm = ELITE** 🔥
+- Pace distribution: 30% w 5:30-6:00, 35% w 6:00-7:00 = healthy easy
+- 0 strap spikes — perfect data
+- **Komentarz:** Plan T3.śr = HILL REPEATS 6×140m. Tomasz: 21km easy zamiast. Hill workout faktycznie zaliczony już 21.05 (20× hill reps). Drift +1 bpm na 21km z 300m elev **dzień po 12×150 VO2max + 2 dni po sile** = absolutnie elite recovery + aerobic engine. Forma sub-3 trzyma się od 24.05 (27km drift -10).
+- URL: https://www.strava.com/activities/18670491286
+
+### 2026-05-26 (wt) — T3.wt **12×150 @ 3:01-3:17/km** ⚡ (VO2max session)
+- Morning Run: **13.67 km @ 6:18/km avg**, HR **139**/194 (strap spike), suffer **147**
+- Buty: Pegasus Plus (g30955507)
+- Elev gain ~140m
+- **12 × 150m intervals:**
+  - **Avg dist: 123m (range 117-127m), avg dur: 24-25s**
+  - Pace progression: rep 1 @ 3:17 → rep 11 @ 3:04 (escalating)
+  - **Najszybszy chwilowy: 2:46/km** (rep #8!)
+  - **HR ramping: 134 → 162 (rep 1 → 11), max 171 (94% HRmax = Z5)**
+  - **Drift Q4-Q1: +2 bpm** (vs +10 z 18.05 = BETTER kontrola)
+- **Komentarz:** Plan T3.wt = easy 10 + 4×100m strides @ ~3:30. Wykonano: **12×150 @ avg ~3:08/km z escalating HR**. To NIE strides — to **klasyczny VO2max session**. Plan T4 zakładał pierwsze VO2max — wykonano 2 tygodnie za wcześnie. Pozytyw: kontrola lepsza niż 18.05 (drift +2 vs +10), pace escalating (smart pacing), HR adekwatny. Po sile pn + VO2 wt → środa miała być hill, ale Tomasz dał long easy 21km = recovery active.
+- URL: https://www.strava.com/activities/18656364502
+
+### 2026-05-24 (nd) afternoon — Walk 9 km
+- Afternoon Walk: 8.99 km / 122 min / HR 83 (chodzenie)
+- Po długim 27km long w rano. Active recovery z kimś (lub solo).
+
 ### 2026-05-25 (pn) — siła w ogródku 1h+ 💪 (NIE rest!)
 - **Siła w ogródku 1h+**: ten sam układ jak 22.05 (single-leg focus, hantle 5kg)
   - Przysiady jednonóż na schodku 4×10/nogę
