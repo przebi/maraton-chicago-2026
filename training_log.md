@@ -203,6 +203,12 @@ Cel: post-quality recovery 4 dni. ~25–30 km. Bez akcentów.
 
 ## T3 — REENTRY (75 km, 25–31.05.2026)
 
+### 2026-05-28 (cz) — CROSS-TRAINING: rower commute x2 🚴
+- **Morning Ride: 27.31 km / 72 min / HR 118 avg (max 166) / elev +199m**, avg 22.8 km/h
+- Po południu: rower z pracy do domu (TBC)
+- Plan T3.cz po korekcie = REST/easy max 8km. Wykonano: rower x2 commute.
+- **Komentarz:** ✅ idealne T3.cz po 3 dniach intensywnych (pn siła → wt VO2max → śr 21km long-easy). HR 118 avg = pure Z1-Z2 recovery zone, max 166 prawdopodobnie krótki podjazd. Zero impact, Achilles bezpieczny. Pattern znany (też 20.05 rower x2 w T2). Reszta T3 bez zmian: pt REST, sb easy + hill sprints, nd long.
+
 ### 2026-05-27 (śr) — T3.śr **21.09 km LONG-EASY** ⭐ (zamiast hill repeats)
 - Morning Run: **21.09 km @ 5:46/km**, HR **129**/167, suffer **125**
 - Buty: g30955520
