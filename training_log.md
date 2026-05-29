@@ -203,11 +203,21 @@ Cel: post-quality recovery 4 dni. ~25–30 km. Bez akcentów.
 
 ## T3 — REENTRY (75 km, 25–31.05.2026)
 
-### 2026-05-28 (cz) — CROSS-TRAINING: rower commute x2 🚴
-- **Morning Ride: 27.31 km / 72 min / HR 118 avg (max 166) / elev +199m**, avg 22.8 km/h
-- Po południu: rower z pracy do domu (TBC)
-- Plan T3.cz po korekcie = REST/easy max 8km. Wykonano: rower x2 commute.
-- **Komentarz:** ✅ idealne T3.cz po 3 dniach intensywnych (pn siła → wt VO2max → śr 21km long-easy). HR 118 avg = pure Z1-Z2 recovery zone, max 166 prawdopodobnie krótki podjazd. Zero impact, Achilles bezpieczny. Pattern znany (też 20.05 rower x2 w T2). Reszta T3 bez zmian: pt REST, sb easy + hill sprints, nd long.
+### 2026-05-29 (pt) — T3.pt: siła w ogródku 1:20 💪 + rower commute 🚴
+- **Siła w ogródku 1:20** (rozszerzona vs 22.05/25.05 — więcej serii)
+  - Bazowy układ: przysiady 1-nóż + bułgarskie + przysiady dwunóż + lunge walk + jaskółki
+  - **+ DODATKOWO ŁYDKI 3×20/nogę na schodku z oparciem** — eccentric heel raises = **klasyczny modified Alfredson dla Achillesa**
+  - Klasyczny core (3×1:30 plank front+P+L) + rozciąganie
+- **Morning Ride: 27.88 km / 78 min / HR 124 avg (max 169) / Z2**
+- Plan T3.pt po korekcie = REST. Wykonano: siła + rower commute.
+- **Komentarz:** 🎯 dodatek łydek (3×20/nogę eccentric) to **defensywne ćwiczenie dla Achillesa insertional** — dokładnie modified Alfredson (do neutralnej, NIE pod krawędź). Po 240m elev hill reps + 27km long + 21km easy + VO2max = tendon load wysoki, calf eccentrics dziś = inteligentna prewencja. ⚠️ ALE: to **4-ta siła w 13 dni** (17.05, 22.05, 25.05, 29.05) — intensywność z gym też trzeba sprawdzać. Sobota plan = sprints + easy. Niedziela long 22 km. Achilles monitoring obligatory.
+
+### 2026-05-28 (cz) — CROSS-TRAINING: rower commute x2 🚴 ✅
+- **Morning Ride: 27.31 km / 72 min / HR 118 (Z1-Z2!) / +199m**, avg 22.8 km/h
+- **Afternoon Ride: 28.94 km / 105 min / HR 108 (Z1!) / max 147**, powrót z pracy
+- Total: **56.25 km na rowerze**, HR avg ~113 = pure recovery zone
+- Plan T3.cz po korekcie = REST/easy max 8km. Wykonano: rower x2.
+- **Komentarz:** ✅ idealne T3.cz po 3 dniach intensywnych. HR 108-118 = czysty Z1-Z2, Achilles bezpieczny, aerobic base mileage bez impactu. Pattern recovery via rower utrzymany.
 
 ### 2026-05-27 (śr) — T3.śr **21.09 km LONG-EASY** ⭐ (zamiast hill repeats)
 - Morning Run: **21.09 km @ 5:46/km**, HR **129**/167, suffer **125**
