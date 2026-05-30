@@ -203,13 +203,22 @@ Cel: post-quality recovery 4 dni. ~25–30 km. Bez akcentów.
 
 ## T3 — REENTRY (75 km, 25–31.05.2026)
 
-### 2026-05-29 (pt) — T3.pt: siła w ogródku 1:20 💪 + rower commute 🚴
+### 2026-05-30 (sb) — T3.sb: 10.87 km + krótkie sprinty
+- Morning Run: **10.87 km @ 5:54/km**, HR **133**/198 (strap spike Q1), suffer 73
+- Elev gain 84m
+- **2 fast accelerations**: 7s/35m @ 3:01/km + 5s/23m @ 3:18/km (HR 144)
+- Real Quartile HR (po wykluczeniu Q1 spike): 129/131/125 = drift ~−4 bpm
+- Plan T3.sb = 8km + 6×6s hill sprints. Wykonano 10.87km + ~2 krótkie sprinty (lub plan 6 ale ledwo wykryte).
+- **Komentarz:** ✅ akceptowalna shake-out. HR avg 133 = lekko wyższe niż T2 baseline (125-128) — po cumulative T3 (4 siły + VO2max + 21km + rower 56km). Sprinty TODO sprawdzić w urządzeniu (Garmin laps). Achilles bez bólu = OK.
+- URL: https://www.strava.com/activities/18710099543
+
+### 2026-05-29 (pt) — T3.pt: siła w ogródku 1:20 💪 + rower commute x2 🚴
 - **Siła w ogródku 1:20** (rozszerzona vs 22.05/25.05 — więcej serii)
   - Bazowy układ: przysiady 1-nóż + bułgarskie + przysiady dwunóż + lunge walk + jaskółki
   - **+ DODATKOWO ŁYDKI 3×20/nogę na schodku z oparciem** — eccentric heel raises = **klasyczny modified Alfredson dla Achillesa**
   - Klasyczny core (3×1:30 plank front+P+L) + rozciąganie
-- **Morning Ride: 27.88 km / 78 min / HR 124 avg (max 169) / Z2**
-- Plan T3.pt po korekcie = REST. Wykonano: siła + rower commute.
+- **Morning Ride: 27.88 km / 78 min / HR 124 avg (max 169) / Z2** + **Afternoon Ride: 28.48 km / 120 min / HR 91 (Z1) / suffer 19** = total 56.4km rower
+- Plan T3.pt po korekcie = REST. Wykonano: siła + rower x2 commute.
 - **Komentarz:** 🎯 dodatek łydek (3×20/nogę eccentric) to **defensywne ćwiczenie dla Achillesa insertional** — dokładnie modified Alfredson (do neutralnej, NIE pod krawędź). Po 240m elev hill reps + 27km long + 21km easy + VO2max = tendon load wysoki, calf eccentrics dziś = inteligentna prewencja. ⚠️ ALE: to **4-ta siła w 13 dni** (17.05, 22.05, 25.05, 29.05) — intensywność z gym też trzeba sprawdzać. Sobota plan = sprints + easy. Niedziela long 22 km. Achilles monitoring obligatory.
 
 ### 2026-05-28 (cz) — CROSS-TRAINING: rower commute x2 🚴 ✅
