@@ -203,6 +203,17 @@ Cel: post-quality recovery 4 dni. ~25–30 km. Bez akcentów.
 
 ## T3 — REENTRY (75 km, 25–31.05.2026)
 
+### 2026-05-31 (nd) — T3.nd **LONG 24.80 km** ⭐ (drugi BEST sezonu!)
+- Morning Run: **24.80 km @ 5:37/km**, HR **128**/147, suffer **138**
+- Elev gain **307m** (rolling terrain)
+- **Quartile HR: 125/128/127/131 → drift +6 bpm**
+- **0 strap spikes** (HR>=170: zero) = perfect clean data
+- HR max 147 = NIGDY nie wszedł w Z4 (cap 146). Pełna Z2/Z3 control.
+- Pace dist: 11% <5:00, 27% 5:00-5:30, 35% 5:30-6:00, 26% 6:00-7:00 = progresywny
+- Plan T3.nd = 22km HR<130 drift<5. Wykonano: 24.80km HR 128 drift +6 (delicate over).
+- **Komentarz:** ⭐ drugi najlepszy long w sezonie (po 27km nd 24.05 z drift -10). Forma sub-3 utrwalona po 6 tyg od Wiednia. Drift +6 bpm na 24.80km z 307m elev = elite aerobic + thermal control. T3 zamknięty mocno.
+- URL: https://www.strava.com/activities/18723731808
+
 ### 2026-05-30 (sb) — T3.sb: 10.87 km + krótkie sprinty
 - Morning Run: **10.87 km @ 5:54/km**, HR **133**/198 (strap spike Q1), suffer 73
 - Elev gain 84m
