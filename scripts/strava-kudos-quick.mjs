@@ -42,27 +42,21 @@ let totalClicks = 0;
 let stuckCount = 0;
 
 while (Date.now() - start < MAX_DURATION_MS && stuckCount < 5) {
-  const items = await evalJS(`
+  // JS click (faster + works after Strava layout change 02.06.2026)
+  const clickedRound = await evalJS(`
     (() => {
       const PENDING = ${JSON.stringify(PENDING)};
-      return Array.from(document.querySelectorAll('button[data-testid="kudos_button"]'))
+      const all = Array.from(document.querySelectorAll('button[data-testid="kudos_button"]'))
         .filter(b => PENDING.includes(b.title))
-        .map(b => { const r = b.getBoundingClientRect(); return { x: Math.round(r.left+r.width/2), y: Math.round(r.top+r.height/2), top: r.top, vp: window.innerHeight }; })
-        .filter(c => c.top > 30 && c.top < c.vp - 30);
+        .filter(b => { const r = b.getBoundingClientRect(); return r.top > 30 && r.top < window.innerHeight - 30; });
+      let count = 0;
+      for (const b of all) { b.scrollIntoView({block:'center', behavior:'instant'}); b.click(); count++; }
+      return count;
     })()
   `);
-
-  let clickedRound = 0;
-  for (const it of items) {
-    await Input.dispatchMouseEvent({ type: 'mouseMoved', x: it.x, y: it.y });
-    await new Promise(r => setTimeout(r, 30));
-    await Input.dispatchMouseEvent({ type: 'mousePressed', x: it.x, y: it.y, button: 'left', clickCount: 1 });
-    await new Promise(r => setTimeout(r, 60));
-    await Input.dispatchMouseEvent({ type: 'mouseReleased', x: it.x, y: it.y, button: 'left', clickCount: 1 });
-    clickedRound++;
-    totalClicks++;
-    await new Promise(r => setTimeout(r, CLICK_THROTTLE_MS));
-  }
+  totalClicks += clickedRound;
+  // throttle after the batch
+  if (clickedRound > 0) await new Promise(r => setTimeout(r, CLICK_THROTTLE_MS * clickedRound));
 
   const beforeY = await evalJS(`window.scrollY`);
   const beforeH = await evalJS(`document.documentElement.scrollHeight`);
