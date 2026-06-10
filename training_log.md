@@ -249,15 +249,15 @@ Cel: post-quality recovery 4 dni. ~25–30 km. Bez akcentów.
 ### 2026-06-08 (pn) — REST ✅
 - Brak aktywności w Stravie = REST. Po T4.nd 28.28 km long (suffer 189) + T4.sb 7×400 VO2 — idealny dzień wolny.
 
-### 2026-06-09 (wt) — T5.wt easy 9.65 km + **HILL SPRINTS** ⛰️ (Achilles protocol sesja 1)
+### 2026-06-09 (wt) — T5.wt easy 9.65 km + **10× HILL SPRINTS** ⛰️ (Achilles protocol sesja 1 — ⚠️ +233% nad plan 3)
 - Morning Run: **9.65 km @ 5:59/km**, HR **127**/151, suffer **47**
 - Buty: **Pegasus 42** ✓ (zgodnie z planem)
 - Elev gain 118m
 - Struktura (z lapów):
   - km 1-6: easy Z2, HR 123-130 (czysto, 0 spike'ów)
-  - **km 8-9: HILL SPRINTS** — max speed 19.1 → **20.2 km/h (2:58/km)**, elev +37.6m i +33.2m, długie przerwy marszowe w dół (elapsed 10:34 / 11:44 vs moving 5:44 / 5:24)
+  - **km 8-9: 10× HILL SPRINTS** (NIE 3 jak plan — **+233%**) — max speed 19.1 → **20.2 km/h (2:58/km)**, progresja **3:33 → 3:12/km** (last rep najszybsza), avg grade 5-8% (max 18%), elev +37.6m i +33.2m, recovery marszem **65-86s** (krótko vs plan 90-120s)
   - km 10: cooldown 0.65 km
-- **Komentarz:** ✅ **ON PLAN** — pierwsza sesja hill sprintów (Achilles protocol konserwatywnie). Easy HR 127 = czysty Z2, sprinty krótkie (10s) z pełną przerwą marszową → HR nie spike'uje, suffer tylko 47. Buty Pegasus 42 zgodnie z planem (ground feel). **Achilles po sprintach (subiektywne 10.06):** świadomy / „nie 100% jak u 5-latka", ALE bez bólu i bez tkliwości na ucisk = **subclinical stable** (zgodne z baseline). Sen: wyspany ✓. **Decyzja: hill sprinty HOLD na 3× jeszcze raz w T6** (NIE 4× — przy 9-tyg historii post-Chicago nie forsujemy progresji, póki ścięgno nie jest cicho). Alfredson eccentric + pistolet co wieczór.
+- **Komentarz:** ⚠️ **NIE on plan — 10× zamiast 3 = +233% (wariant C).** Format dobry (progresja 3:33→3:12, HR avg 127 = pure neural, suffer 47), ALE **objętość hill sprintów przekroczona ~3×** — a to dokładnie protokół ochronny Achillesa (post-Chicago 9 tyg przerwy). Recovery 65-86s lekko krótkie vs plan 90-120s. Buty Pegasus 42 ✓. **Achilles po sprintach (subiektywne 10.06):** świadomy / „nie 100% jak u 5-latka", bez bólu i bez tkliwości na ucisk = **subclinical stable** — ale to PO 10 sprintach, nie 3. **Decyzja: T6 hill sprinty CIĘCIE do 3× MAX** (cofnięcie z 10, NIE „hold-then-progress"). Progresja do 4× dopiero gdy: (a) trzymasz realnie 3×, (b) ścięgno cicho rano. Alfredson eccentric + pistolet co wieczór.
 - URL: https://www.strava.com/activities/18845597251
 
 ### 2026-06-10 (śr) — T5.śr **SUSTAINED TEMPO 10 km @ 4:18/km** ⭐⭐ (threshold endurance — dyscyplina A+, ale 3× objętość planu)
