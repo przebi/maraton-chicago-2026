@@ -201,6 +201,186 @@ Cel: post-quality recovery 4 dni. ~25–30 km. Bez akcentów.
 
 ## T2 — RECOVERY+ (60 km, 18–24.05.2026)
 
+## T5 — SPEED RETURN + THRESHOLD (~85 km, 08–14.06.2026)
+
+### Plan adjustment śr 10.06 — SWAP VO2 → SUSTAINED TEMPO ⭐
+
+**Powód swap:** Tomasz dał 06.06 (sb) spontanicznie 7×400 @ 3:17 = większa intensywność niż planowana T5.śr 6×400 @ 3:30. Speed/VO2 **proven**. Pozostała słabość = **threshold endurance** ("zatyka sustained" feedback z 03.06 tempo 3×2km).
+
+**T5.śr 10.06 NOWY**: SUSTAINED TEMPO 15 min @ 4:20/km ciągłe (NIE split, NIE 4:10!)
+- 3 km WU easy → 15 min tempo SUSTAINED @ 4:20 → 3-4 km CD easy
+- Total ~12 km
+- **HR target 165-172** (Z4 threshold, ~90-94% HRmax)
+- Discipline pace! Łatwo pójść 4:10 (zatka znów) lub 4:30 (bez stimulus)
+- Buty: Pegasus 42 lub Plus (NIE PrimeX 2)
+
+**Pomiar success:**
+- ✅ Cały 15-min blok między 4:18-4:22 (NIE 4:08)
+- ✅ HR plateau 165-172 (NIE >175)
+- ✅ Płuca komfort sub-progowo (samopoczucie "trudne ale opanowane")
+- ⚠️ Jeśli zatyka po 8 min → break w 10 min, finish CD wcześniej. Lepiej 10 min czysto niż 15 min z fade.
+
+**Następne tempo (pt 12.06)**: cruise 3×5 min @ 4:15 z 90s rec (split-format threshold). Razem śr+pt = **threshold endurance focus week**.
+
+### Plan addition wt 09.06 — HILL SPRINTS dodane ⛰️
+
+**Powód:** running economy boost (3-5% realne) — Tomasz pyta o sub-35:30 10K wyzwanie + brak tego stimulus w obecnym planie.
+
+**wt 09.06 NOWY**: Easy 8 km + **3×10 sek HILL SPRINTS** max effort
+- Górka **8-12% nachylenie**, długość 80-150 m (10 sek = ~60-70 m biegu)
+- Bardzo długa WU 15-20 min easy + drills (A-skip, B-skip, high knees, butt kicks)
+- 1. sprint 80% effort (test Achilles), 2-3. max 95-100%
+- Recovery: **marsz w dół 90-120 sek** (NIE jog — full recovery)
+- CD 1 km easy + rozciąganie łydek + Alfredson eccentric wieczorem
+- Buty: **Pegasus 42** (ground feel + cushion)
+
+**Achilles protocol** (post-Chicago 2025 history!):
+- Konserwatywnie 3× start (T5)
+- T6: 4×, T7: 5×, T8+: 6× cel
+- Jeśli bolesność post-workout = STOP, opóźnij progresję
+
+**Cel adaptacja:**
+- Tendon stiffness (Achilles + Patellar)
+- Neural recruitment (motor unit synchronization)
+- Reactive strength = running-specific power
+
+### Wykonane sesje T5
+
+### 2026-06-08 (pn) — REST ✅
+- Brak aktywności w Stravie = REST. Po T4.nd 28.28 km long (suffer 189) + T4.sb 7×400 VO2 — idealny dzień wolny.
+
+### 2026-06-09 (wt) — T5.wt easy 9.65 km + **HILL SPRINTS** ⛰️ (Achilles protocol sesja 1)
+- Morning Run: **9.65 km @ 5:59/km**, HR **127**/151, suffer **47**
+- Buty: **Pegasus 42** ✓ (zgodnie z planem)
+- Elev gain 118m
+- Struktura (z lapów):
+  - km 1-6: easy Z2, HR 123-130 (czysto, 0 spike'ów)
+  - **km 8-9: HILL SPRINTS** — max speed 19.1 → **20.2 km/h (2:58/km)**, elev +37.6m i +33.2m, długie przerwy marszowe w dół (elapsed 10:34 / 11:44 vs moving 5:44 / 5:24)
+  - km 10: cooldown 0.65 km
+- **Komentarz:** ✅ **ON PLAN** — pierwsza sesja hill sprintów (Achilles protocol konserwatywnie). Easy HR 127 = czysty Z2, sprinty krótkie (10s) z pełną przerwą marszową → HR nie spike'uje, suffer tylko 47. Buty Pegasus 42 zgodnie z planem (ground feel). **Achilles po sprintach (subiektywne 10.06):** świadomy / „nie 100% jak u 5-latka", ALE bez bólu i bez tkliwości na ucisk = **subclinical stable** (zgodne z baseline). Sen: wyspany ✓. **Decyzja: hill sprinty HOLD na 3× jeszcze raz w T6** (NIE 4× — przy 9-tyg historii post-Chicago nie forsujemy progresji, póki ścięgno nie jest cicho). Alfredson eccentric + pistolet co wieczór.
+- URL: https://www.strava.com/activities/18845597251
+
+### 2026-06-10 (śr) — T5.śr **SUSTAINED TEMPO 10 km @ 4:18/km** ⭐⭐ (threshold endurance — dyscyplina A+, ale 3× objętość planu)
+- Morning Run: **15.03 km @ 5:02/km avg**, HR **150**/194 (km 1 strap spike), suffer **200**
+- Buty: **Adidas Adios Pro 4** (carbon racer; correction — Strava pierwotnie auto-tagowała PrimeX 2, Tomasz poprawił 10.06). Plan sugerował daily (Pegasus 42/Plus), ale crown-jewel pianka PrimeX 2 **oszczędzona** ✓
+- Elev gain 90m
+- Struktura (z lapów):
+  - WU km 1-3 easy (HR real ~108-119; km 1 max 194 = strap spike przy pace 6:28 → fake)
+  - **TEMPO km 4-13 = 10 km CIĄGŁE @ 4:15-4:23/km** (~43 min): HR ramp 154 → 170, plateau 165-170 km 7-13
+  - CD km 14-15 easy (HR 127-132)
+- **Pomiar success vs plan (15 min @ 4:20, HR 165-172):**
+  - ✅✅ **Dyscyplina pace IDEALNA** — cały blok 4:15-4:23 (NIE 4:08, NIE 4:30). Ostatni km tempo (13) = 4:15 = najszybszy → **ZERO fade**
+  - ✅ HR 165-170 = dokładnie target Z4 threshold (max 173 = 94% HRmax)
+  - ⚠️ **Objętość: 10 km tempo zamiast 15 min (~3.5 km) = ~3× plan**
+- **Komentarz:** 🔥 **DEFINITYWNIE kasuje narrację "zatyka sustained" z 03.06** — utrzymał 4:18 przez 10 km ciągłych przy HR threshold, bez fade. To dokładnie ten threshold endurance, którego brakowało. Wykonanie wzorcowe pod względem dyscypliny tempa. ⚠️ ALE wariant C znów: 10 km progu zamiast 15-min intro = ogromny stimulus + suffer 200. Buty Adios Pro 4 (carbon racer) = tempo w bucie startowym → **race-specific** (plus, nie minus), ale pace 4:18 lekko wspomagane płytą — surowa forma threshold odrobinę zawyżona względem biegu w daily. Gęstość quality wysoka: 06.06 VO2 → 07.06 28km long → 10.06 43min próg. **Korekta pt 12.06: odpuścić drugi próg** (plan był 3×5min @ 4:15) — po dzisiejszym to za dużo.
+- **RPE / kalibracja (subiektywne Tomasz):** „tempo z zapasem, ale NIE na luzie — przebiegłbym dziś spokojnie HM w tym tempie". → 4:18/km ≈ **dzisiejsze HM-effort / próg** (spójne z HR: końcówka 169-170 = AT LTHR 169). Projekcja ~1:29-1:30 HM dziś (vs PB 1:24). **Implikacja kluczowa:** goal Chicago MP **4:08-4:12 jest DZIŚ szybsze** niż pace odczuwany jako HM-effort → MP-fitness jeszcze NIE na celu (oczekiwane w T5, 18 tyg out). To dokładnie **threshold endurance do podniesienia** — recalibracja celu dopiero po T8 5K test (~13-19.07) i T17 30K @ MP.
+- ⛰️ **Teren (Tomasz):** blok tempo NIE płaski — **~45 m gain rozłożone na 10 km** (małe rolki co km). Podbija HR przy danym pace o kilka bpm → **flat-equivalent próg pewnie ~4:13-4:16**. HR końcówki 170 = AT LTHR 169, dane czyste (spike 194 tylko km 1 = fake). Chicago jest PŁASKIE → flat-pace to właściwa kalibracja = lekko **optymistyczniej** niż surowe 4:18.
+- URL: https://www.strava.com/activities/18860196340
+
+---
+
+## T4 — BASE INTRO (~70 km, 01–07.06.2026)
+
+### 2026-06-07 (nd) — T4.nd **LONG 28.28 km @ 5:36/km** ⭐⭐ (drift +1 bpm = ELITE!)
+- Morning Run: **28.28 km @ 5:36/km avg**, HR **131**/187 (km 1 strap spike), suffer **189** (najwyższy w T4)
+- Elev gain 226 m
+- Calories 1719 kcal
+- Plan T4.nd = LONG 24 km easy 5:45-6:00. Wykonano **28.28 km @ 5:36** (+4 km, szybciej tempo)
+- **HR drift analiza (excluding km 1 strap spike 159):**
+  - Q1 (km 2-7): avg HR **~130**
+  - Q2 (km 8-14): avg HR **~128**
+  - Q3 (km 15-21): avg HR **~130**
+  - Q4 (km 22-29): avg HR **~131**
+  - **Drift Q1→Q4: +1 bpm** = ELITE aerobic ✅
+- **Highlights splitów (mid-run organic surge):**
+  - km 13: 5:04 @ HR 128
+  - km 14: 5:13 @ HR 124
+  - **km 15: 4:54 @ HR 129** ⭐
+  - **km 16: 4:54 @ HR 130** ⭐⭐
+  - = **sub-tempo @ HR <130** = niesamowita ekonomia
+- **Komentarz:** 🔥 **DEFINITIVELY kasuje narrację "katastrofa, zatyka >4:00"** z 03.06:
+  - Dzień 06.06: 7×400 @ 3:17 (speed proven)
+  - Dzień 07.06: 28 km drift +1 + 2 km @ 4:54 HR <130 (aerobic engine ELITE)
+- Co naprawdę brakuje = **threshold endurance** (sustained @ próg) → cel śr 10.06.
+- ⚠️ **Cumulative load wysoki** — suffer 189 + dzień po VO2 7×400. Jutro pn REST obowiązkowy. Sprawdzić Achilles + HRV.
+- URL: https://www.strava.com/activities/18818451508
+
+### 2026-06-06 (sb) — T4.sb **7×400m @ 3:13-3:21/km** ⚡ (VO2max session!)
+- Morning Run: **10.00 km @ 5:36/km avg**, HR **144**/197 (strap spike WU), suffer **123**
+- **7×400m intervals** (400m recovery jog 7:00-7:54/km):
+  - Rep 1: 3:21 HR 164/176
+  - Rep 2: 3:19 HR 165/175
+  - Rep 3: 3:17 HR 166/177
+  - Rep 4: 3:18 HR 167/178
+  - Rep 5: 3:14 HR 168/178
+  - Rep 6: 3:18 HR 167/177
+  - **Rep 7: 3:13 HR 167/177 ← najszybsza!**
+- Avg pace per rep: **3:17/km (= 1:19/400m)**
+- Avg HR per rep: **167 (91% HRmax 183)**, HR max 178 (97%)
+- WU 3 km + CD 1.77 km easy
+- **Komentarz:** ⭐⭐ **VO2max session perfectly executed**. Plan T4.sb był easy 8 + 4×100 strides. Tomasz dał **7×400 @ 3:17 avg z progresją** (każda rep równa lub szybsza). Rep #7 najszybsza = NIE zatkał się. To **definitywnie kasuje** narrację "katastrofa, zatyka >4:00" z 03.06 — Tomasz HAS speed, tempo wt zatykało bo cumulative fatigue (morning combo). HR max 178 = 97% HRmax = engine sięga prawdziwego peaku. Plus po pt sile HEAVY 1.5h i wczoraj REST: świetne że ciało wytrzymało takiej intensywności.
+- URL: https://www.strava.com/activities/18804684812
+
+### 2026-06-05 (pt) — T4.pt SIŁA HEAVY 1.5h 💪 (progresja objętości)
+- **Siła w ogródku 1.5h** z hantlami 2×5kg (te same co wcześniej):
+  - Przysiady jednonóż z obciążeniem: 4×10/nogę
+  - **Bułgary 4×15/nogę** (vs poprzednio 3×15 = +1 seria)
+  - **Przysiady dwunóż 4×20** (vs 3×20 = +1 seria)
+  - **Jaskółki 4×15/nogę** (vs 4×10 = +50% reps!)
+  - **Marsz wykroczny 4×32 kroków** (vs 4×30)
+  - **Łydki na schodach 4×20/nogę** (vs 3×20 = +1 seria)
+  - 3 deski (prosta + 2 boczne) 3×1:30
+  - Rozciąganie
+- Plan T4.pt = HEAVY 1:30. Wykonano: **dokładnie plan, z progresją objętości** (więcej serii/reps).
+- **Komentarz:** ⭐ **progresja przez objętość** (NIE ciężar). Bułgary +1 seria, jaskółki +50% reps, łydki +1 seria. Total 1.5h. To **strength endurance** development = idealne dla maratonu. Po cz 17.10km easy (drift +1 bpm = ELITE) + dzisiejsza siła = silny T4 dotąd. Jutro sb easy + 4×100 strides, ND long 24 km progresywny.
+
+### 2026-06-04 (cz) — T4.cz easy 17.10 km ⭐ (drift +1 bpm)
+- Morning Run: **17.10 km @ 5:54/km**, HR **129**/165, suffer 101
+- Elev gain 231m
+- **Quartile HR: 130/130/126/131 → drift +1 bpm = ELITE** 🔥
+- 0 strap spikes
+- Plan T4.cz = easy 10 + drills. Wykonano 17.10 km (+71% nad plan).
+- **Komentarz:** ⭐ idealne T4.cz — dystans przekroczony ale HR w Z2 strict (129 avg). Drift +1 bpm na 17km z 231m elev = sub-3 forma faktycznie utrwala. Cz po tempo śr (3×2km) z drift +1 bpm = ZNAKOMITA recovery.
+- URL: https://www.strava.com/activities/18779129289
+
+### 2026-06-03 (śr) — T4.śr TEMPO **3×2km @ 4:14/4:14/3:58** ⭐ (Tomasz: "katastrofa", obiektywnie OK)
+- Morning Run: **11.19 km @ 5:17/km avg**, HR **145**/181, suffer **119**
+- **3×2km tempo** (NIE 2×8 min jak skorygowany plan):
+  - Rep 1: 2.00 km @ **4:14/km**, HR 162/170
+  - Rep 2: 2.00 km @ **4:14/km**, HR 165/173
+  - Rep 3: 2.01 km @ **3:58/km**, HR 170/**181** (99% HRmax!)
+- Recovery jog 400m @ 7:52-8:18/km między
+- WU 3km @ 5:52 + CD 1.35km @ 7:52
+- **Tomasz subiektywnie:** "katastrofa, kompletny brak prędkości, zatyka >4:00/km, +1kg więcej, brak speed work ostatnich tygodni"
+- **Obiektywnie:** dał plan +50% (6km tempo vs plan 3.8km), ostatnia rep **szybsza niż target** (3:58 vs 4:15). HR max 181 = engine podał maks.
+- **Historia Tomasza:** luty 2026 3×5 @ 4:15/4:10/4:05 — zatkał na 4:10. Miesiąc tempo work → 3×5 @ 4:05/4:00/3:55. Speed wraca szybko z regular tempo+interwały.
+- **Komentarz:** to NIE katastrofa, to **przeforsowanie po wczorajszym morning combo** (VO2max-strides + siła back-to-back). Plus aerobic base IDEALNA (drift −10 / +1 na long = sub-3 forma). Speed wraca w 2-3 tyg z regular tempo + interwały. Plan T5: śr VO2 8×400 + pt tempo 3×6 @ 4:15. Waga: -1kg w 2-3 tyg via reduce wieczorne kalorie o 300/dzień (NIE w hard week).
+- URL: https://www.strava.com/activities/18765040177
+
+### 2026-06-02 (wt) — T4.wt MORNING COMBO: easy 11.9km + **6×150 strides** + siła back-to-back 💪
+- Morning Run: **11.90 km @ 5:58/km**, HR **137**/196 (strap spike Q1), suffer **106**
+- Elev gain 159m
+- Quartile HR: 149 (spike)/130/132/138 → **real drift Q2→Q4: +8 bpm**
+- HR ≥180 spikes: 352 punkty (strap glitch warm-up)
+- **6×150m strides (NIE strides — de facto VO2max!):**
+  - Rep avg dist: 127m × 25s
+  - Pace: 3:03-3:12/km (best chwilowy 2:46-2:59!)
+  - HR ramping: 145 → 153 (max 165)
+  - + 2 dłuższe pre-strides (244m @ 3:35 + 121m @ 3:41)
+- **Siła w ogródku (mid-intensity ~45-60 min):**
+  - Schodki 3×10/nogę (single-leg step-ups)
+  - **Bułgary 3×15/nogę** (więcej reps niż zwykle 10!)
+  - Łydki 3×20/nogę eccentric (Alfredson continuation)
+  - Deska front 1:30
+  - 2 deski boczne 1:30 (P + L)
+  - Rozciąganie
+- **Komentarz:** plan T4.wt v3 = easy 8 + LIGHT 30 min wieczorem. Wykonano **MORNING COMBO**: bieg 11.9 + 6×150 strides + siła back-to-back (NIE split z 8h przerwy, tylko zaraz po biegu). Drift +8 bpm = nogi nadal trochę po nd 24.80km long. 🎯 **Bułgary 3×15 = większa objętość single-leg** — Tomasz buduje siłę systematycznie. ⚠️ Bieg z VO2max-strides + siła back-to-back = duży CNS + tendon load w jeden poranek. **Plus**: cały dzień na regenerację przed tempo śr. **Minus**: jutro tempo może być nieco zmęczone — sugeruję **2×8 min @ 4:15** zamiast 2×10.
+
+### 2026-06-01 (pn) — REST ✅
+- Plan T4.pn = REST obowiązkowy. Wykonano: REST ✓ (po nd 24.80km long, idealnie).
+
+---
+
 ## T3 — REENTRY (75 km, 25–31.05.2026)
 
 ### 2026-05-31 (nd) — T3.nd **LONG 24.80 km** ⭐ (drugi BEST sezonu!)
