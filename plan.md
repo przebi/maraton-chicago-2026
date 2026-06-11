@@ -155,7 +155,7 @@ Doprecyzowanie po T4 (po pierwszej VO₂max — kalibracja) i po **TEST 5K w T8*
 
 ### T7 — SPECIFICITY START (90 km, 22–28.06)
 - **SIGNATURE: 3×5K progresywne** z 1K trucht + 1K floating (paces **4:15 → 4:08 → 4:00**) ~22 km
-- VO₂max: 5×1000 m @ 3:48 (90 s jog) — **co tydzień od T7 dla 2:55-2:57**
+- VO₂max/speed: **4×1600 m progresywnie 4:05→4:00→3:55→3:50** (bieżnia, 400 m jog rec) — *track session zaproponowana przez Tomasza 11.06, przesunięta z T5 (za gęsto)*. Alt: 5×1000 m @ 3:48 (90 s jog). **Co tydzień od T7 dla 2:55-2:57.**
 - Hill sprints: 10× 8 s (ostatni raz) + easy 12 km
 - LR: 30 km z 5 km @ 4:25 na końcu
 - **Benchmark:** VO₂max pace progresja vs T5 (5×1000 powinno iść 3:48-3:50 vs T5 6×800 @ 3:55)

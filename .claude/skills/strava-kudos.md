@@ -11,6 +11,44 @@ Tomasz okresowo prosi "daj kudosy znajomym ile zdołasz". Skill steruje Chrome'e
 
 **Strava API NIE obsługuje kudosów dla cudzych aktywności** (friend feed endpoint zdeprecjonowany 2018, scope `activity:write` ich nie obejmuje). Jedyna droga = przeglądarka.
 
+## ⚠️ KRYTYCZNE — lekcje 2026-06-10/11 (przeczytaj PRZED runem)
+
+### 1. Guard `elementFromPoint` PRZED każdym klikiem (OBOWIĄZKOWY)
+**Bug złapany na żywo (Tryb A dashboard):** ślepe klikanie po `getBoundingClientRect` chybia — **lazy-load obrazków przesuwa layout MIĘDZY obliczeniem koordynatów a klikiem** → klik ląduje OBOK ikony:
+- trafia w licznik → otwiera popup „kto dał kudos" → overlay przesuwa layout → kolejne kliki w pustkę = **nieskończona pętla** (objaw: rundy +N klików, +0 nowych kudosów),
+- albo trafia w sąsiedni **follow/unfollow** → toggle obserwowania znajomego w kółko (złapane na *Adamie Bawołku* — po buggy runie SPRAWDŹ/odtwórz stan obserwowania!).
+- Symptom liczbowy: **80 klików / tylko 28 ok = ~52 chybienia.**
+
+**FIX (stosuj w KAŻDYM trybie, też Tryb B na profilach):** tuż przed `Input.dispatchMouseEvent` zweryfikuj, że ikona jest pod kursorem i w widoku:
+```js
+const el = document.elementFromPoint(cx, cy);
+const underBtn = el && (el===b || b.contains(el) || el.closest('button[data-testid="kudos_button"]')===b);
+const inView = cy > 60 && cy < innerHeight - 20;
+// klikaj TYLKO gdy underBtn && inView
+```
+Inaczej: **Escape** (`Input.dispatchKeyEvent` keyCode 27, zamyka popup) → `b.dataset.kudosSkip='1'` → pomiń. Filtruj `button[...]:not([data-kudos-skip])` (skip-marker = brak pętli). Po kliku sprawdź, że title już NIE jest PENDING — jak jest, też skip. Dodatkowo: **`MAX_CLICKS` cap** + **live-log przez `fs.appendFileSync`** (console.log buforuje w tle — nie widać postępu, nie da się interweniować).
+
+**Działający zabezpieczony skrypt:** [scripts/strava-kudos-dashboard.mjs](../../scripts/strava-kudos-dashboard.mjs) (guarded Tryb A). Wynik po fixie 2026-06-10: **80 kudosów, 0 chybień, 0 skipów, feed wyczyszczony w 118s.** Guard przenieść też do Tryb B.
+
+### 2. Stale params — ODŚWIEŻ przed każdym runem v7d (inaczej robi złe rzeczy)
+`scripts/strava-kudos.mjs` jest zamrożony na parametrach poprzedniej sesji:
+- **`WEEKS` zaszyte** (było `202618-21` = MAJ) → policz **bieżące 4 tygodnie ISO** (kod ISO-week jest niżej w tym skillu). Inaczej daje kudosy za stary miesiąc.
+- **`stateStartIdx = 58`** (resume z 18.05) → na świeży pełny run ustaw **0** lub skasuj `/tmp/strava_kudos_state.json`.
+- **friends cache `/tmp/strava_friends.json` ZNIKA po restarcie** → odbuduj. **TODO: przenieść do `data/strava_friends.json`.**
+- **CDP client `/tmp/node_modules/chrome-remote-interface` też ginie z /tmp** → reinstall: `cd /tmp && npm i --no-save chrome-remote-interface`.
+- **Login w profilu `/tmp/chrome-strava` wygasa** (nawet gdy pliki /tmp przeżyją) → tab zrzuca na `/login`; poproś Tomasza o ponowne zalogowanie przed runem.
+
+### 3. Tokeny / lokalizacje (potwierdzone 2026-06-10)
+- Stan tokenu: `~/.config/strava-mcp/config.json` → `accessToken`, `refreshToken`, `expiresAt`. **BEZ client_id/secret.**
+- Client creds: `strava-mcp/.env` → `CLIENT_ID`, `CLIENT_SECRET`.
+- Token żyje ~6h; do bezpośrednich API-calls zrób własny refresh:
+  `POST https://www.strava.com/oauth/token` z `client_id`+`client_secret` (.env) + `grant_type=refresh_token` + `refresh_token` (config.json) → `.access_token`.
+
+### 4. Czytanie kudosów (gdy Tomasz pyta „ile mam / kto dał")
+MCP `get-activity-details` **NIE** wystawia `kudos_count`. Fallback API (po refreshu jak wyżej):
+- `GET /api/v3/activities/{id}` → `.kudos_count`, `.comment_count`
+- `GET /api/v3/activities/{id}/kudos` → lista `{firstname, lastname}`
+
 ## TRYBY
 
 | Tryb | Zasięg | Kudosy/run | Czas | Plik |

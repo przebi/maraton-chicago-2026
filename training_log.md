@@ -277,6 +277,12 @@ Cel: post-quality recovery 4 dni. ~25–30 km. Bez akcentów.
 - ⛰️ **Teren (Tomasz):** blok tempo NIE płaski — **~45 m gain rozłożone na 10 km** (małe rolki co km). Podbija HR przy danym pace o kilka bpm → **flat-equivalent próg pewnie ~4:13-4:16**. HR końcówki 170 = AT LTHR 169, dane czyste (spike 194 tylko km 1 = fake). Chicago jest PŁASKIE → flat-pace to właściwa kalibracja = lekko **optymistyczniej** niż surowe 4:18.
 - URL: https://www.strava.com/activities/18860196340
 
+### 2026-06-11 (cz) — T5.cz SIŁA w ogródku 1:10h 💪 (BEZ biegu)
+- **Siła ~1:10h**, hantle **15.5 kg total** (trochę więcej niż zwykle), układ standardowy (sesja A), **o 1 serię mniej** — autoregulacja (ciężar↑, objętość↓).
+- Plan T5.cz = split easy 10 km + SIŁA HEAVY. Wykonano: **tylko siła** (bieg odpuszczony).
+- **Waga: 64 kg rano** (vs baseline 61). +3 kg = **woda, NIE tłuszcz**: (a) **kreatyna** (start 12.05, ~5.5 g/dzień → po ~4 tyg mięśnie nasycone → +1-2 kg wody śródmięśniowej), (b) **glikogen + woda** ze zwiększonych wieczornych węgli (1g glikogenu wiąże ~3g wody). Monitorować TREND, nie pojedynczy odczyt. Opcja: odstawić kreatynę ~2-4 tyg przed Chicago, jeśli optymalizacja race-weight.
+- **Komentarz:** ✅ odpuszczenie easy biegu sensowne w kontekście deload + sen/kortyzol. 48h do pt (które i tak = easy) → timing OK. Brak biegu = T5 km niżej, recovery priority.
+
 ---
 
 ## T4 — BASE INTRO (~70 km, 01–07.06.2026)
