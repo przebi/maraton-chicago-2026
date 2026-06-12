@@ -283,6 +283,13 @@ Cel: post-quality recovery 4 dni. ~25–30 km. Bez akcentów.
 - **Waga: 64 kg rano** (vs baseline 61). +3 kg = **woda, NIE tłuszcz**: (a) **kreatyna** (start 12.05, ~5.5 g/dzień → po ~4 tyg mięśnie nasycone → +1-2 kg wody śródmięśniowej), (b) **glikogen + woda** ze zwiększonych wieczornych węgli (1g glikogenu wiąże ~3g wody). Monitorować TREND, nie pojedynczy odczyt. Opcja: odstawić kreatynę ~2-4 tyg przed Chicago, jeśli optymalizacja race-weight.
 - **Komentarz:** ✅ odpuszczenie easy biegu sensowne w kontekście deload + sen/kortyzol. 48h do pt (które i tak = easy) → timing OK. Brak biegu = T5 km niżej, recovery priority.
 
+### 2026-06-12 (pt) — T5.pt **TEMPO 3×5 min @ 4:13/km** ⭐ (WG PLANU — co do sekundy i metra)
+- Morning Run: **10.00 km @ 5:38/km avg**, HR **143**/201 (lap 1 max 201 = strap spike przy easy WU = fake), suffer 111
+- Buty: **Pegasus Plus** ✓
+- Struktura (lapy): WU 3.2 km easy → **3× ~5 min @ 4:13 / 4:14 / 4:14** (HR 158→164→163, max 172) z 90 s trucht rec → CD 2.82 km easy (HR 128)
+- **Komentarz:** ✅ **Dokładnie wg planu** (viewer pt 12.06: „TEMPO 3×5 min @ 4:15, Pegasus 42/Plus"). Wykonano 4:13/4:14/4:14, HR 164-172 = Z4 threshold — wzorowo i zdyscyplinowanie (4:13, nie 4:00). **[Korekta trenera: wcześniej błędnie oznaczyłem to jako „wariant C / mimo zalecenia easy". Moja sugestia easy z 10.06 była TYLKO w czacie — nigdy nie trafiła do planu. Tomasz słusznie wykonał ZAPISANY plan, co do sekundy. Lekcja: zmiany planu COMMITOWAĆ, nie tylko mówić.]** T5 miało 2 progi z założenia planu; T6 deload (pn) absorbuje. Pegasus Plus ~15 s/km wolniej niż race → **4:13 ≈ ~3:58 w Adios/PrimeX** (race-day bonus).
+- URL: https://www.strava.com/activities/18886319516
+
 ---
 
 ## T4 — BASE INTRO (~70 km, 01–07.06.2026)
