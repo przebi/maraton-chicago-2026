@@ -13,8 +13,9 @@ Strava API odmawia cudzych activity details (403 Forbidden), więc używamy **Ch
 ## Pre-requisites
 
 1. **Chrome 9223 zalogowany** na konto Tomasza ([[strava_kudos_setup]])
-2. **CDP client**: `[ -d /tmp/node_modules/chrome-remote-interface ] || (cd /tmp && npm install --no-save chrome-remote-interface)`
+2. **CDP client**: `[ -d /tmp/node_modules/chrome-remote-interface ] || (cd /tmp && npm install chrome-remote-interface)`
 3. **Maciek profile follow** w sesji Tomasza (już jest)
+4. ⚠️ **/tmp jest EFEMERYCZNE** — po czyszczeniu (reboot / zmiana dnia) znika `/tmp/node_modules` (reinstall jw.) **ORAZ profil Chrome `/tmp/chrome-strava` = sesja Stravy/Garmina pada**. Symptom: scrape zwraca teaser „Zarejestruj się za darmo" / `hasPrzebieracz:false` / `activityLinks:0`. **Fix:** poproś Tomasza o ponowne zalogowanie w oknie Chrome (Strava i/lub Garmin), potem ponów scrape.
 
 ## Workflow
 
@@ -89,6 +90,39 @@ Tomasz dostarczył CSV z planem 8 tyg z notatkami. Porównanie:
 - Plan tempo vs wykonane tempo (Maciek konsekwentnie szybciej niż target)
 - Subjective feedback z notatek ("lekkie zmęczenie nogi" itp)
 
+## ŹRÓDŁA DANYCH (ustalone 14.06.2026)
+
+- **Strava = TYLKO kudosy** (skill strava-kudos).
+- **Tomasz (własne dane) = Garmin MCP** (`mcp__garmin__*`) — czyste, strukturalne + **HRV / training-readiness / sen / body-battery / stress** = fatigue markers (priorytet #1).
+- **Maciek = Garmin SCRAPE** (sesja Tomasza + Connections). MCP NIE widzi connection-shared activities Maćka.
+
+Garmin > Strava dla danych: Strava ukrywa cudze **max HR / strefy**; Garmin (przez Connections „Moje połączenia") daje **splity + HR avg/max + kadencję + międzyczasy**.
+
+### Setup Garmin MCP BEZ drugiego logowania / 2FA (kluczowy trik — DZIAŁA)
+
+MCP potrzebuje `~/.garmin-connect-mcp/session.json`. Zamiast osobnego loginu Playwright (2FA!), **reużyj zalogowanego Chrome 9223** (Tomasz loguje Garmina RAZ w oknie Chrome) i wyciągnij sesję przez CDP — skrypt `/tmp/garmin_session.mjs`:
+- nawiguj tab na `https://connect.garmin.com/app/activities`, `sleep(9000)`
+- CSRF: `Runtime.evaluate` → `document.querySelector('meta[name="csrf-token"]').content`
+- cookies: `Network.enable()` → `Network.getAllCookies()` → filtr `domain.includes('garmin')` → `[{name,value,domain}]` (29 cookies: SESSION, GARMIN-SSO, JWT_WEB, CASTGC...)
+- **zapis pliku z Node** (`fs.writeFileSync`), NIE z `browser_run_code_unsafe` (sandbox blokuje require/import → `ERR_VM_DYNAMIC_IMPORT_CALLBACK_MISSING`)
+- format: `{ "csrf_token": "...", "cookies": [...] }` → `~/.garmin-connect-mcp/session.json`
+- `mcp__garmin__check-session` → `status: ok` + profil (id 2405885, VO2 56, LTHR 169, waga 61)
+- ⚠️ cookies wygasają po kilku h → Tomasz re-login w Chrome → re-run `/tmp/garmin_session.mjs`
+
+Po setupie (Tomasz): `list-activities`, `get-activity {id}`, `get-activity-splits`, `get-activity-hr-zones`, `get-hrv`, `get-training-readiness`, `get-sleep`, `get-body-battery`, `get-daily-stress`.
+
+### Maciek przez Garmin scrape (Connections) — DZIAŁA
+
+- **Maciek Garmin profile GUID: `d3c4637c-c93b-4944-aac6-f0ff090fbf2e`** (Tomasz = profil `przebi`).
+- **Lista recent:** scrape `https://connect.garmin.com/modern/profile/{GUID}` → linki `a[href*="/activity/"]` + tekst karty (Maciej Przebiercz / Dziś-Wczoraj-dzień / dystans / czas / tempo). Skrypt `/tmp/garmin_maciek_list.mjs`. Zwraca `order` (od najnowszej) + `map{ID:tekst}`.
+- **Detale:** scrape `https://connect.garmin.com/modern/activity/{ID}` → `body.innerText` (dystans/czas/tempo/kalorie; HR `(\d+) bpm`; okrążenia/splity niżej — scroll + grab full text). Skrypt `/tmp/garmin_activity.mjs {ID}` / `/tmp/garmin_detail.mjs {ID}`.
+- SPA → po `Page.navigate` daj `sleep(9000)` + scroll. **Feed `/app/home` NIE renderuje aktywności (0 linków) — idź przez PROFIL Maćka, nie feed.**
+- ⚠️ Garmin pokazuje dzień-nazwę (Dziś/Wczoraj/Poniedziałek) dla bieżącego tyg, datę dla starszych — **relatywne do realnej daty Garmina** (może ≠ data systemowa sesji).
+
+**Precedens:** 5K test (sob, act `23230291426`) — 5000 m, 21:14, 4:15/km, Tarnowskie Góry track; avg HR 181, max HR 190 (94% HRmax 201) — wyciągnięte z Garmina (Strava by max HR nie dała).
+
+Skrypty referencyjne: `/tmp/garmin_session.mjs`, `/tmp/garmin_maciek_list.mjs`, `/tmp/garmin_activity.mjs`, `/tmp/open_garmin.mjs`
+
 ## Pułapki
 
 | Bug | Symptom | Fix |
@@ -155,6 +189,8 @@ Po każdym pull dla Tomasza:
 
 ## Reference
 
+- **LOG: `data/maciek_log.md`** — po KAŻDYM pullu dopisz nową sesję na górę tabeli + rozbicie interwałów dla sesji jakościowych. To kanoniczny zapis progresu Maćka.
+- Cele aktualne: **sub-1:35 (Praski 5.09) / sub-1:33 (Cracovia 11.10)** — plan `data/maciek_plan_full.xlsx` (W9-25).
 - Memory: [[maciek_profile]] — pełny profil
 - Plan CSV (Tomasz dostarczył): plan 8 tyg HM block bazowy z notatkami
 - Cele: sub-1:40 wrz / sub-1:38 paź

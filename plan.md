@@ -146,12 +146,12 @@ Doprecyzowanie po T4 (po pierwszej VO₂max — kalibracja) i po **TEST 5K w T8*
 - LR: 30 km easy (bez MP-fragmentu jeszcze)
 - Easy / strides
 
-### T6 — MINI-DELOAD (75 km, 15–21.06)
-- **SIGNATURE: 2×4K progresywne** (deload) (paces **4:20 → 4:10**) ~14 km
-- **HILL REPEATS: 5-6× 140 m** (deload) ~9 km
-- Hill sprints: 6× 8 s + easy 10 km
-- LR: 24 km easy
-- 2× easy
+### T6 — DELOAD + OCHRONA ACHILLESA (~40 km bieg + rower, 15–21.06)
+- **Achilles insertional (przyczep, reaktywny)** — flara 14.06 po 28 km long (rano sztywno na schodach, rozgrzewa się, tkliwy przy dotyku). Tydzień przebudowany.
+- **0 jakości, 0 podbiegów, 0 speed, 0 heavy calf.** Bieg dawkowany testem porannej sztywności; rower/basen wypełnia bazę aerobową.
+- Pn/wt: OFF bieg + rower + izometrie. Śr test schody → easy 5-6 płasko **lub** rower. Cz-pt easy 6-8 płasko wg trendu. Nd LR **skrócony 12-14 płasko** (lub rower).
+- **Insertional protocol:** NIE rozciągać w zgięcie grzbietowe, NIE heel-dropy poniżej stopnia (to mid-portion!), izometrie **OBUNÓŻ** na płaskim 5×30-45 s ×2-3/dzień (single-leg dopiero gdy ból odpuści), heel lift, pistolet na brzusiec łydki **nie** na przyczep. **Min. 10-14 dni bez podbiegów/speed.** Reassess w nd po trendzie sztywności.
+- **2× siła na maszynach (Achilles-safe):** wt + pt — leg press (stopy wyżej, płytko), leg extension, leg curl, hip thrust (heavy), abductor/adductor; 3-4×10-12, 2 powt. w zapasie, BEZ łydek/wykroków/skoków. Łydki obciążone od pt: seated calf raise lekko 3×12, zakres płasko→góra. Wideo-tutoriale maszyn w viewerze.
 
 ### T7 — SPECIFICITY START (90 km, 22–28.06)
 - **SIGNATURE: 3×5K progresywne** z 1K trucht + 1K floating (paces **4:15 → 4:08 → 4:00**) ~22 km

@@ -1,5 +1,6 @@
 #!/bin/bash
-# Deploy viewer.html → https://przebi.netlify.app
+# Deploy viewer.html → https://przebi.github.io/maraton-chicago-2026/
+# GitHub Pages auto-deploys from docs/ folder on main branch.
 # Usage: ./scripts/deploy-viewer.sh
 
 set -e
@@ -7,20 +8,21 @@ set -e
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"
 
-# Load credentials
-if [ ! -f .netlify-deploy.env ]; then
-  echo "ERROR: .netlify-deploy.env not found in $ROOT"
-  exit 1
+# Sync files → docs/
+cp viewer.html docs/index.html
+cp runs.html docs/runs.html
+echo "[1/3] Synced viewer.html + runs.html → docs/"
+
+# Stage + commit (idempotent)
+git add docs/index.html docs/runs.html
+if git diff --staged --quiet; then
+  echo "[2/3] No changes in docs/, skipping commit"
+else
+  git commit -m "deploy: sync docs/ with viewer.html + runs.html"
+  echo "[2/3] Committed docs/ sync"
 fi
-set -a
-source ./.netlify-deploy.env
-set +a
 
-# Sync files → deploy/
-cp viewer.html deploy/index.html
-cp runs.html deploy/runs.html
-echo "[1/2] Synced viewer.html + runs.html → deploy/"
-
-# Deploy
-echo "[2/2] Deploying to https://przebi.netlify.app..."
-netlify deploy --site="$NETLIFY_SITE_ID" --dir="$ROOT/deploy" --prod --no-build 2>&1 | tail -8
+# Push to main → GitHub Pages auto-rebuild
+echo "[3/3] Pushing to main (GitHub Pages auto-rebuild ~30-60s)..."
+git push 2>&1 | tail -3
+echo "Live URL: https://przebi.github.io/maraton-chicago-2026/"

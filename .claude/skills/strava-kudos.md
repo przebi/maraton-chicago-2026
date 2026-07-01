@@ -5,6 +5,23 @@ description: Daje kudosy znajomym Tomasza na Stravie. Dwa tryby — szybki (feed
 
 # /strava-kudos — automatyczne dawanie kudosów
 
+## ⚠️ DZIAŁAJĄCA WERSJA (fix 2026-06-26) — czytaj NAJPIERW
+
+Stary `strava-kudos-dashboard.mjs` **poddawał się w 4 s ("feed wyczyszczony, ok=0")** mimo pełnego feedu. Trzy przyczyny + fix:
+
+1. **Brak warm-upu** — odpytywał feed, zanim React doładował przyciski → 0 → bail. **FIX: po `CDP.New('/dashboard')` daj `sleep(10000)` + 7× scroll (sleep 1100), DOPIERO potem klikaj.**
+2. **Wylogowana sesja = 0 guzików** — wylogowany dashboard renderuje 0 `kudos_button` i daje fałszywe „feed wyczyszczony". **ZAWSZE najpierw zweryfikuj login + policz guziki.** Wynik „DONE 4s, ok=0, clicks=0" **≠** „nie ma czego wbić" — to znaczy: wylogowany / niezaładowany / brak karty (`CDP.List` może dać `TABS:[]`).
+3. **Tytuły PL** — guziki mają `title` = **„Przyznaj kudos"** ORAZ **„Przyznaj pierwsze kudos!"**. Stary filtr (`PENDING=['Give kudos','Przyznaj kudos']`) gubił te drugie. **FIX: `x.title.startsWith('Przyznaj')`** (EN: `startsWith('Give')`).
+
+**Działający wzorzec (`/tmp/kfix2.mjs` — 2026-06-25/26 wbił 90 i 51 czysto, 0 misklików):**
+- `CDP.New` świeża karta `/dashboard` → `sleep(10000)` → 7× scroll → `scrollTo(0,0)`.
+- Pętla: pierwszy `button[data-testid="kudos_button"]:not([data-kd])` z `title.startsWith('Przyznaj')` → oznacz `data-kd` → `scrollIntoView({block:'center'})` → rect.
+- **GUARD przed klikiem:** `document.elementFromPoint(x,y).closest('button[data-testid="kudos_button"]')` MUSI być tym guzikiem (zero misklików).
+- Klik: `Input.dispatchMouseEvent` press+release (NIE JS `.click()` — Strava blokuje).
+- Stop: ok≥MAX (~90-120) lub 8 dry rund.
+
+**Diagnostyka gdy ok=0:** policz `document.querySelectorAll('button[data-testid="kudos_button"]').length` na świeżo załadowanym dashboardzie. >0 = wina skryptu (warm-up/tab); 0 = wylogowany/pusty (sprawdź `location.href` czy nie /login).
+
 ## Cel
 
 Tomasz okresowo prosi "daj kudosy znajomym ile zdołasz". Skill steruje Chrome'em Tomasza przez CDP, omija anti-bot, wykonuje POSTy `/feed/activity/{id}/kudo`. Powtarzamy mniej więcej raz dziennie.

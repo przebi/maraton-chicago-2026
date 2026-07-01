@@ -201,6 +201,94 @@ Cel: post-quality recovery 4 dni. ~25–30 km. Bez akcentów.
 
 ## T2 — RECOVERY+ (60 km, 18–24.05.2026)
 
+## T8 — REGENERACJA (HRV recovery) + SPECIFICITY (29.06–05.07.2026)
+
+**Kontekst:** 28.06 Garmin markery w czerwieni (HRV noc 38 / 7-dn 43 vs baseline 55-58, RHR 51-52, readiness 1/100 „POOR", sen ~5,7 h). Sygnatura przed-crashowa (post-Chicago było HRV 40/RHR 54). T8 = blok regeneracyjny: sen + easy/basen, ZERO jakości aż HRV wróci >48-50. Root wg Tomasza = sen (budzenie 3-4 + brak resleep), nie trening — potwierdza readiness (ACWR „GOOD", POOR = HRV+sen). Ścieżka: CBT-I ± celowany lek (specjalista snu).
+
+### 2026-06-29 (pn) — T8.pn REST od biegu (2. dzień przerwy)
+- Bez biegu. Regeneracja / odespanie (drzemki 1,5 h + 50 min). HRV recovery.
+
+### 2026-06-30 (wt) — T8.wt **SIŁA leg-day (ciężka)** 💪 (bez biegu)
+- Leg press **4×10×165 kg (full stack!)**, leg curl + leg ext 4×10×70, sitting calf 4×10×40, marsz wykroczny 4×25 ×20 kg, przysiady ze sztangą 4×10×50 (praca nad TECHNIKĄ: gryf → małe obciążenie, „kolosalna różnica"). Potem sauna.
+- **Komentarz:** ✅ **plecy nazajutrz ciche** — poprawa formy squata zadziałała (ból był z formy, nie ciężaru; leg press 165 przy 61 kg = ~2,7× BW = mocarz). ⚠️ Zrobił mimo zaleceń wykroki + squaty (squat teraz z lepszą formą = OK z kontrolą; **wykroki dalej odradzam** — dorsiflexion na Achilles). ⚠️ Duży leg-day w dzień HRV-recovery = **może przydusić HRV** (sprawdzić rano). Lekcja: „8-10 nie męczy" = OK dla biegacza (siła≠burn); jeśli brak wyzwania → za lekko (test „2 w zapasie" + wolny eccentric).
+
+### 2026-07-01 (śr) — T8.śr easy 12.14 km @ 6:08 + 7× strides ✅ (powrót po przerwie)
+- 12.14 km @ 6:08/km, HR avg **131 (Z2)** / max 169 (strides), elev 102 m, **Pegasus 42** (Strava błędnie pokazała PrimeX2), + **7×~100 m strides**, start 5:09.
+- **Komentarz:** wzorowy easy powrót po 2 dniach przerwy — HR 131 na 6:08 = normalne easy (chłodniej + odpoczynek vs 133.7 w upale 28.06). Buty trainer (nie carbon) = dobrze pod easy + Achilles. Strides = lekki neuromuscular touch, nie rusza HRV-recovery. ✅
+- URL: https://www.strava.com/activities/19132520692
+
+## T7 — SPECIFICITY START / POWRÓT JAKOŚCI (22–28.06.2026)
+
+### 2026-06-23 (wt) — T7.wt **THRESHOLD 8 km @ ~4:00/km** ⭐⭐ (powrót intensywności) — Achilles do potwierdzenia
+- 17.49 km total @ 5:03/km avg, HR avg 140 / max **174**, **Adios Pro 4**, suffer 154
+- Struktura: ~4 km WU (HR 114-123) → **8 km ciągłego @ ~4:00/km** (HR 153→163→167→171→173→174, power ~340 W, kadencja 100-103) → ~5,5 km CD (HR 127-133)
+- **Komentarz:** ⭐ **mocna sesja progowa.** 8 km @ 4:00/km, HR do 174 (= LTHR 169 / lekko nad). **Świetny wskaźnik formy** — 4:00/km SZYBCIEJ niż MP cel 4:08-4:12, utrzymane 8 km. Bezpośrednio kasuje strach „stracę prędkość / 5:00" sprzed kilku dni. ⚠️ **ALE to dokładnie ten threshold, który miał czekać do ciszy gauge'a Achillesa.** Jakość wróciła — kluczowe: czy przyczep był cichy przed i jak zareagował po? Cicho → de facto cleared, jedziemy T7 z intensywnością. Boli → przesadzone. **Czekam na status Achillesa.**
+- URL: https://www.strava.com/activities/19030976195
+
+### 2026-06-24 (śr) — T7.śr **SIŁA 1:40 (maszyny + przysiady ze sztangą)** 💪 + spacery ~15 km
+- **Siłownia ~1:40** (pierwsza pełna). Maszyny ✓: **leg press (S956), leg extension (S957), leg curl (S959)** — dobrze. Dorzucił (NIE z listy): **marsz wykroczny 20 kg 4×30, przysiady ze sztangą 50 kg 4×10, próba martwego ciągu** (nie umie) → ból dolnego grzbietu nazajutrz.
+- Spacery 6.20 + 5.03 + 5.28 = ~15.6 km. Brak biegu. Achilles rano „tylko lekka sztywność".
+- **Komentarz:** ⚠️ barbell back squat **NIE był na liście** (beginner-risky dla pleców + deep squat = dorsiflexion pod ciężarem = źle na Achilles). **Korekta: tylko maszyny + hip thrust; zero przysiadów ze sztangą i deadliftów do czasu aż plecy OK.** Ból prawdopodobnie mięśniowy (forma), monitorować red flags (promieniowanie do nogi/mrowienie = lekarz).
+
+### 2026-06-25 (cz) — T7.cz LONG 27.00 km @ 5:38 easy ✅ (Achilles cichnie)
+- Morning Run: **27.00 km @ 5:38/km**, HR avg **128.8 (Z2!)**, max 190 (spike na starcie), elev 123 m, kadencja 96.1 (~192 spm), 2:32 h, **Adios Pro 4**, suffer 153.
+- **Komentarz:** aerobowo wzorowy long — HR 128.8 = dyscyplina easy A+, drift kontrolowany. Achilles „odpadł" (nie przeszkadza), rano lekka sztywność → udźwignął 27 km easy. ⚠️ buty Adios Pro 4 (carbon) na 27 km easy — bo na wyjeździe ma 1 parę; normalnie trainer lepszy na long. **Objętość wróciła do pełnej (27 km long + wt próg 8 km @4:00) — faza ochronna de facto zamknięta, bo przyczep się wyciszył.** Pilnować poranka.
+- URL: https://www.strava.com/activities/19057627266
+
+### 2026-06-26 (pt) — T7.pt siła 1h ogród 💪 (bez biegu)
+- Siłownia w ogrodzie ~1h. Bez biegu. (Plan T7.pt = easy+siła → wyszła sama siła.)
+- **Komentarz:** OK — recovery po long 27 km z czw. Przypomnienie: bez przysiadów ze sztangą/wykroków (plecy), zostań przy maszynach + hip thrust + izometrie łydki.
+
+### 2026-06-27 (sb) — T7.sb **5×1600 m PROGRESYWNE 3:58→3:38** ⭐⭐ (signature-grade) — płasko
+- 15.13 km total @ 5:12 avg (uśrednione), HR avg 152.7 / max **179** (98% HRmax, ostatni rep), elev **3 m**, suffer **210**, PrimeX2.
+- **Struktura (lapy — to NIE steady, to interwały):** WU ~3 km → **5×1600: 3:58 / 3:53 / 3:48 / 3:43 / 3:38** (HR rep 166→172, max 179) z ~800 m truchtu (HR→136) → CD ~1,3 km.
+- **Ocena:** ⭐⭐ **wzorowa sesja prędkościowo-progowa.** Idealna progresja co ~5 s, finał NAJSZYBSZY (3:38) = pełna kontrola + zapas (3:38 @ HR 171 ≠ max-out). To dokładnie signature/mile-reps — fundament bloku. **3:38/km ≈ ~18:10 pace na 5K** → mocno potwierdza cel 5K 18:30 + sub-2:57. Recovery HR→136 = świetna wydolność. ⚠️ To była JAKOŚĆ (HR do 179) — płasko + kontrolowane repy (nie hill/sprint) = Achilles-OK, ale realny speed → monitoruj przyczep po. **[Korekta: wcześniej błędnie „steady" po samym avg; lapy = interwały.]**
+- URL: https://www.strava.com/activities/19080556375
+
+### 2026-06-28 (nd) — T7.nd easy 21.12 km @ 6:01 z Maćkiem 🤝 (Tarnowskie Góry, upał)
+- 21.12 km @ 6:01/km, HR avg **133.7** / max 144, elev 172 m, Pegasus Plus, start **04:27**, 2:07 h.
+- **Wspólny bieg z Maćkiem** (on 20.89 @ 5:59). Warunki: ~24°C / **74% wilgotności** o świcie.
+- **Komentarz:** HR 133.7 @ 6:00 (vs zwykłe ~127) = **podatek cieplno-wilgotnościowy +~6-7 bpm**, NIE utrata formy. Zrobione DOBRZE — max tylko 144, HR prowadził, tempo odpuszczone = wzorowy easy w upale. Resztkowe zmęczenie po quality-tygodniu może dokładać 1-2 bpm → **2 dni przerwy (29-30) w porę**. To był ostatni bieg przed przerwą.
+- URL: https://www.strava.com/activities/19093365169
+
+## T6 — DELOAD + OCHRONA ACHILLESA (insertional, 15–21.06.2026)
+
+### 2026-06-15 (pn) — T6.pn **CROSS: 2× rower ~54 km** 🚴 ✅ (Achilles protocol)
+- Morning Ride: **27.59 km** / 1:24:50, HR avg **97**/133, 65 W, elev 191 m, suffer 16
+- Afternoon Ride: **26.66 km** / 1:48, HR avg **88**/116, 51 W, elev 226 m, suffer 16
+- Total **54.25 km roweru**, HR 88-97 = czyste Z1, zero impactu.
+- **Komentarz:** ✅✅ **dokładnie wg protokołu Achillesa** — bieg odpuszczony, baza aerobowa na rowerze (zero obciążenia przyczepu). Tomasz posłuchał (po początkowym oporze „forma spadnie do zera"). Wzorowy deload-day.
+
+### 2026-06-16 (wt) — T6.wt brak biegu (rest / off-Strava)
+- Brak aktywności w Stravie. Prawdopodobnie rest lub siła/izometrie poza Stravą. Zgodne z protokołem (OFF bieg + izometrie).
+
+### 2026-06-17 (śr) — T6.śr easy 11.49 km @ 5:59 ✅ intensywność / ⚠️ objętość 2×
+- Morning Run: **11.49 km @ 5:59/km**, HR avg **129** (Z2)/max 191 (**lap 1 = artefakt paska na zimnym starcie**; laps 2-12 max 129-164), suffer 70
+- Buty: **Pegasus 42**, elev **65 m (płasko ✓)**, kadencja 94.6 (~189 spm)
+- Splity: równo 5:47-6:41, HR 123-137, **bez driftu** (końcówka 123-127 = spadała). Lap 2 lekko szybszy (5:48/137).
+- **Komentarz:** intensywność + buty + płaski profil **wzorowe** (HR 129 Z2, Pegasus 42, 65 m elev = idealnie pod insertional). **ALE plan T6 śr = easy 5-6 km, wykonano 11.5 = ~2× (wariant C).** Easy/flat → strain per km niski, ale to 1. tydzień ochrony przyczepu — liczy się reakcja, nie samopoczucie w trakcie. **Otwarte pytanie: Achilles rano na schodach + po tym biegu?** To jest licznik dawki.
+- URL: https://www.strava.com/activities/18952903141
+
+### 2026-06-18 (cz) — T6.cz easy 13.42 km @ 5:57 ✅ intensywność A+ / ⚠️ objętość (plan 8-10)
+- Morning Run: **13.42 km @ 5:57/km** + **6×100 m strides** (płaskie, max 20.4 km/h ≈ 2:56/km — lapy 11-12), HR avg **126** (Z2)/max 157 (strides), suffer 73
+- **Strides = pierwszy element speed z powrotem** — najłagodniejszy (krótkie, płaskie, kontrolowane). OK przy cichnącym przyczepie, ale to wciąż +strain ścięgna → monitoruj reakcję. Tempo/interwały/podbiegi DALEJ nie.
+- Buty: **Pegasus Plus**, elev **78 m (płasko ✓)**, kadencja 95.4 (~191 spm)
+- Splity: WU lap 1 HR 95 → ustabilizowane 127-133, **bez driftu** (równo do końca). Czysty Z2.
+- **Komentarz:** intensywność wzorowa (HR 126 = pełna dyscyplina). Objętość znów nad plan (13.4 vs 8-10), ALE **easy + płasko + Achilles cichnie** = akceptowalny, wręcz terapeutyczny load (ścięgno goi się przez delikatne obciążenie, nie przez zero). **Korekta trenera: zdejmuję sztywny limit objętości** — easy płaskie km OK wg tolerancji; twarda granica zostaje na INTENSYWNOŚCI (zero tempa/interwałów/podbiegów do ciszy gauge'a). Achilles stanie/gorzej → objętość tniemy pierwsza.
+- URL: https://www.strava.com/activities/18966831804
+
+### 2026-06-19 (pt) — T6.pt siła (off-Strava, planowana)
+- Siłownia/ogród wg planu (nogi/glute + lekkie seated calf). Brak w Stravie.
+
+### 2026-06-20 (sb) — T6.sb easy 11.62 km @ 5:55 + surge'y ⚠️
+- 11.62 km @ 5:55/km, HR avg **139** (Z3 — wyżej niż czysty easy), max 195 (spike artefakt), Pegasus 42, suffer 119.
+- Plan: easy 7-10. Wykonano 11.6 z szybszymi fragmentami (max 20.7 km/h = strides/surge). HR 139 = NIE czysty Z2.
+- **Komentarz:** lekko ponad „easy 7-10" + akcenty. OK jeśli przyczep cichł — ale to już nie był czysty recovery.
+
+### 2026-06-21 (nd) — T6.nd LONG 19.18 km @ 6:05 easy ✅
+- 19.18 km @ 6:05/km, HR avg **131** (Z2/Z3), max 194 (spike), elev 158 m, **Adidas PrimeX2 Strung**, suffer 128. + spacer 9 km.
+- **Komentarz:** kontrolowany easy long (HR 131), lekko nad zakresem 14-18. ⚠️ buty PrimeX2 (carbon) zamiast Pegasus — pod Achilles wolałbym trainer; profil 158 m (nie idealnie płasko).
+
 ## T5 — SPEED RETURN + THRESHOLD (~85 km, 08–14.06.2026)
 
 ### Plan adjustment śr 10.06 — SWAP VO2 → SUSTAINED TEMPO ⭐
@@ -289,6 +377,18 @@ Cel: post-quality recovery 4 dni. ~25–30 km. Bez akcentów.
 - Struktura (lapy): WU 3.2 km easy → **3× ~5 min @ 4:13 / 4:14 / 4:14** (HR 158→164→163, max 172) z 90 s trucht rec → CD 2.82 km easy (HR 128)
 - **Komentarz:** ✅ **Dokładnie wg planu** (viewer pt 12.06: „TEMPO 3×5 min @ 4:15, Pegasus 42/Plus"). Wykonano 4:13/4:14/4:14, HR 164-172 = Z4 threshold — wzorowo i zdyscyplinowanie (4:13, nie 4:00). **[Korekta trenera: wcześniej błędnie oznaczyłem to jako „wariant C / mimo zalecenia easy". Moja sugestia easy z 10.06 była TYLKO w czacie — nigdy nie trafiła do planu. Tomasz słusznie wykonał ZAPISANY plan, co do sekundy. Lekcja: zmiany planu COMMITOWAĆ, nie tylko mówić.]** T5 miało 2 progi z założenia planu; T6 deload (pn) absorbuje. Pegasus Plus ~15 s/km wolniej niż race → **4:13 ≈ ~3:58 w Adios/PrimeX** (race-day bonus).
 - URL: https://www.strava.com/activities/18886319516
+
+### 2026-06-13 (sb) — T5.sb **SIŁA ogród 1:30h** 💪 + easy 13.04 km @ 6:12 (⚠️ stack przed long)
+- **Rano: siła w ogrodzie ~1:30h** — standardowy zestaw (jak 11.06: single-leg focus, hantle; zwykle z łydkami eccentric). DOMS czuć dziś (14.06).
+- Easy: **13.04 km @ 6:12/km**, HR **130**/157, suffer 88, Pegasus 42, elev 126 m, kadencja 94.6 (~189 spm) — czysty Z2, zero spike'ów (max 157 = pewnie podbieg).
+- **Komentarz:** ⚠️ **Brakujący element układanki Achillesa.** Siła 1:30h (single-leg + prawdopodobnie eccentric łydki) + 13 km w sobotę → **28 km w niedzielę**. Naruszona własna reguła z T1: *„NIE siła 24h przed długim biegiem (>12 km); siła DZIEŃ PO long, nie przed"*. Jeśli zestaw miał eccentric łydki (jak zwykle) — bezpośredni load na Achilles dzień przed 28-tką = realny wkład we flarę insertional. Sam bieg czysty (Z2), ale **stack siła+long** = czerwona lampka. Lekcja z 10.05 powtórzona.
+- URL (run): https://www.strava.com/activities/18898401690
+
+### 2026-06-14 (nd) — T5.nd **LONG 28.11 km @ 5:35/km** ⭐ aerobowo + ⚠️ **ACHILLES BOLI**
+- Morning Run: **28.11 km @ 5:35/km avg**, HR **129**/170, suffer **168**, 2:37:10 moving
+- Buty: **Nike Pegasus Plus**, elev 225 m, kadencja 95.7 (~191 spm)
+- **Komentarz:** aerobowo IDEALNY long — HR avg **129 (Z2/top)** = dyscyplina easy A+, drift kontrolowany, kadencja 191 = forma OK. Tempo i HR bez zarzutu. **ALE Tomasz zgłasza ból Achillesa po biegu.** ⚠️ Achilles ≠ mięsień, nie "rozbiega się". Kontekst skumulowanego load'u: **09.06 10× hill sprints** (czysta ekscentryka na Achilles) → 5 dni → **28 km** + cały tydzień ~83 km biegu + 2 progi + siła heavy. To nie pace zabił ścięgno, to objętość/ekscentryka. **PROTOKÓŁ Achilles aktywowany** (patrz chat 14.06): bez podbiegów/speed/heavy-calf, izometrie, monitoring porannej sztywności, cross-training jeśli ból >3/10.
+- URL: https://www.strava.com/activities/18912141889
 
 ---
 
