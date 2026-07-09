@@ -34,6 +34,10 @@
 ## Log sesji
 | Data | Sesja | Dane |
 |---|---|---|
+| 08.07 śr | easy 8.21 | 5:46, HR 145 (Tarn. Góry) |
+| 07.07 wt | easy 12.34 | 6:28, HR 139 |
+| 04.07 sob | **LONG 35.87** ⭐ | 6:11, HR 151 — **nowy rekord dystansu** (poprz. 26.15) |
+| 02.07 czw | easy 17.20 | 6:03, HR 142 |
 | 01.07 śr | easy 12.49 | 6:25 (recovery) |
 | 30.06 wt | **track 2×3k** ⭐ | 4:07 / 3:58 (ost. 1400 @ 3:55), HR→190 |
 | 29.06 pon | easy 15.50 | 6:29 |
@@ -61,12 +65,15 @@ WU ~2 km → **3k @ 4:07** (HR 163→183, max 187) → 800 m trucht → **3k @ 3
 **4:02 / 3:58 / 3:54 / 3:51 / 3:44 / 3:44**, HR 166→172, **max 193**. WU ~4 km + CD, 12.83 km. VO2 speed — szybciej niż cel z planu (3:50-3:56). Recovery HR do 136 = świetna wydolność.
 
 ## Ocena / trend
+- **⚠️ 02-08.07 = tydzień czystej objętości (Tarn. Góry, u Tomasza), ZERO tracku** — zmiana vs czerwiec (2-3 quality/tydz). ~74 km w 4 dniach biegowych, napędzone **LONG 35.87 km (04.07) @ 6:11, HR 151** = **skok +37% z poprz. maxa 26,15**. Dystans maratoński przy celu HM. HR 151 (75% HRmax) trzymane = aerobowo pod kontrolą, ale objętościowo agresywne dla 19-latka. Otoczony rest (03, 05-06.07) = mądrze. **Do sprawdzenia: jak zniósł (nogi/ścięgna/sen po), i czy to był plan czy „poniosło".** Long-run cap sugerowany ≤30-32 km w bloku HM — 35,87 to raczej sufit, nie nowy standard do bicia.
 - **Silnik i prędkość rosną:** 1000 m repy do **3:44**, 3k do **3:58**, próg ~4:07. Grubo pod HM-pace 4:28 = **duży margines pod sub-1:35** (wręcz w stronę 1:30).
 - **Limiter potwierdzony:** redline'uje na krótkich (**193-194**), capuje **~190** na sustained (5K test, 3k). Częściowo pacing/głowa, częściowo fizjologia. Cel bloku: **tolerancja wysokiego HR na dystansie** (próg 4:10 + toughness reps z krótką przerwą).
 - **Struktura tygodnia:** 2 jakości (track) + long + easy. Wysoka gęstość quality, ALE **HRV zbalansowane = absorbuje** (młody + 8 h snu). Pilnować, by easy dni były easy.
 - Kadencja ~170-179; czasem 2-3 biegi/dzień.
 
 ## Do zrobienia
+- **Zapytać Maćka o odczucia po 35,87 km** (04.07) — nogi/przyczep Achillesa/sen. Jeśli OK → tolerancja objętości mocna. Ustalić long-run cap ~30-32 km na blok HM.
+- **Wrócić do tracku w tym tygodniu** — po 1 tyg czystej objętości warto 1 sesja HM-specific (próg 4:10 lub toughness reps), by nie stracić top-endu przed Praskim 5.09.
 - **Pas piersiowy** na test/race (pewny max HR bez wątpliwości o nadgarstek).
 - Plan HM: `data/maciek_plan_full.xlsx` (bloki W9-25). Po teście recalibracja tempa.
 - Rozważyć drugi TEST 5K/3K TT po bloku (progres VDOT).

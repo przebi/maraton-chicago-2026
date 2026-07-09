@@ -190,6 +190,17 @@ Po T8 paces signature/MP kalibrowane:
 - Easy + strides
 - 2× easy
 
+**⚠️ KOREKTA na fatigue (09.07): T9 zredukowany ~95→~70 km, 1 twarda zamiast 2.**
+Powód: blok regeneracyjny T8 dopiero się skończył, HRV UNBALANCED (7-dn 47 vs balanced 49+), sleep-debt lagujący. Twarda sesja tygodnia JUŻ ODBYTA (07.07 próg 2×3 km @ 3:56-4:03). Pełny signature 4×4K + 32 km z MP → **przeniesione do T10** (gdy HRV wróci ≥49).
+
+Wykonane: 07.07 próg 2×3 km ⭐ / 08.07 recovery 8,60.
+Rozpiska reszty T9 (akt. 09.07 — dziś siła):
+- **czw 09.07** — **SIŁA ogród 1,5 h** 💪 (bez biegu). ⚠️ przy HRV UNBALANCED trzymaj nogi UMIARKOWANIE — nie ciężki leg-day (30.06 heavy leg-day przygasił odbicie HRV 54→51). Sprawdź HRV jutro rano.
+- **pt 10.07** — easy **10-12 km Z2** (HR <127) + **6×100 m strides**, buty trainer.
+- **sob 11.07** — easy **12-14 km** + 4-6×100 strides.
+- **nd 12.07** — **LR 26-28 km easy** (Z2, HR <135), ostatnie **5-6 km @ steady 4:45-4:55** (NIE pełne MP 4:08-4:12, NIE 32 km).
+- Bramka na jakość w T10: HRV noc ≥49 przez 2-3 dni + readiness ≥65.
+
 ### T10 — PEAK SPECIFICITY (95 km, 13–19.07)
 - **SIGNATURE peak: 4×4K progresywne** (paces **4:08 → 4:00 → 3:55 → 3:50**) ~22 km
 - VO₂max alt: 12×400 m @ 3:25 (60 s jog) lub 8×1000 m @ próg

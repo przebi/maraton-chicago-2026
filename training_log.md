@@ -201,6 +201,23 @@ Cel: post-quality recovery 4 dni. ~25–30 km. Bez akcentów.
 
 ## T2 — RECOVERY+ (60 km, 18–24.05.2026)
 
+## T9 — SPECIFICITY BUILD (6–12.07.2026)
+
+**Kontekst (fatigue, Garmin 09.07):** HRV wraca po dnie 28.06 (noc 38) — trend noc: 30.06 **51** / 01.07 51 / 02.07 48 / 03.07 42 / 05.07 45 / 07.07 48 / 08.07 47 / **09.07 53**; 7-dn stabilne **47** (balanced low ~49, status UNBALANCED, ale trend ↑). Readiness 09.07 = **63 MODERATE** ("LISTEN_TO_YOUR_BODY"): recovery 99% / ACWR 97% (acuteLoad 783) / stress 92% — wszystko GOOD; hamują tylko HRV 58% (MOD) + sleep-history 51% (MOD, dług skumulowany). Sen 08→09.07 = 6,6 h / score 80 GOOD, body battery +60 rano. **Zero czerwonych flag → żaden auto-reset.** Powrót jakości od 02.07 (jeszcze w T8) udźwignięty — HRV nie zapadło.
+
+### 2026-07-07 (wt) — T9.wt **PRÓG 2×3 km @ 4:03 / 3:56** ⭐ (10.01 km)
+- 10.01 km total @ 4:52 avg, HR avg 150 / max 178, elev 7 m, **Prime X**, effort 123.
+- Struktura (lapy): WU 2.95 km @ ~5:44 (HR 134) → **3.02 km @ 4:03** (HR 170) → rec 0.94 km (HR 129) → **3.01 km @ 3:56** (HR 167) → 0.09 km stop.
+- Komentarz: solidny próg cruise. Pace 3:56–4:03 = okolice progu (LTHR 169; HR 167–170 = lekko nad). Płasko (7 m). ⭐
+- URL: https://www.strava.com/activities/19209922117
+
+### 2026-07-08 (śr) — T9.śr recovery 8.60 km @ 6:32 ✅
+- 8.60 km @ 6:32/km, HR avg **123 (Z2 dolny)** / max 139, elev 65 m, **Pegasus 42**, effort 34.
+- Komentarz: wzorowy recovery po progu z wt. HR 123 = czysty easy, buty trainer. ✅
+- URL: https://www.strava.com/activities/19223942879
+
+---
+
 ## T8 — REGENERACJA (HRV recovery) + SPECIFICITY (29.06–05.07.2026)
 
 **Kontekst:** 28.06 Garmin markery w czerwieni (HRV noc 38 / 7-dn 43 vs baseline 55-58, RHR 51-52, readiness 1/100 „POOR", sen ~5,7 h). Sygnatura przed-crashowa (post-Chicago było HRV 40/RHR 54). T8 = blok regeneracyjny: sen + easy/basen, ZERO jakości aż HRV wróci >48-50. Root wg Tomasza = sen (budzenie 3-4 + brak resleep), nie trening — potwierdza readiness (ACWR „GOOD", POOR = HRV+sen). Ścieżka: CBT-I ± celowany lek (specjalista snu).
@@ -216,6 +233,22 @@ Cel: post-quality recovery 4 dni. ~25–30 km. Bez akcentów.
 - 12.14 km @ 6:08/km, HR avg **131 (Z2)** / max 169 (strides), elev 102 m, **Pegasus 42** (Strava błędnie pokazała PrimeX2), + **7×~100 m strides**, start 5:09.
 - **Komentarz:** wzorowy easy powrót po 2 dniach przerwy — HR 131 na 6:08 = normalne easy (chłodniej + odpoczynek vs 133.7 w upale 28.06). Buty trainer (nie carbon) = dobrze pod easy + Achilles. Strides = lekki neuromuscular touch, nie rusza HRV-recovery. ✅
 - URL: https://www.strava.com/activities/19132520692
+
+### 2026-07-02 (czw) — T8.czw **PRÓG 2×4 km @ 3:58→3:52** ⭐⭐ (13.00 km) — powrót jakości
+- 13.00 km total @ 4:54 avg, HR avg 146 / max 179, elev 12 m, **Adios Pro 4**, effort 136.
+- Struktura (lapy): WU 3.02 km @ ~5:39 (HR 121) → **4 km ciągłe (2×2 km): 3:58 / 3:57** (HR 166→175) → rec 0.75 km (HR 126) → **4 km ciągłe: 3:55 / 3:52** (HR 169 / 169) → CD 1.15 km (HR 124).
+- Komentarz: ⭐⭐ de facto signature cruise T9 (cel 4×4K @ 3:58) — **i pobity** (3:52–3:58). HR do 175 (LTHR 169 +) = próg/VO2 dolny. **ALE: jakość 4 dni po czerwonej fladze HRV (28.06 noc 38).** HRV rano 02.07 = **48** = dokładnie próg „>48–50" z planu regeneracji → powrót borderline-uzasadniony, nie lekkomyślny. HRV po sesji się NIE zapadło (03.07 noc 42, 7-dn stabilne 47). Buty carbon (Adios Pro 4).
+- URL: https://www.strava.com/activities/19145974720
+
+### 2026-07-03 (pt) — T8.pt LONG easy 21.13 km @ 5:34 ✅
+- 21.13 km @ 5:34/km, HR avg **133 (Z2–Z3)** / max 198 (**spike** — HRmax realne 183), elev 182 m, Nike Air Zoom Tempo Next%, effort 156.
+- Komentarz: aerobowy long dzień po progu — HR 133 = dyscyplina easy OK. Max 198 = artefakt czujnika (ignore).
+- URL: https://www.strava.com/activities/19159151257
+
+### 2026-07-05 (nd) — T8.nd LONG easy 20.40 km @ 5:33 ✅ (zamyka T8)
+- 20.40 km @ 5:33/km, HR avg **135 (Z2–Z3)** / max 198 (spike), elev 272 m, Pegasus Plus, effort 158.
+- Komentarz: drugi long w 3 dni (21.13 + 20.40 = 41,5 km) — solidna dawka aerobowa, HR 135 kontrolowane. Domyka blok regeneracyjny T8. + spacer 04.07 3,33 km.
+- URL: https://www.strava.com/activities/19184310867
 
 ## T7 — SPECIFICITY START / POWRÓT JAKOŚCI (22–28.06.2026)
 
