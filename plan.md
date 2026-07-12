@@ -202,30 +202,30 @@ Rozpiska reszty T9 (akt. 09.07 — dziś siła):
 - Bramka na jakość w T10: HRV noc ≥49 przez 2-3 dni + readiness ≥65.
 
 ### T10 — PEAK SPECIFICITY (95 km, 13–19.07)
-- **SIGNATURE peak: 4×4K progresywne** (paces **4:08 → 4:00 → 3:55 → 3:50**) ~22 km
-- VO₂max alt: 12×400 m @ 3:25 (60 s jog) lub 8×1000 m @ próg
-- LR: 32 km z 10 km @ MP
-- Easy + strides
+- **SIGNATURE peak: 4×4K progresywne** (paces **4:08 → 4:00 → 3:55 → 3:50**) ~22 km — *→ Twój signature (wzorzec HM 1:24): główny driver wytrzymałości prędkościowej, zidentyfikowana słabość*
+- VO₂max alt: 12×400 m @ 3:25 (60 s jog) lub 8×1000 m @ próg — *→ top-end/VO2: podnosi pułap, buduje zapas prędkości nad MP*
+- LR: 32 km z 10 km @ MP — *→ wytrzymałość maratońska + dawka MP = specyfika Chicago*
+- Easy + strides — *→ 80/20 baza tlenowa; strides = ekonomia bez kosztu*
 
 ### T11 — DELOAD + MID-CHECK (80 km, 20–26.07)
-- **SIGNATURE deload: 2×4K** (paces **4:08 → 4:00**) ~12 km
-- **🎯 BENCHMARK:** Mid-block 3K Time-Trial (3 WU + 3K all-out + 2 CD) — porównanie do T8 5K (jeśli 3K @ 5K-pace - 8 s/km, plan działa)
-- Easy + strides
-- LR: 26 km easy
+- **SIGNATURE deload: 2×4K** (paces **4:08 → 4:00**) ~12 km — *→ podtrzymanie bodźca przy niższej objętości (deload) — nie tracimy ostrości*
+- **🎯 BENCHMARK:** Mid-block 3K Time-Trial (3 WU + 3K all-out + 2 CD) — porównanie do T8 5K (jeśli 3K @ 5K-pace - 8 s/km, plan działa) — *→ sprawdzian: czy blok T8-T10 dał progres, kalibracja temp*
+- Easy + strides — *→ regeneracja + ekonomia*
+- LR: 26 km easy — *→ aeroba bez MP (deload) = świeżość na następny blok*
 
 **Po T11 hill workouts wycofane** — speed reserve zbudowany przez signature + VO₂max. Specific phase (T12+) skupia race-pace specificity + mile reps.
 
 ### T12 — SPECIFIC START (90 km, 27.07–02.08)
-- **SIGNATURE: 3×5K progresywne** (paces **4:08 → 4:00 → 3:55**) ~22 km
-- **MILE REPS:** 5×1600 m @ 3:48-3:52 (400 m jog) — wraca w bloku specific
-- LR: 30 km z 8 km @ MP (4:08-4:12)
-- Easy + strides
+- **SIGNATURE: 3×5K progresywne** (paces **4:08 → 4:00 → 3:55**) ~22 km — *→ dłuższe repy = wytrzymałość prędkościowa przesuwana pod dystans maratoński*
+- **MILE REPS:** 5×1600 m @ 3:48-3:52 (400 m jog) — wraca w bloku specific — *→ próg/VO2 ostrość — wraca po fazie signature*
+- LR: 30 km z 8 km @ MP (4:08-4:12) — *→ race-pace w zmęczeniu (MP na zmęczonych nogach)*
+- Easy + strides — *→ baza tlenowa*
 
 ### T13 — SPECIFIC BUILD (95 km, 03–09.08)
-- **SIGNATURE: 4×4K progresywne** (paces **4:08 → 4:00 → 3:55 → 3:50**) ~20 km
-- **MILE REPS:** 4×1600 m @ 3:48 + 4×400 m @ 3:25 (combo)
-- LR: 32 km z 14 km @ MP (4:10)
-- Easy + drills
+- **SIGNATURE: 4×4K progresywne** (paces **4:08 → 4:00 → 3:55 → 3:50**) ~20 km — *→ peak signature: szczyt wytrzymałości prędkościowej PRZED Teneryfą (obóz = już tylko aeroba)*
+- **MILE REPS:** 4×1600 m @ 3:48 + 4×400 m @ 3:25 (combo) — *→ próg + czysta prędkość w jednej sesji = pełne spektrum ostrości*
+- LR: 32 km z 14 km @ MP (4:10) — *→ kluczowy race-specific long: 14 km MP = największa dawka przed obozem*
+- Easy + drills — *→ baza + technika biegu*
 
 ### T14 — 🏝️ TENERYFA tydz.1 / DELOAD + obóz wysokościowy (~78 km, 10–16.08)
 **Kontekst:** obóz z Maćkiem, Puerto de la Cruz (100 m npm), biegi wysokościowe w kalderze Teide. **Chicago 11.10 = 7 tyg dalej → obóz = aerobowy top-up wysokościowy, NIE race-specific.** Sharp signature/MP + BENCHMARK 8 km → **przesunięte do T16/T17 w domu** (na 2200 m tempo zafałszowane −20-30%). 2 auta 11-23.08.
