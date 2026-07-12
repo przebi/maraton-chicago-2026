@@ -216,6 +216,32 @@ Cel: post-quality recovery 4 dni. ~25–30 km. Bez akcentów.
 - Komentarz: wzorowy recovery po progu z wt. HR 123 = czysty easy, buty trainer. ✅
 - URL: https://www.strava.com/activities/19223942879
 
+### 2026-07-09 (czw) — T9.czw SIŁA + spacer 6.19 km 💪🚶
+- Bez biegu. Afternoon Walk **6.19 km**. Plan = SIŁA ogród 1,5 h przy HRV UNBALANCED (umiarkowanie, nie ciężki leg-day). **Do potwierdzenia: czy siła wykonana i jak ciężka** (30.06 heavy leg-day przygasił odbicie HRV).
+
+### 2026-07-10 (pt) — T9.pt LONG easy 21.41 km @ 5:49 ✅ (long przeniesiony z nd)
+- 21.41 km @ 5:49/km, HR avg **129 (Z2)** / max 164, elev 196 m, **Pegasus Plus**, effort 131, kadencja 95.
+- Plan: easy 10-12 km + strides. Wykonanie: **long 21,4 km** (≈2× planu). HR 129 dyscyplina easy OK (cel <127, +2 kosmetyka). Buty trainer. De facto przełożył niedzielny long na piątek → uwolnił niedzielę.
+- URL: https://www.strava.com/activities/19251466877
+
+### 2026-07-11 (sob) — T9.sob easy 9.35 km @ 5:59 ✅
+- 9.35 km @ 5:59/km, HR avg **135 (Z2)** / max 176 (kilka strides/spike), elev 68 m, **Pegasus 42**, effort 80.
+- Plan: easy 12-14 km + strides. Wykonanie: 9,35 (krócej). Czysty easy dzień przed jakością. ✅
+- URL: https://www.strava.com/activities/19263712894
+
+### 2026-07-12 (nd) — T9.nd **SIGNATURE 2×5 km progresywne @ 4:04 / 3:58** ⭐⭐⭐ (15.20 km) — DRUGA jakość T9
+- 15.20 km total @ 4:50 avg, HR avg 153 / max 178, elev 3 m (płasko), **Prime X2 Strung** (carbon race), effort **201**, kadencja 97.
+- Struktura (lapy):
+  - WU 3.04 km @ 5:31 (HR 138)
+  - **REP 1 = 5 km progres: 2 km @ 4:08 (164) + 2 km @ 4:05 (171) + 1 km @ 4:01 (173)** → avg ~4:05, HR 164→173
+  - float 0.97 km @ 7:13 (131)
+  - **REP 2 = 5 km progres: 2 km @ 3:58 (169) + 2 km @ 4:00 (169) + 1 km @ 3:56 (174)** → avg ~3:58, HR 169→174, **max 178**
+  - CD 1.15 km @ 7:35 (123)
+- **Komentarz:** ⭐⭐⭐ **to jest signature workout** (3-4×4-5K progresywne z floating recovery — wzorzec peak 2024/HM 1:24). Dwa 5-km repy, **rep 2 szybszy niż rep 1** (negative, 3:58 vs 4:05) = zero fade = mocna wytrzymałość prędkościowa (dokładnie zidentyfikowana słabość!). Pace 3:56-4:08 = **szybciej niż MP cel 4:08-4:12**, HR 173-178 (LTHR 169 +4-9) = próg/VO2 dolny. Power 316-339 W ciągłe. **Świetny wskaźnik formy.**
+  ⚠️ **ALE:** plan nd był **LR 26-28 km easy z finishem 4:45-4:55** — NIE full-quality. Tomasz zrobił zamiast tego twardy próg w carbonie → **2. twarda sesja T9** (07.07 próg + 12.07 signature), a korekta 09.07 mówiła explicite **1 twarda, signature → T10**. Pattern „wariant C" (nogi proszą → easy/LR zamienia się w hard) powtarza się. Long aerobowy 26-28 km wypadł (zamieniony na intensywność).
+  **Wniosek:** forma NA TAK — speed-endurance rośnie widocznie. Fatigue-koszt: **sprawdzić HRV rano 13.07** — jeśli trzyma ≥49 → double-quality udźwignięty, jedziemy T10 z jakością bez straty. Jeśli spadnie <47 → 2 twarde w tyg po bloku regeneracyjnym były o jedną za dużo, T10 startuje easy.
+- URL: https://www.strava.com/activities/19277008158
+
 ---
 
 ## T8 — REGENERACJA (HRV recovery) + SPECIFICITY (29.06–05.07.2026)

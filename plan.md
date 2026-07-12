@@ -227,17 +227,25 @@ Rozpiska reszty T9 (akt. 09.07 — dziś siła):
 - LR: 32 km z 14 km @ MP (4:10)
 - Easy + drills
 
-### T14 — DELOAD + MID-CHECK (75 km, 10–16.08)
-- **SIGNATURE deload: 3×3K** (paces **4:05 → 3:58 → 3:55**) ~14 km
-- **🎯 BENCHMARK:** 8 km @ HM-effort (3:50-3:55) — primer dla T17 30K TT, sprawdza HM-pace fitness
-- LR: 22 km easy
-- 2× easy + strides
+### T14 — 🏝️ TENERYFA tydz.1 / DELOAD + obóz wysokościowy (~78 km, 10–16.08)
+**Kontekst:** obóz z Maćkiem, Puerto de la Cruz (100 m npm), biegi wysokościowe w kalderze Teide. **Chicago 11.10 = 7 tyg dalej → obóz = aerobowy top-up wysokościowy, NIE race-specific.** Sharp signature/MP + BENCHMARK 8 km → **przesunięte do T16/T17 w domu** (na 2200 m tempo zafałszowane −20-30%). 2 auta 11-23.08.
+- **pon 10.08** — przylot ~południe, bez auta: **shakeout 6-8 km** (promenada) lub rest
+- **wt 11.08** — easy **12 km** + strides (promenada/Taoro); odbiór aut 10:00
+- **śr 12.08** — easy **10 km** + drills (dzień Loro Parque)
+- **czw 13.08** — ⛰️ **ALT LONG #1** Siete Cañadas ~2200 m, **~2:20-2:40 easy Z2 <135** (+opc. steady 20' finał wg wysiłku), **buty trail**, świt; w drodze w dół La Orotava z rodziną
+- **pt 14.08** — Teide rodzinny (kolejka 9:00): opc. **easy touch 8-10 km @2200 m** o świcie lub rest (dzień górski na nogach)
+- **sob 15.08** (święto) — easy **12-14 km** + strides (lokalnie)
+- **nd 16.08** — easy **10 km** o świcie (dzień Garachico)
 
-### T15 — SPECIFIC PEAK (95 km, 17–23.08)
-- **SIGNATURE peak: 4×4K progresywne** (paces **4:05 → 3:58 → 3:55 → 3:50**) ~20 km
-- **MILE REPS:** 6×1600 m @ próg (3:50)
-- LR: **32 km z 18 km @ MP** (4:08-4:12) ← duża dawka MP
-- Easy + strides
+### T15 — 🏝️ TENERYFA tydz.2 / aerobowy peak + tempo na dole (~85 km, 17–23.08)
+**Pełny signature 4×4K + 32/18 MP + mile reps → PRZESUNIĘTE do T16/T17 w domu** (Chicago za 7 tyg, jest czas). Tu: objętość tlenowa + wysokość + jedno tempo MP na płaskim dole.
+- **pon 17.08** — easy **12 km** + strides (dzień Las Teresitas)
+- **wt 18.08** — ⛰️ **ALT LONG #2** Siete Cañadas ~2200 m, ~2:20-2:40 (opc. finał podbieg **Montaña Blanca do ~2400 m**); **ostatni Teide** (auto oddajecie 23.08 o 10)
+- **śr 19.08** — easy **8-10 km** (Los Gigantes + rejs)
+- **czw 20.08** — easy **8-10 km** (Siam Park)
+- **pt 21.08** — **TEMPO na DOLE**: WU 3 + **8-10 km @ MP 4:10** + CD 2 (płaska promenada, świt) — **wspólnie z Maćkiem** (Twoje MP ≈ jego HM-pace 4:12)
+- **sob 22.08** — easy **8-10 km** (Masca/plaża)
+- **nd 23.08** — easy **8-10 km** promenada o świcie (oddanie aut 10:00, pakowanie)
 
 ### T16 — SPECIFIC TAPER (85 km, 24–30.08)
 - **SIGNATURE: 3×4K** (paces **4:05 → 3:58 → 3:50**) ~16 km

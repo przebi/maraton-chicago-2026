@@ -152,6 +152,34 @@ node /tmp/maciek_quality.mjs  # bierze ostatnie 6 quality
 node -e "..." # custom analiza per session
 ```
 
+## Push planu do Google Sheets (DZIAŁA od 12.07.2026)
+
+Plan Maćka żyje w **`data/maciek_plan_full.xlsx` (tab „Plan") = źródło prawdy**. Skrypt odwzorowuje go 1:1 w arkuszu Google (wartości + tło + bold + szerokości kolumn).
+
+- **Skrypt:** `scripts/push_maciek_sheet.py` (Python, gspread + google-auth + openpyxl).
+- **Service account:** `przebi@singular-arbor-197815.iam.gserviceaccount.com` (projekt `singular-arbor-197815`). Arkusz udostępniony temu mailowi jako **Edytor**.
+- **Klucz JSON:** `~/.config/singular-arbor-197815-737b99d3bfc0.json` (POZA repo).
+- **Arkusz Google:** ID `1g6gdg2WY_AUdwMYiytMvU6dXU7_b67MhjwyCIZ8xZKI`, tab docelowy „Plan".
+
+**Run (po każdej edycji xlsx):**
+```bash
+python3 scripts/push_maciek_sheet.py 1g6gdg2WY_AUdwMYiytMvU6dXU7_b67MhjwyCIZ8xZKI ~/.config/singular-arbor-197815-737b99d3bfc0.json
+```
+
+**Pułapki:**
+| Problem | Fix |
+|---|---|
+| `ValueError: invalid literal ... base 16: "'s"` | theme/indexed color w openpyxl (nie-hex) — `argb_to_rgb` filtruje nie-hex → None (już w skrypcie) |
+| Brak dostępu do `~/Downloads` (macOS TCC „Operation not permitted") | user przenosi klucz sam przez `!`; ja czytam z `~/.config/` |
+| `gspread.WorksheetNotFound` | skrypt tworzy tab „Plan" jeśli brak |
+| edycja xlsx = insert_rows | nagłówki tygodni NIE są scalane (tekst przelewa) → insert bezpieczny; ale **uważaj na text-match przy szukaniu wierszy** (12.07: „Easy regen po teście" trafiło w TYDZIEŃ 8 zamiast 12 → korupcja, `git checkout` + redo). Kotwicz na `startswith('TYDZIEŃ N')` / `'★ DALEJ'`, nie na treści sesji. |
+| deps | `python3 -m pip install --user gspread google-auth openpyxl` |
+
+**Format xlsx (tab „Plan"), kolory per typ sesji** (fill / font):
+EASY `E9F5E9`/`2E7D32` · THRESHOLD/TEMPO `FBF3E0`/`C77700` · VO2max `FBE9E7`/`C62828` · TOUGHNESS/HILL `FBEEE6`/`BF5B00` · LONG `E8F1FB`/`1565C0` · RACE `FDE7EF`/`AD1457`. Nagłówek tyg: fill `F1F4F8`. Nagłówek kolumn: fill `1F2A37`/biały. SUMA: fill `F2F2F2`. Kolumny: A6 B15 C52 D16 E7 F5 G9 H46.
+
+➡️ **Ostatni krok każdego `/maciek-update`:** po dopisaniu sesji do logu i (jeśli był test) rekalibracji planu w xlsx — odpal push, żeby arkusz Google był aktualny.
+
 ## Cele 2026
 
 - **Wrzesień 2026**: HM #1 sub-1:40 (test race)
