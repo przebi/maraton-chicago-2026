@@ -100,6 +100,8 @@ def main():
 
     grid = []
     for kind, a, b, c in ROWS:
+        if kind == "row" and c:  # zwiń przykłady do tekstu → układ 2-kol (etykieta | tekst)
+            b, c = f"{b}   ·   Np.: {c}", ""
         cells = []
         for col, val in enumerate((a, b, c)):
             fmt = {}
@@ -139,29 +141,28 @@ def main():
                                                         "wrapStrategy": "WRAP"}},
                         "fields": "userEnteredFormat.verticalAlignment,userEnteredFormat.wrapStrategy"}},
         {"updateCells": {"rows": grid,
-                         "fields": "userEnteredValue,userEnteredFormat",
+                         "fields": "userEnteredValue,userEnteredFormat.backgroundColor,userEnteredFormat.textFormat",
                          "start": {"sheetId": sid, "rowIndex": 0, "columnIndex": 0}}},
     ]
-    # scal A:C dla nagłówków/noty — długi tekst na całą szerokość, nie w słupek
+    # scalanie: nagłówki/nota = A:C (cała szerokość); wiersze = B:C (etykieta | szeroki tekst)
     for r, (kind, *_rest) in enumerate(ROWS):
-        if kind in ("title", "section", "note"):
-            requests.append({"mergeCells": {
-                "range": {"sheetId": sid, "startRowIndex": r, "endRowIndex": r + 1,
-                          "startColumnIndex": 0, "endColumnIndex": ncols},
-                "mergeType": "MERGE_ALL"}})
-    for i, px in enumerate((210, 400, 280)):
+        c0 = 0 if kind in ("title", "section", "note") else 1
+        requests.append({"mergeCells": {
+            "range": {"sheetId": sid, "startRowIndex": r, "endRowIndex": r + 1,
+                      "startColumnIndex": c0, "endColumnIndex": ncols},
+            "mergeType": "MERGE_ALL"}})
+    for i, px in enumerate((200, 480, 220)):  # A=etykieta, B:C scalone = ~700 px
         requests.append({"updateDimensionProperties": {
             "range": {"sheetId": sid, "dimension": "COLUMNS", "startIndex": i, "endIndex": i + 1},
             "properties": {"pixelSize": px}, "fields": "pixelSize"}})
     for r, (kind, a, b, c) in enumerate(ROWS):
-        if kind == "title":
-            lines = 1
-        elif kind == "section":
+        if kind in ("title", "section"):
             lines = 1
         elif kind == "note":
-            lines = line_count(a, 130)  # scalone A:C (~890 px)
+            lines = line_count(a, 132)  # scalone A:C (~900 px)
         else:
-            lines = max(line_count(a, 30), line_count(b, 63), line_count(c, 42))
+            txt = f"{b}   ·   Np.: {c}" if c else b  # tekst w scalonym B:C (~700 px)
+            lines = max(line_count(a, 27), line_count(txt, 108))
         requests.append({"updateDimensionProperties": {
             "range": {"sheetId": sid, "dimension": "ROWS", "startIndex": r, "endIndex": r + 1},
             "properties": {"pixelSize": max(26, lines * 17 + 9)}, "fields": "pixelSize"}})
