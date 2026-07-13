@@ -16,20 +16,27 @@ TAB = "Dieta"
 # kind, A (etykieta), B (po co + jak), C (konkretnie / produkty)
 ROWS = [
  ("title", "🍽️  DIETA MACIEJA — jak zamienić trening w wynik (przeczytaj do końca)", "", ""),
- ("note", "Maciek — jesteś bystry (2 kierunki, średnia prawie 5.0), więc bez ściemy, na argumenty. Właśnie zrobiłeś 5K w 19:49 ASEKURUJĄC start (pierwsze 3 km wolniej, potem 3:38 — miałeś zapas). Masz silnik, ale zostawiłeś wynik na stole. Z jedzeniem robisz DOKŁADNIE to samo: harujesz na ciężkich kilometrach, a potem nie dowozisz paliwa i białka — więc połowa adaptacji leci w kosz. To jak trenować i kasować sobie połowę efektu. Jedzenie to jedyna DARMOWA PRĘDKOŚĆ jaką masz: nie kosztuje ani jednego treningu więcej, a daje wynik. 3 minuty czytania — a decyduje o Twoim PB.", "", ""),
+ ("note", "Maciek — jesz dużo i bazę masz opanowaną, szacun. Rzecz w tym, że dość MONOTONNIE, a przy 85 km/tydz to właśnie różnorodność robi różnicę. Pomyśl o swoim 5K: 19:49 z asekuracją startu = miałeś zapas, zostawiłeś wynik na stole. Z jedzeniem jest podobnie — nie brakuje Ci ILOŚCI, tylko RÓŻNORODNOŚCI. Każdy produkt niesie co innego: żelazo, różne aminokwasy, witaminy, antyoksydanty, błonnik dla jelit. Jedząc w kółko to samo — nawet dużo — zostawiasz ciche luki, które obcinają regenerację i formę. To najtańszy sposób na ostatnie parę procent: nie jedz WIĘCEJ, jedz RÓŻNIEJ.", "", ""),
 
- ("section", "DLACZEGO WARTO — Twój rachunek", "", ""),
- ("row", "Co ZYSKUJESZ", "Mocniejsza końcówka (pełny bak = nie gaśniesz na 16. km), szybsza regeneracja (trenujesz częściej bez zajechania), mniej kontuzji i infekcji. Konkret: z sub-1:30 robi się 1:27, a cały blok idzie bez przerw.", ""),
- ("row", "Co TRACISZ jak olewasz", "Niedojadanie przy 85 km/tydz = RED-S: spada HRV, rośnie tętno spoczynkowe, forma STOI mimo treningu, łapiesz każdą infekcję, a u 19-latka cierpią kości i hormony. To dokładnie to, co kończy zapowiadające się kariery — nie brak talentu, tylko głód i przerwy.", ""),
- ("row", "Twoja przewaga TERAZ", "Masz 19 lat i rośniesz — Twoje ciało chce budować mięśnie i formę jak nigdy później w życiu. Dokarm je teraz i zrobisz skok, na który starsi haruja latami. To okno się nie powtórzy.", ""),
+ ("section", "DLACZEGO RÓŻNORODNOŚĆ — Twój rachunek", "", ""),
+ ("row", "Co ZYSKUJESZ", "Pełen komplet mikroskładników = lepsza regeneracja, stabilna energia, mocniejsza odporność. Różnorodna dieta domyka luki (żelazo, witaminy), które przy monotonnej cicho Cię hamują. To bywa różnica między 1:30 a 1:27.", ""),
+ ("row", "Co daje MONOTONIA", "Nawet dużo jedzenia, ale wciąż to samo = powtarzalne braki (np. żelazo, część witamin), uboższa flora jelitowa, znużenie jedzeniem. Ciało nie ma z czego zbudować pełnej regeneracji — i forma stoi mimo treningu.", ""),
+ ("row", "Twoja przewaga TERAZ", "Masz 19 lat i rośniesz — Twoje ciało chce budować formę jak nigdy później. Dostarcz mu PEŁNE spektrum budulca, a wykorzystasz to okno maksymalnie. Ono się nie powtórzy.", ""),
+
+ ("section", "🍝 TWOJE DANIA — ubierz je, nie zmniejszaj", "", ""),
+ ("row", "Zasada", "Nie musisz jeść MNIEJ — masz jeść PEŁNIEJ. Twoje węglowe bomby zostają, tylko dorzuć do nich białko i warzywa. To samo jedzenie, 2-3x więcej wartości. Węgli masz aż nadto — brakuje tego, co się na nie kładzie.", ""),
+ ("row", "8 naleśników z dżemem", "Same węgle i cukier, zero białka. FIX: do środka twaróg / serek homogenizowany, obok jogurt grecki albo szklanka mleka. Dżem zostaje — dorzucasz tylko białko na regenerację.", ""),
+ ("row", "2 kg makaronu… samego", "Makaron to BAZA, nie danie. Sam = puste węgle. FIX: sos z mięsem mielonym / tuńczykiem / kurczakiem + warzywa (choćby mrożonka) + oliwa + ser. Tyle samo makaronu, 3x więcej wartości.", ""),
+ ("row", "Rosół (sama woda)", "Woda to nie posiłek. FIX: wrzuć mięso z rosołu, marchewkę i inne warzywa, makaron albo lane kluski. Dopiero wtedy to jest posiłek, a nie napój.", ""),
+ ("row", "4 kromki chleba + 1 zgniła rzodkiewka", "Legendarne. Kanapka to nośnik na BIAŁKO, nie na samotną (zwłoki) rzodkiewkę. FIX: na chleb ser / wędlina / hummus / tuńczyk / twarożek + świeże warzywo (pomidor, ogórek, papryka — i tak, świeża rzodkiewka może zostać).", ""),
 
  ("section", "ILE I JAK CZĘSTO", "", ""),
- ("row", "Ile jeść", "Potrzebujesz ~3000-3800 kcal dziennie — dużo, bo biegasz i rośniesz. Ważysz 57 kg przy 175 cm (chudo). Nie bój się jeść — spokojnie możesz dołożyć 1-2 kg mięśni, będziesz mocniejszy i mniej podatny na kontuzje.", ""),
- ("row", "Jedz co ~3 h (5 posiłków)", "PO CO: białko wchłaniasz po ~25-30 g na raz, a paliwo (glikogen) odbudowujesz przez CAŁY dzień. Zjesz wszystko naraz = połowa się marnuje i potem ciężko biec. JAK: śniadanie → II śniadanie → obiad → podwieczorek → kolacja. NIGDY nie pomijaj śniadania.", ""),
+ ("row", "Kalorie masz ogarnięte", "Jesz DUŻO i to dobrze — o ilość się nie martwimy. Jesteś szczupły (57/175), co jest OK. Cała gra toczy się o RÓŻNORODNOŚĆ i o to, co dokładasz do węgli (patrz wyżej).", ""),
+ ("row", "Jedz co ~3 h (5 posiłków)", "PO CO: białko wchłaniasz po ~25-30 g na raz. Wal 2 kg makaronu za jednym zamachem = dużo węgli naraz i tak czy siak potem głód. Lepiej rozłożyć na 5 posiłków — każdy z białkiem. NIGDY nie pomijaj śniadania.", ""),
 
- ("section", "CO JEŚĆ I PO CO", "", ""),
- ("row", "Węglowodany = TWOJE PALIWO", "PO CO: to benzyna do biegania. Pusty bak = słaby trening i zmęczenie. JAK: dokładaj do KAŻDEGO posiłku, spora porcja.", "ryż, makaron, ziemniaki, owsianka, pieczywo, kasze, banany, owoce, miód, dżem"),
- ("row", "Białko = ODBUDOWA", "PO CO: naprawia mięśnie po treningu i buduje nowe (przecież rośniesz). JAK: trochę w każdym posiłku (porcja ~jak Twoja dłoń).", "kurczak, ryba, twaróg, jogurt grecki/skyr, mięso, mleko, strączki, jaja"),
+ ("section", "CO DOKŁADAĆ I PO CO", "", ""),
+ ("row", "Węglowodany = masz ich w bród", "To Twoje paliwo i masz go pod dostatkiem (naleśniki, makaron, chleb). Problem nie w węglach — tylko w tym, że jesz je SAME. Zostają, dokładamy resztę.", "ryż, makaron, ziemniaki, owsianka, pieczywo, kasze, banany, owoce"),
+ ("row", "Białko = TEGO Ci brakuje", "PO CO: naprawia mięśnie po treningu i buduje nowe (rośniesz). To brakujący element w Twoich daniach. JAK: dorzuć do KAŻDEGO posiłku porcję ~jak Twoja dłoń.", "kurczak, ryba, twaróg, jogurt grecki/skyr, mięso, mleko, strączki, jaja"),
  ("row", "Jaja — po prostu je jedz", "PO CO: najlepsze białko jakie jest + żelazo, tanie i szybkie. JAK, jak nie lubisz solo: jajecznica z serem/szynką/warzywami, omlet, wrzuć do makaronu/ryżu, na twardo do kanapki. Jak NAPRAWDĘ nie możesz — zamień na odżywkę białkową (whey) do mleka, twaróg albo skyr. Ale najpierw spróbuj.", ""),
  ("row", "Tłuszcze", "PO CO: hormony i wchłanianie witamin — nie wycinaj ich. JAK: garść orzechów, łyżka oliwy, kawałek awokado dziennie.", "oliwa, orzechy, masło orzechowe, awokado, tłuste ryby"),
 
@@ -40,15 +47,18 @@ ROWS = [
  ("row", "Rano na jakość / long", "MUSISZ coś zjeść (choćby banan z miodem ~1 h wcześniej) — na pusto nie pociągniesz mocnej sesji. Krótki, spokojny bieg rano możesz zrobić na czczo.", ""),
  ("row", "Czego NIE jeść tuż przed", "Dużo tłustego, dużo białka albo błonnika — będzie Ci leżeć w brzuchu i odbijać.", ""),
 
- ("section", "⭐⭐ ZARAZ PO TRENINGU — najważniejsze!", "", ""),
- ("row", "Po co", "Zaraz po treningu Twoje mięśnie są jak gąbka — najlepiej wchłaniają paliwo i białko. To okno regeneracji, nie zmarnuj go.", ""),
- ("row", "Kiedy", "W ciągu 30 MINUT po treningu. NIE czekaj do obiadu.", ""),
+ ("section", "⭐⭐ ZARAZ PO TRENINGU — Twój największy błąd", "", ""),
+ ("row", "Twój błąd nr 1", "Węgli ładujesz dużo — ale NIE zaraz po treningu, tylko później. I to jest błąd. Tuż po wysiłku mięśnie są jak gąbka: chłoną paliwo i białko najlepiej. Zjesz makaron dopiero 2-3 h potem = okno regeneracji w plecy.", ""),
+ ("row", "Jak naprawić", "W ciągu 30 MINUT po treningu wrzuć coś z węglami + białkiem. Duży posiłek (Twój makaron) zjedz normalnie 1-2 h później — ale najpierw zamknij okno.", ""),
  ("row", "Co najłatwiej", "Mleko czekoladowe — idealne (węgle + białko), smaczne, samo się pije. Albo shake: mleko + banan + masło orzechowe + płatki + miód.", ""),
- ("row", "Inne opcje", "Jogurt grecki + granola + owoc, albo twaróg + owoc. A normalny obiad zjedz normalnie 1-2 h później.", ""),
+ ("row", "Inne opcje", "Jogurt grecki + granola + owoc, albo twaróg + owoc, albo baton białkowy + banan.", ""),
 
- ("section", "JAK ZJEŚĆ WIĘCEJ bez wysiłku", "", ""),
- ("row", "Shake codziennie", "Mleko + banan + 2 łyżki masła orzechowego + garść płatków + miód = 600 kcal jednym kubkiem. Zrób blenderem i wypij.", ""),
- ("row", "Dokładaj do posiłków", "Polej obiad oliwą, dorzuć ser, orzechy, awokado. Przekąska w ciągu dnia: orzechy + suszone owoce.", ""),
+ ("section", "UROZMAICAJ — proste sposoby", "", ""),
+ ("row", "Rotuj białko", "Nie w kółko to samo — zmieniaj: raz kurczak, raz ryba, raz twaróg, raz strączki, raz wołowina. Różne źródła = pełen zestaw aminokwasów + żelazo z mięsa.", ""),
+ ("row", "Jedz kolory", "Różnokolorowe warzywa/owoce = różne witaminy i antyoksydanty (regeneracja, odporność). Minimum: coś zielonego + coś kolorowego codziennie. Mrożonki się liczą.", ""),
+ ("row", "Zmieniaj węgle", "Nie tylko makaron i chleb — rotuj ryż, kasze (gryczana ma żelazo!), ziemniaki, owsianka. Różne = więcej mikroskładników i błonnika.", ""),
+ ("row", "Ryby 2x w tygodniu", "Omega-3 = przeciwzapalne, wspiera regenerację. Łosoś, makrela, sardynki — nawet z puszki się liczą.", ""),
+ ("row", "Shake jako dodatek", "Mleko + banan + masło orzechowe + płatki + miód. Wygodny sposób, żeby wcisnąć białko i owoc — zwłaszcza po treningu.", ""),
 
  ("section", "TWÓJ DZIEŃ (przykład, ~3200-3500 kcal)", "", ""),
  ("row", "Śniadanie", "Owsianka (płatki + mleko + banan + masło orzechowe + miód) + białko: jajecznica LUB skyr/twaróg/shake", ""),
@@ -67,12 +77,12 @@ ROWS = [
  ("row", "Przed startem", "Ostatni większy, lekki posiłek ~17:00-17:30 (3 h przed). Potem mały węgiel ~30-60 min przed startem (banan/baton).", ""),
  ("row", "W trakcie", "Weź 1-2 żele (ok. 40-50 min i ~70 min) + łyk izotoniku. PRZETESTUJ je wcześniej na treningu — nie pierwszy raz na wyścigu!", ""),
 
- ("section", "🚩 UWAŻAJ — znaki że jesz za mało", "", ""),
- ("row", "Sygnały i co robić", "Ciągłe zmęczenie, częste przeziębienia, kontuzje, forma stoi, marzniesz. Jak to widzisz — jedz WIĘCEJ, zwłaszcza zaraz po treningu i węgli. Nie ustępuje → powiedz tacie, zróbcie badania (ferrytyna, morfologia, wit. D).", ""),
+ ("section", "🚩 UWAŻAJ — luki mimo pełnego brzucha", "", ""),
+ ("row", "Sygnały i co robić", "Ciągłe zmęczenie, częste przeziębienia, kontuzje, forma stoi mimo treningu — to mogą być BRAKI (żelazo, witaminy), nie brak kalorii. Fix: urozmaić + domknij okno po treningu. Nie ustępuje → powiedz tacie, zróbcie badania (ferrytyna, morfologia, wit. D).", ""),
 
  ("section", "✅ ZACZNIJ OD JEDNEGO", "", ""),
  ("row", "Nie musisz wszystkiego naraz", "Zacznij od JEDNEJ rzeczy: mleko czekoladowe albo shake ZARAZ po każdym treningu. Tydzień i sam poczujesz różnicę (lepsza regeneracja, więcej energii, mocniejsze biegi). Jak zadziała — dokładasz resztę. To eksperyment, który sam sobie zweryfikujesz — a lubisz mieć rację.", ""),
- ("note", "Podsumowanie: masz talent na dużo więcej niż sub-1:30. Jedyne czego brakuje to paliwo. Trening masz zrobiony — nie wyrzucaj połowy efektu przez pusty talerz. Jedz jak zawodnik, którym już jesteś.", "", ""),
+ ("note", "Podsumowanie: masz talent i jesz dużo — brakuje tylko RÓŻNORODNOŚCI, białka NA węglach i jedzenia ZARAZ po treningu. Węgle zostają, dokładasz resztę. Tyle dzieli Cię od pełnego wykorzystania tego, co już robisz na treningu. Jedz jak zawodnik, którym jesteś.", "", ""),
 ]
 
 
