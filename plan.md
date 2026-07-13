@@ -229,13 +229,13 @@ Rozpiska reszty T9 (akt. 09.07 — dziś siła):
 
 ### T14 — 🏝️ TENERYFA tydz.1 / DELOAD + obóz wysokościowy (~78 km, 10–16.08)
 **Kontekst:** obóz z Maćkiem, Puerto de la Cruz (100 m npm), biegi wysokościowe w kalderze Teide. **Chicago 11.10 = 7 tyg dalej → obóz = aerobowy top-up wysokościowy, NIE race-specific.** Sharp signature/MP + BENCHMARK 8 km → **przesunięte do T16/T17 w domu** (na 2200 m tempo zafałszowane −20-30%). 2 auta 11-23.08.
-- **pon 10.08** — przylot ~południe, bez auta: **shakeout 6-8 km** (promenada) lub rest
-- **wt 11.08** — easy **12 km** + strides (promenada/Taoro); odbiór aut 10:00
-- **śr 12.08** — easy **10 km** + drills (dzień Loro Parque)
+- **pon 10.08** — przylot ~południe: **REST** (bez biegu — dojazd z TFS, zameldowanie La Paz; nie da rady po podróży)
+- **wt 11.08** — easy **14 km** + strides (promenada/Taoro); odbiór aut 10:00
+- **śr 12.08** — easy **12 km** + drills (dzień Loro Parque)
 - **czw 13.08** — ⛰️ **ALT LONG #1** Siete Cañadas ~2200 m, **~2:20-2:40 easy Z2 <135** (+opc. steady 20' finał wg wysiłku), **buty trail**, świt; w drodze w dół La Orotava z rodziną
 - **pt 14.08** — Teide rodzinny (kolejka 9:00): opc. **easy touch 8-10 km @2200 m** o świcie lub rest (dzień górski na nogach)
 - **sob 15.08** (święto) — easy **12-14 km** + strides (lokalnie)
-- **nd 16.08** — easy **10 km** o świcie (dzień Garachico)
+- **nd 16.08** — easy **12 km** o świcie (dzień Garachico) *(km z 10.08 rozłożone na 11/12/16)*
 
 ### T15 — 🏝️ TENERYFA tydz.2 / aerobowy peak + tempo na dole (~85 km, 17–23.08)
 **Pełny signature 4×4K + 32/18 MP + mile reps → PRZESUNIĘTE do T16/T17 w domu** (Chicago za 7 tyg, jest czas). Tu: objętość tlenowa + wysokość + jedno tempo MP na płaskim dole.
