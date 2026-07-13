@@ -96,28 +96,54 @@ def main():
             cells.append(data)
         rows_payload.append({"values": cells})
 
+    def rng(c0, c1):
+        return {"sheetId": dst.id, "startRowIndex": 0, "endRowIndex": nrows,
+                "startColumnIndex": c0, "endColumnIndex": c1}
     requests = [
-        # tekst do góry-lewej, zawijanie
+        # domyślnie: overflow (tytuły tygodni w kol. A rozlewają się jak baner) + wyśrodkowanie
         {"repeatCell": {
-            "range": {"sheetId": dst.id, "startRowIndex": 0, "endRowIndex": nrows,
-                      "startColumnIndex": 0, "endColumnIndex": ncols},
+            "range": rng(0, ncols),
             "cell": {"userEnteredFormat": {"verticalAlignment": "MIDDLE",
-                                            "wrapStrategy": "CLIP"}},
+                                            "wrapStrategy": "OVERFLOW_CELL"}},
             "fields": "userEnteredFormat.verticalAlignment,userEnteredFormat.wrapStrategy"}},
+        # kolumny z długim tekstem: C (Trening) + D (Tempo) → ZAWIJANIE, do góry
+        {"repeatCell": {
+            "range": rng(2, 4),
+            "cell": {"userEnteredFormat": {"wrapStrategy": "WRAP", "verticalAlignment": "TOP"}},
+            "fields": "userEnteredFormat.wrapStrategy,userEnteredFormat.verticalAlignment"}},
+        # H (Notatki) → ZAWIJANIE, do góry
+        {"repeatCell": {
+            "range": rng(7, 8),
+            "cell": {"userEnteredFormat": {"wrapStrategy": "WRAP", "verticalAlignment": "TOP"}},
+            "fields": "userEnteredFormat.wrapStrategy,userEnteredFormat.verticalAlignment"}},
         {"updateCells": {
             "rows": rows_payload,
             "fields": "userEnteredValue,userEnteredFormat.backgroundColor,userEnteredFormat.textFormat",
             "start": {"sheetId": dst.id, "rowIndex": 0, "columnIndex": 0}}},
     ]
-    # szerokości kolumn wg xlsx (units openpyxl ~ *7 px)
-    for i in range(ncols):
-        col = openpyxl.utils.get_column_letter(i + 1)
-        w = ws.column_dimensions[col].width
-        if w:
-            requests.append({"updateDimensionProperties": {
-                "range": {"sheetId": dst.id, "dimension": "COLUMNS",
-                          "startIndex": i, "endIndex": i + 1},
-                "properties": {"pixelSize": int(w * 7)}, "fields": "pixelSize"}})
+    # sensowne szerokości kolumn (px): #, Typ, Trening, Tempo, km, ✓, Data, Notatki
+    COL_PX = [40, 100, 360, 150, 52, 40, 80, 330]
+    for i in range(min(ncols, len(COL_PX))):
+        requests.append({"updateDimensionProperties": {
+            "range": {"sheetId": dst.id, "dimension": "COLUMNS",
+                      "startIndex": i, "endIndex": i + 1},
+            "properties": {"pixelSize": COL_PX[i]}, "fields": "pixelSize"}})
+    # wysokości wierszy liczone RĘCZNIE (autoResize API ignoruje WRAP) —
+    # z długości tekstu w zawijanych kolumnach C (Trening ~50 zn/linia), D (~20), H (~46)
+    def line_count(text, cpl):
+        if not text:
+            return 1
+        return sum(max(1, -(-len(p) // cpl)) for p in str(text).split("\n"))
+    for r in range(nrows):
+        c = ws.cell(row=r + 1, column=3).value
+        d = ws.cell(row=r + 1, column=4).value
+        h = ws.cell(row=r + 1, column=8).value
+        lines = max(line_count(c, 50), line_count(d, 20), line_count(h, 46), 1)
+        px = max(21, lines * 18 + 5)
+        requests.append({"updateDimensionProperties": {
+            "range": {"sheetId": dst.id, "dimension": "ROWS",
+                      "startIndex": r, "endIndex": r + 1},
+            "properties": {"pixelSize": px}, "fields": "pixelSize"}})
 
     sh.batch_update({"requests": requests})
     print(f"OK — wypchnięto {nrows}×{ncols} do taba '{DST_TAB}' "
