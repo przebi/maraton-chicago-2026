@@ -47,7 +47,7 @@
 
 ### W15 — HM-SPEC (27.07-2.08) · ~86 km
 - **PRÓG 2×5 km @ 4:10** (800 m jog)
-- **VO2 8×800 @ 3:04** (400 m jog)
+- **VO2 8×800 @ 3:48-3:52/km (≈3:04/800)** (400 m jog)
 - **LONG 24 km z 12 km @ HM-pace 4:12** (najdłuższy blok race-pace przed deloadem)
 - + 3× easy (fill do ~86)
 
@@ -69,7 +69,7 @@
 
 ### W19 — SHARPEN (24-30.08) · ~78 km
 - **BROKEN HM: 4×3 km @ HM-pace 4:10-4:12 (400 m jog), Adios Pro 4** — kluczowa sesja ostrości
-- krótkie VO2 (5×800 @ 3:04)
+- krótkie VO2 (5×800 @ 3:48-3:52/km (≈3:04/800))
 - **LONG 20 km**
 
 ### W20 — TAPER + WYŚCIG (31.08-5.09) · ~50 km
