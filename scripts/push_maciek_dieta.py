@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 """
-Tworzy/odświeża zakładkę "Dieta" w arkuszu Maćka — praktyczny przewodnik żywieniowy
-dla nastoletniego biegacza HM (80-90 km/tydz), który JE ZA MAŁO (ryzyko RED-S).
-Treść = źródło prawdy tutaj. Uruchom tak jak push_maciek_sheet.py:
-    python3 scripts/push_maciek_dieta.py <SHEET_ID> [KEY_PATH]
+Zakładka "Dieta" w arkuszu Maćka — napisana DO NIEGO (per "Ty"): po co i jak jeść.
+Nastoletni biegacz HM (85 km/tydz, 19 lat, wciąż rośnie, 57 kg), który je za mało.
+Uruchom:  python3 scripts/push_maciek_dieta.py <SHEET_ID> [KEY_PATH]
 """
 import os
 import sys
@@ -14,55 +13,66 @@ SCOPES = ["https://www.googleapis.com/auth/spreadsheets"]
 DEFAULT_KEY = os.path.expanduser("~/.config/gcloud/maciek-sa.json")
 TAB = "Dieta"
 
-# kind, A (etykieta), B (ile/dlaczego), C (konkretnie / produkty)
+# kind, A (etykieta), B (po co + jak), C (konkretnie / produkty)
 ROWS = [
- ("title", "🍽️  DIETA — Maciek (HM sub-1:30 · 80-90 km/tydz · 19 lat)", "", ""),
- ("note", "Problem: je NIEREGULARNIE — albo nic („suchy chleb + zgniła rzodkiewka\"), albo tona makaronu na raz jak neandertalczyk. Oba złe. A on MA 19 LAT (wciąż ROŚNIE) + trenuje intensywnie 85 km/tydz → potrzeby OGROMNE: wzrost + trening naraz. Za mało / na raz = RED-S: spada HRV, rośnie RHR, kontuzje, forma stoi, u młodego cierpią KOŚCI i HORMONY. Priorytet: JEŚĆ DUŻO i RÓWNO (5 posiłków), nie jednym zamachem. Jedzenie = część treningu.", "", ""),
+ ("title", "🍽️  DIETA MACIEJA — jak zamienić trening w wynik (przeczytaj do końca)", "", ""),
+ ("note", "Maciek — jesteś bystry (2 kierunki, średnia prawie 5.0), więc bez ściemy, na argumenty. Właśnie zrobiłeś 5K w 19:49 ASEKURUJĄC start (pierwsze 3 km wolniej, potem 3:38 — miałeś zapas). Masz silnik, ale zostawiłeś wynik na stole. Z jedzeniem robisz DOKŁADNIE to samo: harujesz na ciężkich kilometrach, a potem nie dowozisz paliwa i białka — więc połowa adaptacji leci w kosz. To jak trenować i kasować sobie połowę efektu. Jedzenie to jedyna DARMOWA PRĘDKOŚĆ jaką masz: nie kosztuje ani jednego treningu więcej, a daje wynik. 3 minuty czytania — a decyduje o Twoim PB.", "", ""),
 
- ("section", "ILE JEŚĆ", "", ""),
- ("row", "Kalorie", "~3000-3800 kcal/dzień (dużo!). Górna granica w dni z longiem/jakością. 57 kg / 175 cm = BMI 18,6 — NA DOLNEJ GRANICY (18,5 to niedowaga). Przy 85 km/tydz + wzroście spokojnie może dołożyć 1-2 kg MIĘŚNI (moc, mniej kontuzji, hormony) — byle nie tłuszcz. NIE bój się jeść.", ""),
- ("row", "Równo, NIE na raz", "Tona makaronu jednym zamachem ≠ 5 posiłków. Białko wchłania się ~25-30 g/posiłek (reszta zmarnowana), glikogen odbudowuje się CAŁY dzień. Jeden wielki posiłek = część leci w kosz + ciężko potem trenować.", ""),
- ("row", "Częstotliwość", "5 posiłków co ~3 h. NIGDY nie pomijaj śniadania. Nie trenuj na pusto (poza krótkim easy rano).", ""),
+ ("section", "DLACZEGO WARTO — Twój rachunek", "", ""),
+ ("row", "Co ZYSKUJESZ", "Mocniejsza końcówka (pełny bak = nie gaśniesz na 16. km), szybsza regeneracja (trenujesz częściej bez zajechania), mniej kontuzji i infekcji. Konkret: z sub-1:30 robi się 1:27, a cały blok idzie bez przerw.", ""),
+ ("row", "Co TRACISZ jak olewasz", "Niedojadanie przy 85 km/tydz = RED-S: spada HRV, rośnie tętno spoczynkowe, forma STOI mimo treningu, łapiesz każdą infekcję, a u 19-latka cierpią kości i hormony. To dokładnie to, co kończy zapowiadające się kariery — nie brak talentu, tylko głód i przerwy.", ""),
+ ("row", "Twoja przewaga TERAZ", "Masz 19 lat i rośniesz — Twoje ciało chce budować mięśnie i formę jak nigdy później w życiu. Dokarm je teraz i zrobisz skok, na który starsi haruja latami. To okno się nie powtórzy.", ""),
 
- ("section", "MAKRO — na każdym talerzu", "", ""),
- ("row", "Węglowodany = PALIWO", "5-8 g/kg = ~285-450 g/dzień (~50-60% kalorii). Najważniejsze dla biegacza — pusty bak = zła jakość + zmęczenie.", "ryż, makaron, ziemniaki, owsianka, pieczywo, kasze, banany, owoce, miód, dżem"),
- ("row", "Białko = REGENERACJA", "1,6-2,0 g/kg = ~95-115 g/dzień (u rosnącego górna granica). Rozłóż na 4-5 posiłków po ~25-30 g (lepiej niż wszystko naraz).", "jaja, kurczak, indyk, ryba, twaróg, jogurt grecki/skyr, mięso, mleko, strączki"),
- ("row", "🥚 JAJA — najpierw przemyć", "Za dobre żeby olewać (kompletne białko, żelazo, cholina, tanie). Nie lubi solo → UKRYJ: jajecznica z serem/szynką/warzywami, omlet, na twardo w kanapce/sałatce, wrzucone do makaronu/ryżu, shakshuka, w naleśnikach/plackach.", ""),
- ("row", "…a jak dalej NIE tknie", "Nie walczcie — pokryj to samo czym innym. NAJŁATWIEJ: odżywka białkowa (whey) do mleka+banana. Dalej: twaróg, skyr/jogurt grecki, dużo mleka, tuńczyk/makrela z puszki, kurczak (batch-cook), hummus, strączki. Białko na śniadanie bez jaj = skyr / twaróg / shake.", ""),
- ("row", "Tłuszcze", "~1 g/kg = ~55-60 g, zdrowe. NIE eliminować — hormony + wchłanianie witamin.", "oliwa, orzechy, masło orzechowe, awokado, tłuste ryby"),
+ ("section", "ILE I JAK CZĘSTO", "", ""),
+ ("row", "Ile jeść", "Potrzebujesz ~3000-3800 kcal dziennie — dużo, bo biegasz i rośniesz. Ważysz 57 kg przy 175 cm (chudo). Nie bój się jeść — spokojnie możesz dołożyć 1-2 kg mięśni, będziesz mocniejszy i mniej podatny na kontuzje.", ""),
+ ("row", "Jedz co ~3 h (5 posiłków)", "PO CO: białko wchłaniasz po ~25-30 g na raz, a paliwo (glikogen) odbudowujesz przez CAŁY dzień. Zjesz wszystko naraz = połowa się marnuje i potem ciężko biec. JAK: śniadanie → II śniadanie → obiad → podwieczorek → kolacja. NIGDY nie pomijaj śniadania.", ""),
 
- ("section", "MIKRO — nie olewać", "", ""),
- ("row", "🔴 ŻELAZO (krytyczne)", "Biegacz wytrzymałościowy + nastolatek = grupa ryzyka. Niska ferrytyna = zmęczenie, zadyszka, słabe wyniki MIMO treningu. ZBADAJ (morfologia + ferrytyna). Jedz z witaminą C, unikaj kawy/herbaty do posiłku żelaznego.", "czerwone mięso, wątróbka, jaja, kasza gryczana, strączki, szpinak + papryka/cytrus"),
- ("row", "Wapń + wit. D", "Kości przy dużej objętości (ryzyko złamań przeciążeniowych). D3 suplement, zwł. jesień/zima.", "nabiał, twaróg, jogurt, D3 kapsułki"),
- ("row", "Elektrolity / sód", "Przy poceniu (upał, długie). Sól w jedzeniu OK; izotonik na długie.", "sól, izotonik, banany (potas)"),
+ ("section", "CO JEŚĆ I PO CO", "", ""),
+ ("row", "Węglowodany = TWOJE PALIWO", "PO CO: to benzyna do biegania. Pusty bak = słaby trening i zmęczenie. JAK: dokładaj do KAŻDEGO posiłku, spora porcja.", "ryż, makaron, ziemniaki, owsianka, pieczywo, kasze, banany, owoce, miód, dżem"),
+ ("row", "Białko = ODBUDOWA", "PO CO: naprawia mięśnie po treningu i buduje nowe (przecież rośniesz). JAK: trochę w każdym posiłku (porcja ~jak Twoja dłoń).", "kurczak, ryba, twaróg, jogurt grecki/skyr, mięso, mleko, strączki, jaja"),
+ ("row", "Jaja — po prostu je jedz", "PO CO: najlepsze białko jakie jest + żelazo, tanie i szybkie. JAK, jak nie lubisz solo: jajecznica z serem/szynką/warzywami, omlet, wrzuć do makaronu/ryżu, na twardo do kanapki. Jak NAPRAWDĘ nie możesz — zamień na odżywkę białkową (whey) do mleka, twaróg albo skyr. Ale najpierw spróbuj.", ""),
+ ("row", "Tłuszcze", "PO CO: hormony i wchłanianie witamin — nie wycinaj ich. JAK: garść orzechów, łyżka oliwy, kawałek awokado dziennie.", "oliwa, orzechy, masło orzechowe, awokado, tłuste ryby"),
 
- ("section", "TIMING wokół treningu", "", ""),
- ("row", "PRZED", "2-3 h przed: normalny posiłek węglowy. 30-60 min przed: mały szybki węgiel. Jakość rano → MUSISZ coś zjeść (banan+miód ~1 h przed). Krótki easy rano można na czczo. Unikaj tłuszczu/białka/błonnika tuż przed — leży w brzuchu.", "banan, chleb z miodem/dżemem, baton, ryż, płatki, owsianka"),
- ("row", "PO — ZARAZ (do 30 min) ⭐", "NAJWAŻNIEJSZE: jedz OD RAZU po treningu, NIE czekaj do obiadu. Węgle (glikogen) + białko (mięśnie) ~3:1. Normalny posiłek 1-2 h później. Po jakości/longu — obowiązkowo.", "mleko czekoladowe, shake (mleko+banan+masło orzech.+owsianka+miód), jogurt grecki+granola+owoc, twaróg+owoc"),
- ("row", "Long / quality", "Dojedź węglami wcześniej. Bieg >75-90 min → węgle W TRAKCIE 30-60 g/h.", "żele, banan, izotonik, żelki"),
+ ("section", "⭐ PRZED TRENINGIEM — co i po co", "", ""),
+ ("row", "Po co jeść przed", "Żebyś miał paliwo na cały trening i nie padł w połowie.", ""),
+ ("row", "2-3 h przed", "Normalny posiłek z węglami.", "owsianka, makaron, kanapki, ryż"),
+ ("row", "30-60 min przed", "Coś małego i szybkiego.", "banan, chleb z miodem, baton"),
+ ("row", "Rano na jakość / long", "MUSISZ coś zjeść (choćby banan z miodem ~1 h wcześniej) — na pusto nie pociągniesz mocnej sesji. Krótki, spokojny bieg rano możesz zrobić na czczo.", ""),
+ ("row", "Czego NIE jeść tuż przed", "Dużo tłustego, dużo białka albo błonnika — będzie Ci leżeć w brzuchu i odbijać.", ""),
 
- ("section", "ŁATWE KALORIE (dobijaj bez wysiłku — bo je za mało)", "", ""),
- ("row", "Shake-bomba (codziennie)", "Mleko + banan + 2 łyżki masła orzechowego + garść owsianki + miód = 600+ kcal jednym kubkiem.", ""),
- ("row", "Dodatki do posiłków", "Dolewaj oliwę do obiadu, dokładaj ser, orzechy, awokado. Suszone owoce + orzechy jako przekąska.", ""),
- ("row", "Mleko czekoladowe", "Idealny post-workout: węgle + białko, tanie, je się samo.", ""),
+ ("section", "⭐⭐ ZARAZ PO TRENINGU — najważniejsze!", "", ""),
+ ("row", "Po co", "Zaraz po treningu Twoje mięśnie są jak gąbka — najlepiej wchłaniają paliwo i białko. To okno regeneracji, nie zmarnuj go.", ""),
+ ("row", "Kiedy", "W ciągu 30 MINUT po treningu. NIE czekaj do obiadu.", ""),
+ ("row", "Co najłatwiej", "Mleko czekoladowe — idealne (węgle + białko), smaczne, samo się pije. Albo shake: mleko + banan + masło orzechowe + płatki + miód.", ""),
+ ("row", "Inne opcje", "Jogurt grecki + granola + owoc, albo twaróg + owoc. A normalny obiad zjedz normalnie 1-2 h później.", ""),
 
- ("section", "PRZYKŁADOWY DZIEŃ (~3200-3500 kcal)", "", ""),
- ("row", "Śniadanie", "Owsianka (płatki + mleko + banan + masło orzechowe + miód) + białko: jajecznica LUB skyr/twaróg/shake (jak nie tknie jaj)", ""),
+ ("section", "JAK ZJEŚĆ WIĘCEJ bez wysiłku", "", ""),
+ ("row", "Shake codziennie", "Mleko + banan + 2 łyżki masła orzechowego + garść płatków + miód = 600 kcal jednym kubkiem. Zrób blenderem i wypij.", ""),
+ ("row", "Dokładaj do posiłków", "Polej obiad oliwą, dorzuć ser, orzechy, awokado. Przekąska w ciągu dnia: orzechy + suszone owoce.", ""),
+
+ ("section", "TWÓJ DZIEŃ (przykład, ~3200-3500 kcal)", "", ""),
+ ("row", "Śniadanie", "Owsianka (płatki + mleko + banan + masło orzechowe + miód) + białko: jajecznica LUB skyr/twaróg/shake", ""),
  ("row", "II śniadanie", "2-3 kanapki (pełnoziarniste + ser/wędlina/szynka/hummus) + owoc", ""),
- ("row", "Przed treningiem", "Banan / baton / chleb z dżemem", ""),
- ("row", "Po treningu", "Mleko czekoladowe lub shake-bomba + owoc", ""),
+ ("row", "Przed treningiem", "Banan / baton / chleb z miodem", ""),
+ ("row", "ZARAZ po treningu", "Mleko czekoladowe lub shake + owoc", ""),
  ("row", "Obiad", "Mięso/ryba + DUŻA porcja ryżu/makaronu/ziemniaków + warzywa + oliwa", ""),
  ("row", "Podwieczorek", "Jogurt grecki + granola + owoce + orzechy", ""),
- ("row", "Kolacja", "Twaróg/mięso/ryba (lub jajka jeśli zje) + pieczywo/kasza + warzywa", ""),
+ ("row", "Kolacja", "Twaróg/mięso/ryba (lub jajka) + pieczywo/kasza + warzywa", ""),
 
- ("section", "🏁 PRASKI NOCNY (start 20:30) — dzień startu", "", ""),
- ("row", "W ciągu dnia", "Normalne posiłki węglowe, NIC nowego/ciężkiego. Śniadanie + obiad węglowy (makaron/ryż) ~13-14.", ""),
- ("row", "Przedstartowo", "Ostatni większy posiłek lekki-węglowy ~17:00-17:30 (3 h przed). Potem mały węgiel ~30-60 min przed (banan/baton).", ""),
- ("row", "W trakcie", "HM ~1:28 → 1-2 żele (~40-50 min i ew. 70 min) + łyk izotoniku. PRZETESTUJ na treningu, nie pierwszy raz na starcie!", ""),
+ ("section", "🔴 ŻELAZO — zbadaj to", "", ""),
+ ("row", "Po co i jak", "Żelazo nosi tlen we krwi. Za mało (a biegacze często mają) = jesteś zmęczony i zadyszany MIMO formy. Zbadaj ferrytynę (proste badanie krwi). Jedz z witaminą C, a bez kawy/herbaty do tego posiłku (blokują wchłanianie).", "czerwone mięso, wątróbka, kasza gryczana, strączki, szpinak, buraki + papryka/cytrus"),
 
- ("section", "🚩 CZERWONE FLAGI (niedobór energii / RED-S)", "", ""),
- ("row", "Sygnały", "Ciągłe zmęczenie, spadek HRV / wzrost RHR, częste infekcje, kontuzje, brak progresu mimo treningu, marznięcie. U młodych: wpływ na hormony i kości.", ""),
- ("row", "Reakcja", "Dosyp kalorii (zwł. węgli), więcej PO treningu, dzień lżejszy. Utrzymuje się → dietetyk sportowy + badania (ferrytyna, morfologia, wit. D).", ""),
+ ("section", "🏁 PRASKI (nocny start 20:30) — dzień wyścigu", "", ""),
+ ("row", "W ciągu dnia", "Normalnie jedz węgle, nic nowego ani ciężkiego. Obiad węglowy (makaron/ryż) ~13-14.", ""),
+ ("row", "Przed startem", "Ostatni większy, lekki posiłek ~17:00-17:30 (3 h przed). Potem mały węgiel ~30-60 min przed startem (banan/baton).", ""),
+ ("row", "W trakcie", "Weź 1-2 żele (ok. 40-50 min i ~70 min) + łyk izotoniku. PRZETESTUJ je wcześniej na treningu — nie pierwszy raz na wyścigu!", ""),
+
+ ("section", "🚩 UWAŻAJ — znaki że jesz za mało", "", ""),
+ ("row", "Sygnały i co robić", "Ciągłe zmęczenie, częste przeziębienia, kontuzje, forma stoi, marzniesz. Jak to widzisz — jedz WIĘCEJ, zwłaszcza zaraz po treningu i węgli. Nie ustępuje → powiedz tacie, zróbcie badania (ferrytyna, morfologia, wit. D).", ""),
+
+ ("section", "✅ ZACZNIJ OD JEDNEGO", "", ""),
+ ("row", "Nie musisz wszystkiego naraz", "Zacznij od JEDNEJ rzeczy: mleko czekoladowe albo shake ZARAZ po każdym treningu. Tydzień i sam poczujesz różnicę (lepsza regeneracja, więcej energii, mocniejsze biegi). Jak zadziała — dokładasz resztę. To eksperyment, który sam sobie zweryfikujesz — a lubisz mieć rację.", ""),
+ ("note", "Podsumowanie: masz talent na dużo więcej niż sub-1:30. Jedyne czego brakuje to paliwo. Trening masz zrobiony — nie wyrzucaj połowy efektu przez pusty talerz. Jedz jak zawodnik, którym już jesteś.", "", ""),
 ]
 
 
@@ -102,7 +112,7 @@ def main():
                 tf = {"bold": True, "fontSize": 11, "foregroundColor": color("FFFFFF")}
             elif kind == "note":
                 fmt["backgroundColor"] = color("FFF8E1")
-                tf = {"italic": True, "fontSize": 10, "foregroundColor": color("5D4037")}
+                tf = {"fontSize": 10, "foregroundColor": color("5D4037")}
             else:  # row
                 fmt["backgroundColor"] = color("FFFFFF")
                 if col == 0:
@@ -120,9 +130,11 @@ def main():
     def line_count(t, cpl):
         return max(1, -(-len(t) // cpl)) if t else 1
 
+    full = {"sheetId": sid, "startRowIndex": 0, "endRowIndex": nrows,
+            "startColumnIndex": 0, "endColumnIndex": ncols}
     requests = [
-        {"repeatCell": {"range": {"sheetId": sid, "startRowIndex": 0, "endRowIndex": nrows,
-                                   "startColumnIndex": 0, "endColumnIndex": ncols},
+        {"unmergeCells": {"range": full}},
+        {"repeatCell": {"range": full,
                         "cell": {"userEnteredFormat": {"verticalAlignment": "TOP",
                                                         "wrapStrategy": "WRAP"}},
                         "fields": "userEnteredFormat.verticalAlignment,userEnteredFormat.wrapStrategy"}},
@@ -130,21 +142,32 @@ def main():
                          "fields": "userEnteredValue,userEnteredFormat",
                          "start": {"sheetId": sid, "rowIndex": 0, "columnIndex": 0}}},
     ]
-    for i, px in enumerate((190, 380, 300)):
+    # scal A:C dla nagłówków/noty — długi tekst na całą szerokość, nie w słupek
+    for r, (kind, *_rest) in enumerate(ROWS):
+        if kind in ("title", "section", "note"):
+            requests.append({"mergeCells": {
+                "range": {"sheetId": sid, "startRowIndex": r, "endRowIndex": r + 1,
+                          "startColumnIndex": 0, "endColumnIndex": ncols},
+                "mergeType": "MERGE_ALL"}})
+    for i, px in enumerate((210, 400, 280)):
         requests.append({"updateDimensionProperties": {
             "range": {"sheetId": sid, "dimension": "COLUMNS", "startIndex": i, "endIndex": i + 1},
             "properties": {"pixelSize": px}, "fields": "pixelSize"}})
     for r, (kind, a, b, c) in enumerate(ROWS):
-        if kind in ("title", "section"):
+        if kind == "title":
             lines = 1
+        elif kind == "section":
+            lines = 1
+        elif kind == "note":
+            lines = line_count(a, 130)  # scalone A:C (~890 px)
         else:
-            lines = max(line_count(a, 27), line_count(b, 60), line_count(c, 46))
+            lines = max(line_count(a, 30), line_count(b, 63), line_count(c, 42))
         requests.append({"updateDimensionProperties": {
             "range": {"sheetId": sid, "dimension": "ROWS", "startIndex": r, "endIndex": r + 1},
-            "properties": {"pixelSize": max(24, lines * 17 + 8)}, "fields": "pixelSize"}})
+            "properties": {"pixelSize": max(26, lines * 17 + 9)}, "fields": "pixelSize"}})
 
     sh.batch_update({"requests": requests})
-    print(f"OK — zakładka '{TAB}' ({nrows} wierszy) w arkuszu {sheet_id}")
+    print(f"OK — zakładka '{TAB}' ({nrows} wierszy, do Maćka) w arkuszu {sheet_id}")
 
 
 if __name__ == "__main__":
