@@ -75,7 +75,7 @@
 ### W20 — TAPER + WYŚCIG (31.08-5.09) · ~50 km
 - easy + **wt: 2 km WU + 3×1 km @ 4:10** (primer)
 - reszta easy, sobota rest
-- **🏁 5.09 HM PRASKI — CEL sub-1:30** (realnie 1:28-1:30). **Plan tempa: 4:12/km od startu**, negative split z 2. połowy jeśli czuje. Noc, Adios Pro 4.
+- **🏁 5.09 HM PRASKI (nocny 20:30) — CEL sub-1:30** (realnie 1:28-1:29). **NEGATYW:** km 0-5 z grupą **1:30 (~4:15)** — kontrola, NIE wolniej niż 4:16, NIE zostawaj z nią dłużej niż 5 km → km 5-16 **@ 4:10-4:12** → km 16-21 **@ 4:05-4:08**. Adios Pro 4. (1:30 to standardowy zając — praktycznie pewny.)
 
 ---
 
