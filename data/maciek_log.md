@@ -35,6 +35,7 @@
 ## Log sesji
 | Data | Sesja | Dane |
 |---|---|---|
+| 13.07 pon | easy 12.64 | 6:22, elev 123 m, 17,8° (Tarn. Góry) — recovery po PB, spokojnie ✅ |
 | 12.07 nd | **5K TEST 19:49** ⭐⭐⭐ | 3:57, HR 182/190 — **NOWY PB, −1:25 vs 21:14** (track Tarn. Góry) |
 | 11.07 sob | REST | — |
 | 10.07 pt | easy 5.02 | 6:38 (recovery przed testem) |

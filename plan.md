@@ -201,25 +201,45 @@ Rozpiska reszty T9 (akt. 09.07 — dziś siła):
 - **nd 12.07** — **LR 26-28 km easy** (Z2, HR <135), ostatnie **5-6 km @ steady 4:45-4:55** (NIE pełne MP 4:08-4:12, NIE 32 km).
 - Bramka na jakość w T10: HRV noc ≥49 przez 2-3 dni + readiness ≥65.
 
-### T10 — PEAK SPECIFICITY (95 km, 13–19.07)
-- **SIGNATURE peak: 4×4K progresywne** (paces **4:08 → 4:00 → 3:55 → 3:50**) ~22 km — *→ Twój signature (wzorzec HM 1:24): główny driver wytrzymałości prędkościowej, zidentyfikowana słabość*
-- VO₂max alt: 12×400 m @ 3:25 (60 s jog) lub 8×1000 m @ próg — *→ top-end/VO2: podnosi pułap, buduje zapas prędkości nad MP*
-- LR: 32 km z 10 km @ MP — *→ wytrzymałość maratońska + dawka MP = specyfika Chicago*
-- Easy + strides — *→ 80/20 baza tlenowa; strides = ekonomia bez kosztu*
+---
 
-### T11 — DELOAD + MID-CHECK (80 km, 20–26.07)
-- **SIGNATURE deload: 2×4K** (paces **4:08 → 4:00**) ~12 km — *→ podtrzymanie bodźca przy niższej objętości (deload) — nie tracimy ostrości*
-- **🎯 BENCHMARK:** Mid-block 3K Time-Trial (3 WU + 3K all-out + 2 CD) — porównanie do T8 5K (jeśli 3K @ 5K-pace - 8 s/km, plan działa) — *→ sprawdzian: czy blok T8-T10 dał progres, kalibracja temp*
-- Easy + strides — *→ regeneracja + ekonomia*
-- LR: 26 km easy — *→ aeroba bez MP (deload) = świeżość na następny blok*
+## 🔄 ZWROT TEMPO-LED (decyzja 14.07)
 
-**Po T11 hill workouts wycofane** — speed reserve zbudowany przez signature + VO₂max. Specific phase (T12+) skupia race-pace specificity + mile reps.
+**Diagnoza Tomasza (przyjęta):** limitery to (1) **waga 64→61-62 kg**, (2) **deficyt ciągłego tempa** — ostatnie jakości to same progresje/interwały VO2 (07.07 2×3k, 07.12 2×5k, 07.14 7×1k do 3:35), zero sustained threshold. HRV/regeneracja NIE limitują (7-7,5 h snu z drzemką, HRV odbija po akcencie do 49).
 
-### T12 — SPECIFIC START (90 km, 27.07–02.08)
-- **SIGNATURE: 3×5K progresywne** (paces **4:08 → 4:00 → 3:55**) ~22 km — *→ dłuższe repy = wytrzymałość prędkościowa przesuwana pod dystans maratoński*
-- **MILE REPS:** 5×1600 m @ 3:48-3:52 (400 m jog) — wraca w bloku specific — *→ próg/VO2 ostrość — wraca po fazie signature*
-- LR: 30 km z 8 km @ MP (4:08-4:12) — *→ race-pace w zmęczeniu (MP na zmęczonych nogach)*
-- Easy + strides — *→ baza tlenowa*
+**Zmiana filozofii jakości od T10:** oś tygodnia = **TEMPO CIĄGŁE (MP/próg)**, nie progresja-do-3:35. Tempo jest tańsze regeneracyjnie i powtarzalne → więcej km jakości bez „umierania".
+
+### Szablony tempa (paces z Twoich danych: LTHR 169, próg ~3:56-4:00, MP 4:08-4:12)
+
+| Typ | Sesja | Pace | HR cel | Rola |
+|---|---|---|---|---|
+| **TEMPO A** (ciągłe) | 3k WU + **12-16k ciągłe** + 2k CD | 4:05-4:10 | ≤165 | MP/próg dolny — buduje LT tak, że MP leży wygodnie |
+| **TEMPO B** (cruise) | 3k WU + **4-5×2k (float 600m trucht)** + CD | 3:58-4:03 | 165-170 | próg górny — powtarzalny stimulus progowy |
+| **SIGNATURE/VO2** | progresja 4×4k / 7×1k do 3:35-3:50 | — | do 178 | wisienka **co 2-3 tyg**, nie co tydzień |
+
+**Reguła:** 2 jakości/tydz = 1× TEMPO A + 1× TEMPO B. Signature/VO2 wchodzi zamiast TEMPO B co 2-3 tyg. Dni tempa = PEŁNE dojadanie; deficyt tylko na easy.
+
+---
+
+### T10 — TEMPO BUILD (~78 km, 13–19.07) — *zredukowany: 7×1k już zrobiony w POOR readiness*
+Wykonane: **13.07 easy 11,45** / **14.07 progresja 7×1k do 3:35** ⭐ (twarda, VO2 — liczy się jako jakość 1 tygodnia).
+- **śr 15.07** — **SIŁA ogród (bez biegu)** 💪 — ⚠️ **góra + core + lekkie glute/hip TYLKO**, NIE leg-day (ciężkie nogi zniszczą sob tempo; 30.06 heavy legs przygasił HRV 54→51). Achilles: bez ekscentrycznych łydek/wykroków/skoków.
+- **czw 16.07** — easy **8-10 km Z2** (lub spacer jeśli nogi ciężkie) *(spłata długu z 14.07)*
+- **pt 17.07** — easy **10 km** + 6×100 m strides *(primer przed tempem)*
+- **sob 18.07** — 🎯 **TEMPO A: 12k @ 4:10 ciągłe**, HR ≤165 (3k WU + 12k + 2k CD) — *„comfortably hard", kończysz z zapasem 3 km.* **Bramka = HRV w PIĄTEK, nie śr/czw.** Dip śr/czw jest OCZEKIWANY (parasympatyczny rebound po 7×1k z 14.07) — ignorujemy. Jeśli do pt HRV wróci ≥49 → tempo GO. Jeśli pt nadal <47 (3 doby, nie odbiło) → *to* jest sygnał → sobota easy, tempo → T11.
+  - **sob PM — SOLIDNY LEG-DAY** 💪 (po tempie, ten sam twardy dzień): leg press (stopy wyżej, płytko), leg extension, leg curl, hip thrust heavy, abd/add — ciężko. BEZ ekscentrycznych łydek/wykroków/plyo (Achilles). *Zasada: ciężkie nogi = dzień twardego biegu, nigdy 48h przed jakością.*
+- **nd 19.07** — **LR 24-28 km easy** Z2 (HR <135), bez MP — regeneracyjny long.
+
+### T11 — DELOAD + MID-CHECK (~75 km, 20–26.07)
+- **🎯 BENCHMARK: 3K Time-Trial** (3k WU + 3k all-out + 2k CD) — porównanie do 5K T8 (jeśli 3k @ 5K-pace − 8 s/km → progres, kalibracja temp). To jest jakość 1 (max effort).
+- **TEMPO A light: 10k @ 4:08** ciągłe, HR ≤165 — jakość 2, utrzymanie.
+- Easy + strides. LR **24 km easy** (bez MP, deload).
+
+### T12 — SPECIFIC START, TEMPO-LED (~90 km, 27.07–02.08)
+- **TEMPO A: 14k @ 4:08 ciągłe**, HR ≤165 — *najdłuższe MP-tempo, specyfika Chicago.*
+- **TEMPO B: 5×2k @ 4:00** (float 600 m trucht), HR 165-170 — *próg górny.*
+- LR: **30 km z 8 km @ MP** (4:08-4:12) finish — *MP na zmęczonych nogach.*
+- Easy + strides. *(Mile reps 5×1600 → przesunięte do T13, gdy baza tempa położona.)*
 
 ### T13 — SPECIFIC BUILD (95 km, 03–09.08)
 - **SIGNATURE: 4×4K progresywne** (paces **4:08 → 4:00 → 3:55 → 3:50**) ~20 km — *→ peak signature: szczyt wytrzymałości prędkościowej PRZED Teneryfą (obóz = już tylko aeroba)*

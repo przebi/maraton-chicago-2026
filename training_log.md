@@ -201,6 +201,43 @@ Cel: post-quality recovery 4 dni. ~25–30 km. Bez akcentów.
 
 ## T2 — RECOVERY+ (60 km, 18–24.05.2026)
 
+## T10 — PEAK SPECIFICITY (95 km, 13–19.07.2026)
+
+**Kontekst wejścia:** T9 zamknięte DWOMA jakościami (07.07 próg 2×3 km + 12.07 signature 2×5 km, oba w carbonie, negative split). Plan T10 = signature peak **4×4 km progres** + VO2 alt + LR 32 km z 10 km MP.
+
+**⚠️⚠️ MARKERY 13-14.07 (Garmin, pobrane 14.07) — CZERWONE:**
+- **HRV noc 12→13.07 = 38** (!) = poziom crashu z 28.06. weeklyAvg 48, status UNBALANCED (balancedLow 49, lowUpper 45 → 38 głęboko w „low").
+- **Readiness 13.07 = 3/100 POOR** „TIME_TO_SLOW_DOWN / POOR_HRV_UNBALANCED", recovery debt 2260 min (37 h), sleepScore 57 POOR.
+- **Readiness 14.07 = 12/100 POOR** „TIME_TO_SLOW_DOWN", recovery debt 2448 min (**40 h**), sleepHistory POOR 39%, acuteLoad 1319 (wysoki).
+- HRV noc 13→14.07 = 48, **14.07 = 49** (wróciło do balancedLow w ~1 dobę). Sen tydzień 6:30-7 h **+ drzemka min 30 min = 7-7,5 h/dzień** (POWYŻEJ baseline 6,2). weekly 48.
+- **Diagnoza Tomasza (14.07, przyjęta):** „problem to nie HRV tylko waga + brak treningu na tempie". Zgoda — regeneracja adekwatna, HRV nie limituje. Realne dźwignie: (1) **waga 64→61-62**, (2) **deficyt TEMPA ciągłego** (robi progresje/interwały VO2, prawie zero sustained threshold 4:05-4:10). Kierunek planu: mniej progresji-do-3:35 (spiky, drogie), więcej ciągłego tempa MP/próg.
+- **Wniosek (skorygowany — NIE crash):** 38 to był **ostry dip PO akcencie 12.07** (signature TRIMP 201), odbił do 49 w dobę = **zdrowa rezyliencja autonomiczna**, nie zapaść. To ≠ 28.06 (tam HRV 38 ZOSTAŁO nisko, 7-dn 43, RHR ↑, sen 5,7). Tomasz słusznie: „HRV spada po akcencie" — prawda, liczy się szybkość odbicia (tu OK). **Realny (łagodny) problem:** dług regeneracyjny z **3 twardych/8 dni** (readiness lag: POOR 12/100 na 14.07 mimo HRV 49) → dlatego 7×1 km „bolało jak śmierć" choć nie ma crashu. **Ścieżka:** śr/czw naprawdę easy → sobota 12k@4:10 warunkowo (HRV utrzyma ≥49). Bez alarmu, ale bez 4. twardej przed sobotą.
+- Waga: **64 kg (14.07, podane przez Tomasza)** = BMI 21,4, **+3 kg vs waga startowa 61 kg** (Hannover 2:59, wiosna 2025). Cel −2/−3 kg do 61-62 jest ZASADNY (powrót do race weight, ~2-3 s/km/kg ekonomii). ALE **nie teraz** — deficyt przy HRV 38/readiness POOR dobija regenerację. Metoda: powolne cięcie (≤0,4 kg/tydz) w blokach easy, białko-forward, PEŁNE dojadanie wokół jakości. Nie na crashu.
+
+### 2026-07-13 (pon) — T10.pn recovery easy 11.45 km @ 5:55 ✅
+- 11.45 km @ 5:55/km, HR avg **128 (Z2)** / max 159, elev 96 m, **Pegasus 42** (trainer), effort 63, kadencja 96.
+- Struktura (lapy): km 1-8 czysty easy HR 116→130 (settled ~127), km 9-10 HR 133→138 (max 159 = kilka lekkich przyspieszeń/strides na końcu), km 11 cool.
+- Komentarz: wzorowy recovery po sobotnio-niedzielnym double quality. HR 128 = dyscyplina easy trzymana, buty trainer. Mądry dzień przed jakością. ✅
+- URL: https://www.strava.com/activities/19289949012
+
+### 2026-07-14 (wt) — T10.wt **PROGRESJA 7×1 km @ 4:02 → 3:35** ⭐⭐⭐ (14.91 km) — speed-endurance
+- 14.91 km total @ 5:30 avg, HR avg 146 / **max 179 (98% HRmax)**, elev 4 m (płasko), **Adios Pro 4** (race), effort 178, kadencja 96.
+- Struktura (lapy): WU 3.08 km @ ~5:52 (HR 139) → **7×1 km progresywne z krótkim floatem (0,4-0,6 km):**
+  | Rep | Pace | HR avg | Power |
+  |---|---|---|---|
+  | 1 | 4:02 | 161 | 325 W |
+  | 2 | 3:59 | 164 | 333 W |
+  | 3 | 3:53 | 166 | 346 W |
+  | 4 | 3:49 | 168 | 355 W |
+  | 5 | 3:44 | 169 | 361 W |
+  | 6 | 3:41 | 170 | 365 W |
+  | 7 | 3:35 | 169 (max 178) | 368 W |
+  - CD 1.84 km @ ~7:24 (HR 127).
+- **Komentarz:** ⭐⭐⭐ czysta **wytrzymałość prędkościowa** — dokładnie zidentyfikowana słabość. Idealna progresja: każdy rep ~4-5 s/km szybszy, zero fade, ostatni **3:35/km** = mocno pod sufitem prędkościowym (~3:46 baseline 06.05), power ciągle rośnie 325→368 W. HR 161→170 (LTHR 169), max 179 = próg/VO2 dolny — kontrolowane, nie all-out. **Świetny wskaźnik formy.**
+  ⚠️ **ALE (pattern):** to **TRZECIA jakość w 8 dni** (07.07 próg + 12.07 signature + 14.07 progresja). Plan T10.wt to była raczej signature 4×4K LUB VO2 — a signature Tomasz zrobił już 12.07. To 1 km reps = VO2/speed, więc nie duplikat, ale **gęstość intensywności wysoka** po dopiero co zamkniętym bloku regeneracyjnym T8 (HRV crash 28.06). Korekta z 09.07 (1 twarda/tydz do odbicia HRV) systematycznie przekraczana — „nogi proszą".
+  **Wniosek:** forma rośnie realnie (3:35 to najlepszy sygnał od Wiednia). Ale **fatigue-monitoring priorytet #1**: sprawdzić HRV/RHR/readiness (Garmin) gdy wróci sesja. Jeśli HRV trzyma ≥49 → jedziemy, ale kolejne 2-3 dni MUSZĄ być easy + LR (bez trzeciej intensywności). Jeśli <47 → wymuszony reset, bo 3 twarde/8 dni po crashu to za dużo.
+- URL: https://www.strava.com/activities/19303780649
+
 ## T9 — SPECIFICITY BUILD (6–12.07.2026)
 
 **Kontekst (fatigue, Garmin 09.07):** HRV wraca po dnie 28.06 (noc 38) — trend noc: 30.06 **51** / 01.07 51 / 02.07 48 / 03.07 42 / 05.07 45 / 07.07 48 / 08.07 47 / **09.07 53**; 7-dn stabilne **47** (balanced low ~49, status UNBALANCED, ale trend ↑). Readiness 09.07 = **63 MODERATE** ("LISTEN_TO_YOUR_BODY"): recovery 99% / ACWR 97% (acuteLoad 783) / stress 92% — wszystko GOOD; hamują tylko HRV 58% (MOD) + sleep-history 51% (MOD, dług skumulowany). Sen 08→09.07 = 6,6 h / score 80 GOOD, body battery +60 rano. **Zero czerwonych flag → żaden auto-reset.** Powrót jakości od 02.07 (jeszcze w T8) udźwignięty — HRV nie zapadło.
