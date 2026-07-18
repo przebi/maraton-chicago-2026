@@ -38,18 +38,17 @@
 
 ### W14 — NAJWIĘKSZY BLOK HM-SPEC (20-26.07) · ~88 km
 - **pon** — easy **12 km** + strides
-- **wt** — **PRÓG CIĄGŁY 6 km @ 4:12** (bez przerw — trening trzymania tempa) · WU 3 + CD 3 → 12 km
-- **śr** — easy **10 km**
-- **czw** — **TOUGHNESS 6×1000 @ 3:48-3:52, rec 200 m KRÓTKA** (praca nad limiterem — tolerancja wysokiego HR) → ~13 km
+- **wt** — easy **10 km** *(48 h po niedzielnym longu — za blisko na jakość)*
+- **śr** — **PRÓG CIĄGŁY 6 km @ 4:12** (bez przerw — trening trzymania tempa) · WU 3 + CD 3 → 12 km · **72 h po longu**
+- **czw** — easy **8 km + 8× podbieg 40 s** (neuromuskularne, NIE jakość) *(toughness usunięty — 1 jakość mid-week + long, lepszy spacing)*
 - **pt** — easy **8 km**
-- **sob** — easy 6 + **8× podbieg 40 s** (trucht w dół) + 2 CD → ~9 km
+- **sob** — easy **9 km + 6×100 m strides** (świeże nogi na long)
 - **nd** — **LONG 26 km z 10 km @ HM-pace 4:12** (cap objętości longa — nie wyżej niż 26-28)
 
 ### W15 — HM-SPEC (27.07-2.08) · ~86 km
-- **PRÓG 2×5 km @ 4:10** (800 m jog)
-- **VO2 8×800 @ 3:48-3:52/km (≈3:04/800)** (400 m jog)
+- **PRÓG 2×5 km @ 4:10** (800 m jog) — jedyna jakość mid-week, **środa** (72 h po longu; wtorek = tylko 48 h)
 - **LONG 24 km z 12 km @ HM-pace 4:12** (najdłuższy blok race-pace przed deloadem)
-- + 3× easy (fill do ~86)
+- + easy (fill), jeden dzień z podbiegami ≤10× (nie jakość) *(VO2 8×800 usunięty — spacing)*
 
 ### W16 — DELOAD + CHECK (3-9.08) · ~68 km
 - **3K TT — RÓWNYM TEMPEM OD STARTU (wyjść 3:55!)** — realny VDOT bez sandbaga z 12.07. Pas piersiowy.
@@ -67,10 +66,10 @@
 - **LONG 24 km** easy
 - reps na świeżość (6×400 @ 3:32)
 
-### W19 — SHARPEN (24-30.08) · ~78 km
-- **BROKEN HM: 4×3 km @ HM-pace 4:10-4:12 (400 m jog), Adios Pro 4** — kluczowa sesja ostrości
-- krótkie VO2 (5×800 @ 3:48-3:52/km (≈3:04/800))
-- **LONG 20 km**
+### W19 — SHARPEN (24-30.08) · ~78 km · re-entry z Teneryfy
+- **BROKEN HM: 4×3 km @ HM-pace 4:10-4:12 (400 m jog), Adios Pro 4** — kluczowa sesja ostrości, **śr** (3 dni po powrocie, nie pon)
+- **LONG 20 km** easy
+- reszta easy *(VO2 5×800 usunięty — 1 jakość + long, re-entry po wysokości = ostrożnie)*
 
 ### W20 — TAPER + WYŚCIG (31.08-5.09) · ~50 km
 - easy + **wt: 2 km WU + 3×1 km @ 4:10** (primer)
@@ -94,6 +93,6 @@
 ## Zasady bloku
 - **80-90 km/tydz.** Unosi się TYLKO gdy 4-5 z 6 biegów to czysty Z2 (5:50-6:30). Easy dni MUSZĄ być easy.
 - **Long cap 26-28 km** (35,87 z 04.07 = sufit, nie standard do bicia).
-- **2 jakości/tydz** + long z segmentem quality. 48 h między akcentami.
+- **1 jakość mid-week + long z segmentem** (2 twarde/tydz). MIN 72 h między twardymi — **NIGDY 2 twarde w 48 h** (lekcja 15-17.07: próg 2×4 + VO2 5×1000 @3:50 w 48 h = zmęczony). Podbiegi ≤10× i strides = neuromuskularne, NIE jakość (mogą być na easy). Reps wg planu.
 - **Pas piersiowy** na wszystkie TT/wyścigi.
 - **Achilles/nogi** — Tomasz monitoruje przy podbiegach i po longach.
